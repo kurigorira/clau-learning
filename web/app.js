@@ -6,13 +6,27 @@ const state = {
   questionIndex: 0,
   solvedToday: 0,
   correctToday: 0,
-  student: { id: null, name: "栗原才弥" }
+  student: {
+    id: null,         // auth.uid
+    name: "栗原才弥"
+  }
 };
 
-function nowISO() { return new Date().toISOString(); }
-function currentLevelObj() { return window.QUIZ_DATA[state.levelIndex]; }
-function currentLevel() { return currentLevelObj().level; }
-function currentQuestion() { return currentLevelObj().questions[state.questionIndex]; }
+function nowISO() {
+  return new Date().toISOString();
+}
+
+function currentLevelObj() {
+  return window.QUIZ_DATA[state.levelIndex];
+}
+
+function currentLevel() {
+  return currentLevelObj().level;
+}
+
+function currentQuestion() {
+  return currentLevelObj().questions[state.questionIndex];
+}
 
 function levelToCharacter(lv) {
   if (lv <= 10) return "🥚";
@@ -23,9 +37,19 @@ function levelToCharacter(lv) {
   return "👑";
 }
 
+function flashLogoOnCorrect() {
+  const logo = document.querySelector(".logo-main");
+  if (!logo) return;
+  logo.classList.remove("flash-correct");
+  void logo.offsetWidth; // 再描画でアニメーション再発火
+  logo.classList.add("flash-correct");
+}
+
 function render() {
   const lv = currentLevel();
-  const rate = state.solvedToday ? Math.round((state.correctToday / state.solvedToday) * 100) : 0;
+  const rate = state.solvedToday === 0
+    ? 0
+    : Math.round((state.correctToday / state.solvedToday) * 100);
 
   document.getElementById("status").innerHTML = `
     <span class="pill">学習者: ${state.student.name}</span>
@@ -54,6 +78,7 @@ function render() {
   });
 
   document.getElementById("result").textContent = "";
+  document.getElementById("result").className = "result";
   document.getElementById("explanation").textContent = "";
 }
 
@@ -86,6 +111,7 @@ async function answer(selectedIdx) {
   document.getElementById("explanation").textContent = q.explanation;
 
   if (isCorrect) {
+    flashLogoOnCorrect();
     nextQuestionOnCorrect();
     setTimeout(render, 700);
   }
@@ -93,6 +119,7 @@ async function answer(selectedIdx) {
 
 async function endSession() {
   const endedAt = nowISO();
+
   await saveSessionSummary({
     studentId: state.student.id,
     studentName: state.student.name,
@@ -102,15 +129,18 @@ async function endSession() {
     correct: state.correctToday,
     currentLevel: currentLevel()
   });
+
   alert("学習記録を保存しました。おつかれさま！");
 }
 
 async function init() {
   await initAuth();
+
   if (!auth.currentUser) {
     alert("認証に失敗しました。ページを再読み込みしてください。");
     return;
   }
+
   state.student.id = auth.currentUser.uid;
   state.startedAt = nowISO();
 
