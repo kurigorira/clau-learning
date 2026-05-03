@@ -50,7 +50,8 @@ export default function LevelPage() {
 
   useEffect(() => {
     if (!isPlayable) return;
-    setQuestions(pickSession(level, seed));
+    const progress = loadProgress();
+    setQuestions(pickSession(level, progress.weakCategories, seed));
     setIndex(0);
     setPhase("answering");
     setResults(Array(QUESTIONS_PER_SESSION).fill(null));

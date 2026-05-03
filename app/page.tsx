@@ -124,9 +124,14 @@ export default function HomePage() {
               までプレイできます。
             </p>
           )}
-          <Link href={`/level/1`} className="btn-ghost text-sm">
-            レベル1から復習する
-          </Link>
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <Link href={`/level/1`} className="btn-ghost text-sm">
+              レベル1から復習する
+            </Link>
+            <Link href="/progress" className="btn-ghost text-sm">
+              学習レポートを見る
+            </Link>
+          </div>
         </div>
 
         <details className="mt-10 text-center text-xs text-sage-300/60">

@@ -66,3 +66,9 @@ export function resetProgress(): Progress {
   saveProgress(fresh);
   return fresh;
 }
+
+export function clearWeakCategories(p: Progress): Progress {
+  const next = { ...p, weakCategories: {} };
+  saveProgress(next);
+  return next;
+}

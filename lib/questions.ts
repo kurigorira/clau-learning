@@ -214,15 +214,49 @@ export function getQuestionsForLevel(level: number): Question[] {
 
 export const QUESTIONS_PER_SESSION = 5;
 
-export function pickSession(level: number, seed = Date.now()): Question[] {
-  const pool = [...getQuestionsForLevel(level)];
+/**
+ * セッションの 5 問を選ぶ。
+ * weakCategories（カテゴリ別の不正解回数）が渡された場合、
+ * 苦手カテゴリの問題を 2 倍の重みで抽選プールに追加し、
+ * 苦手分野が自然と多く出るようにする（uniqueness は保つ）。
+ */
+export function pickSession(
+  level: number,
+  weakCategories: Record<string, number> = {},
+  seed = Date.now(),
+): Question[] {
+  const pool = getQuestionsForLevel(level);
   if (pool.length === 0) return [];
+
   const rng = mulberry32(seed);
-  for (let i = pool.length - 1; i > 0; i--) {
+
+  // 重み付きプール：苦手カテゴリの問題は1回だけ複製
+  const weakSet = new Set(
+    Object.entries(weakCategories)
+      .filter(([, count]) => count > 0)
+      .map(([cat]) => cat),
+  );
+  const weighted: Question[] = [
+    ...pool,
+    ...pool.filter((q) => weakSet.has(q.category)),
+  ];
+
+  // シャッフル
+  for (let i = weighted.length - 1; i > 0; i--) {
     const j = Math.floor(rng() * (i + 1));
-    [pool[i], pool[j]] = [pool[j], pool[i]];
+    [weighted[i], weighted[j]] = [weighted[j], weighted[i]];
   }
-  return pool.slice(0, QUESTIONS_PER_SESSION);
+
+  // ユニーク性を保ちながら QUESTIONS_PER_SESSION 件取る
+  const seen = new Set<string>();
+  const session: Question[] = [];
+  for (const q of weighted) {
+    if (seen.has(q.id)) continue;
+    seen.add(q.id);
+    session.push(q);
+    if (session.length >= QUESTIONS_PER_SESSION) break;
+  }
+  return session;
 }
 
 function mulberry32(seed: number) {
