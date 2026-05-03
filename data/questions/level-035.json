@@ -62,5 +62,14 @@
     "answer": "x=5",
     "acceptableAnswers": ["5"],
     "explanation": "7x−5x=8+2 → 2x=10 → x=5。"
+  },
+  {
+    "id": "lv35-q7",
+    "level": 35,
+    "category": "1次方程式の利用（記述）",
+    "type": "free_text",
+    "question": "ある数の2倍に3を加えると、もとの数より11大きくなった。\nもとの数は何か。式を作って、答えを求めよ。\n（考え方や式の途中も書いてOK）",
+    "answer": "8",
+    "explanation": "もとの数を x として 2x+3=x+11 → x=8。よってもとの数は8。"
   }
 ]

@@ -43,3 +43,10 @@ export interface Progress {
     clearedAt: string;
   }>;
 }
+
+export interface GradeResponse {
+  correct: boolean;
+  score: number;
+  feedback: string;
+  hint: string;
+}

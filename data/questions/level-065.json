@@ -61,5 +61,15 @@
     "choices": ["2:3", "4:9", "6:27", "8:27"],
     "answer": "8:27",
     "explanation": "体積比=相似比の3乗=2³:3³=8:27。"
+  },
+  {
+    "id": "lv65-q7",
+    "level": 65,
+    "category": "相似（記述）",
+    "type": "free_text",
+    "question": "△ABC ∽ △DEF で、相似比は 3:5 である。\n△ABC の面積が18cm² のとき、△DEF の面積は何 cm² か。\n求め方と答えを書きなさい。",
+    "answer": "50cm²",
+    "acceptableAnswers": ["50"],
+    "explanation": "面積比は相似比の2乗。3²:5²=9:25。18:S=9:25 → S=18×25/9=50cm²。"
   }
 ]

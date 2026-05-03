@@ -24,9 +24,9 @@ import {
   recordAnswer,
   saveProgress,
 } from "@/lib/storage";
-import type { Question } from "@/lib/types";
+import type { GradeResponse, Question } from "@/lib/types";
 
-type Phase = "answering" | "feedback" | "complete";
+type Phase = "answering" | "grading" | "feedback" | "complete";
 type Result = "correct" | "wrong" | null;
 
 export default function LevelPage() {
@@ -35,13 +35,15 @@ export default function LevelPage() {
   const level = Math.max(1, Math.min(100, Number(params.n) || 1));
   const theme = useMemo(() => themeForLevel(level), [level]);
 
-  const [seed, setSeed] = useState<number>(() => Date.now());
+  const [seed] = useState<number>(() => Date.now());
   const [questions, setQuestions] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
   const [phase, setPhase] = useState<Phase>("answering");
   const [results, setResults] = useState<Result[]>([]);
   const [selected, setSelected] = useState<string | undefined>(undefined);
   const [lastCorrect, setLastCorrect] = useState(false);
+  const [aiResult, setAiResult] = useState<GradeResponse | null>(null);
+  const [aiError, setAiError] = useState<string | null>(null);
   const [showLevelUp, setShowLevelUp] = useState(false);
 
   const isPlayable = AVAILABLE_LEVELS.includes(level);
@@ -53,6 +55,8 @@ export default function LevelPage() {
     setPhase("answering");
     setResults(Array(QUESTIONS_PER_SESSION).fill(null));
     setSelected(undefined);
+    setAiResult(null);
+    setAiError(null);
   }, [level, seed, isPlayable]);
 
   if (!isPlayable) {
@@ -84,19 +88,54 @@ export default function LevelPage() {
 
   const current = questions[index];
 
-  function handleSubmit(answer: string) {
+  async function handleSubmit(answer: string) {
     if (phase !== "answering") return;
-    const correct = gradeLocally(current, answer);
     setSelected(answer);
+    setAiError(null);
+
+    if (current.type === "free_text") {
+      setPhase("grading");
+      try {
+        const res = await fetch("/api/grade", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question: current, userAnswer: answer }),
+        });
+        const data = (await res.json()) as
+          | GradeResponse
+          | { error: string };
+        if (!res.ok || "error" in data) {
+          const message = "error" in data ? data.error : "採点に失敗しました";
+          setAiError(message);
+          setPhase("answering");
+          return;
+        }
+        setAiResult(data);
+        const correct = data.correct;
+        setLastCorrect(correct);
+        const updated = [...results];
+        updated[index] = correct ? "correct" : "wrong";
+        setResults(updated);
+        const progress = loadProgress();
+        saveProgress(recordAnswer(progress, current.category, correct));
+        setPhase("feedback");
+      } catch (e) {
+        const message =
+          e instanceof Error ? e.message : "通信エラーが発生しました";
+        setAiError(message);
+        setPhase("answering");
+      }
+      return;
+    }
+
+    const correct = gradeLocally(current, answer);
     setLastCorrect(correct);
-
-    const updatedResults = [...results];
-    updatedResults[index] = correct ? "correct" : "wrong";
-    setResults(updatedResults);
-
+    setAiResult(null);
+    const updated = [...results];
+    updated[index] = correct ? "correct" : "wrong";
+    setResults(updated);
     const progress = loadProgress();
     saveProgress(recordAnswer(progress, current.category, correct));
-
     setPhase("feedback");
   }
 
@@ -113,12 +152,14 @@ export default function LevelPage() {
       }
       setIndex(nextIdx);
       setSelected(undefined);
+      setAiResult(null);
       setPhase("answering");
     } else {
       const pool = getQuestionsForLevel(level);
       const others = pool.filter((q) => q.id !== current.id);
       if (others.length === 0) {
         setSelected(undefined);
+        setAiResult(null);
         setPhase("answering");
         return;
       }
@@ -126,10 +167,11 @@ export default function LevelPage() {
       const next = [...questions];
       next[index] = replacement;
       setQuestions(next);
-      const updatedResults = [...results];
-      updatedResults[index] = null;
-      setResults(updatedResults);
+      const updated = [...results];
+      updated[index] = null;
+      setResults(updated);
       setSelected(undefined);
+      setAiResult(null);
       setPhase("answering");
     }
   }
@@ -177,6 +219,7 @@ export default function LevelPage() {
           <AnswerInput
             question={current}
             disabled={phase !== "answering"}
+            loading={phase === "grading"}
             selected={selected}
             feedback={
               phase === "feedback" ? (lastCorrect ? "correct" : "wrong") : null
@@ -184,10 +227,17 @@ export default function LevelPage() {
             onSubmit={handleSubmit}
           />
 
+          {aiError && (
+            <p className="rounded-2xl border border-magic-ember/40 bg-magic-ember/10 p-3 text-sm text-magic-ember">
+              採点エラー: {aiError}
+            </p>
+          )}
+
           {phase === "feedback" && (
             <FeedbackPanel
               question={current}
               correct={lastCorrect}
+              ai={aiResult}
               onNext={handleNext}
             />
           )}
