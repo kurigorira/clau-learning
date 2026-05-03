@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv15-q1",
+    "level": 15,
+    "category": "比",
+    "type": "multiple_choice",
+    "question": "12:18 を最も簡単な整数の比にすると？",
+    "choices": ["6:9", "4:6", "2:3", "1:2"],
+    "answer": "2:3",
+    "explanation": "12と18の最大公約数6で割ると 2:3。"
+  },
+  {
+    "id": "lv15-q2",
+    "level": 15,
+    "category": "比の値",
+    "type": "multiple_choice",
+    "question": "比 4:5 の比の値は？",
+    "choices": ["4/5", "5/4", "1.25", "9"],
+    "answer": "4/5",
+    "acceptableAnswers": ["0.8"],
+    "explanation": "比の値=a÷b=4÷5=4/5=0.8。"
+  },
+  {
+    "id": "lv15-q3",
+    "level": 15,
+    "category": "比例式",
+    "type": "numeric",
+    "question": "x:6 = 5:3 のとき、xの値は？",
+    "answer": "10",
+    "explanation": "外側どうし内側どうしの積が等しい。x×3=6×5=30 → x=10。"
+  },
+  {
+    "id": "lv15-q4",
+    "level": 15,
+    "category": "比の応用",
+    "type": "multiple_choice",
+    "question": "兄と弟がお金を3:2の比で分けます。合計1500円のとき、兄の取り分は？",
+    "choices": ["500円", "600円", "750円", "900円"],
+    "answer": "900円",
+    "acceptableAnswers": ["900"],
+    "explanation": "全体5に対して兄は3。1500×3/5=900円。"
+  },
+  {
+    "id": "lv15-q5",
+    "level": 15,
+    "category": "比",
+    "type": "multiple_choice",
+    "question": "0.6 : 0.8 を最も簡単な整数の比にすると？",
+    "choices": ["6:8", "3:4", "60:80", "1:2"],
+    "answer": "3:4",
+    "explanation": "両方を10倍して6:8、最大公約数2で割って3:4。"
+  },
+  {
+    "id": "lv15-q6",
+    "level": 15,
+    "category": "比",
+    "type": "multiple_choice",
+    "question": "1/2 : 2/3 を最も簡単な整数の比にすると？",
+    "choices": ["1:2", "3:4", "2:3", "1:3"],
+    "answer": "3:4",
+    "explanation": "両辺を6倍 → 3:4。"
+  }
+]

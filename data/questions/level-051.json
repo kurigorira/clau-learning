@@ -1,0 +1,68 @@
+[
+  {
+    "id": "lv51-q1",
+    "level": 51,
+    "category": "多項式の展開",
+    "type": "multiple_choice",
+    "question": "(x + 3)(x + 5) を展開すると？",
+    "choices": ["x² + 8x + 15", "x² + 15x + 8", "x² + 15", "x² + 2x + 15"],
+    "answer": "x² + 8x + 15",
+    "acceptableAnswers": ["x^2+8x+15"],
+    "explanation": "(x+a)(x+b)=x²+(a+b)x+ab=x²+8x+15。"
+  },
+  {
+    "id": "lv51-q2",
+    "level": 51,
+    "category": "多項式の展開",
+    "type": "multiple_choice",
+    "question": "(x − 2)(x + 7) を展開すると？",
+    "choices": ["x² + 5x − 14", "x² − 5x − 14", "x² + 5x + 14", "x² − 14"],
+    "answer": "x² + 5x − 14",
+    "acceptableAnswers": ["x^2+5x-14"],
+    "explanation": "x²+(−2+7)x+(−2)(7)=x²+5x−14。"
+  },
+  {
+    "id": "lv51-q3",
+    "level": 51,
+    "category": "乗法公式（平方）",
+    "type": "multiple_choice",
+    "question": "(x + 4)² を展開すると？",
+    "choices": ["x² + 8", "x² + 16", "x² + 8x + 16", "x² + 4x + 16"],
+    "answer": "x² + 8x + 16",
+    "acceptableAnswers": ["x^2+8x+16"],
+    "explanation": "(a+b)²=a²+2ab+b²=x²+8x+16。"
+  },
+  {
+    "id": "lv51-q4",
+    "level": 51,
+    "category": "乗法公式（差の平方）",
+    "type": "multiple_choice",
+    "question": "(x − 5)² を展開すると？",
+    "choices": ["x² − 25", "x² + 10x + 25", "x² − 10x + 25", "x² − 10x − 25"],
+    "answer": "x² − 10x + 25",
+    "acceptableAnswers": ["x^2-10x+25"],
+    "explanation": "(a−b)²=a²−2ab+b²=x²−10x+25。"
+  },
+  {
+    "id": "lv51-q5",
+    "level": 51,
+    "category": "乗法公式（和と差の積）",
+    "type": "multiple_choice",
+    "question": "(x + 6)(x − 6) を展開すると？",
+    "choices": ["x² + 36", "x² − 36", "x² + 12x − 36", "x² − 12x"],
+    "answer": "x² − 36",
+    "acceptableAnswers": ["x^2-36"],
+    "explanation": "(a+b)(a−b)=a²−b²=x²−36。"
+  },
+  {
+    "id": "lv51-q6",
+    "level": 51,
+    "category": "多項式の展開",
+    "type": "multiple_choice",
+    "question": "(2x + 3)(x − 1) を展開すると？",
+    "choices": ["2x² + x − 3", "2x² − x − 3", "2x² + 5x − 3", "2x² − 3"],
+    "answer": "2x² + x − 3",
+    "acceptableAnswers": ["2x^2+x-3"],
+    "explanation": "2x²−2x+3x−3=2x²+x−3。"
+  }
+]

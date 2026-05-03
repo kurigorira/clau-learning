@@ -1,0 +1,69 @@
+[
+  {
+    "id": "lv98-q1",
+    "level": 98,
+    "category": "入試総合（証明）",
+    "type": "multiple_choice",
+    "question": "平行四辺形ABCDで、対角線AC, BDの交点をOとする。OA=OCである理由は？",
+    "choices": [
+      "△OAB ≡ △OCD（2組の辺と間の角）",
+      "対角線が垂直に交わるから",
+      "AB=BCだから",
+      "対角線の長さが等しいから"
+    ],
+    "answer": "△OAB ≡ △OCD（2組の辺と間の角）",
+    "explanation": "平行四辺形では対辺AB=CD、対角∠OAB=∠OCD（錯角）、∠AOB=∠COD（対頂角）。これにより△OAB≡△OCD。"
+  },
+  {
+    "id": "lv98-q2",
+    "level": 98,
+    "category": "入試総合（応用）",
+    "type": "multiple_choice",
+    "question": "1個 x円のおにぎりを6個と、1本 y円のお茶を3本買って合計1020円。お茶1本がおにぎり1個より40円高い。x は？",
+    "choices": ["80円", "100円", "120円", "140円"],
+    "answer": "100円",
+    "acceptableAnswers": ["100"],
+    "explanation": "y=x+40。6x+3(x+40)=1020 → 9x+120=1020 → 9x=900 → x=100円。"
+  },
+  {
+    "id": "lv98-q3",
+    "level": 98,
+    "category": "入試総合（関数）",
+    "type": "multiple_choice",
+    "question": "y=x² と y=ax+b の交点が(−2, 4)、(3, 9)。a, b は？",
+    "choices": ["a=1, b=6", "a=2, b=4", "a=−1, b=10", "a=1, b=4"],
+    "answer": "a=1, b=6",
+    "explanation": "傾き=(9−4)/(3−(−2))=1。点(3,9)：9=3+b → b=6。"
+  },
+  {
+    "id": "lv98-q4",
+    "level": 98,
+    "category": "入試総合（応用）",
+    "type": "multiple_choice",
+    "question": "(x+y)²−(x−y)² を計算すると？",
+    "choices": ["2xy", "4xy", "x²+y²", "x²−y²"],
+    "answer": "4xy",
+    "explanation": "公式 (a+b)²−(a−b)²=4ab。よって4xy。"
+  },
+  {
+    "id": "lv98-q5",
+    "level": 98,
+    "category": "入試総合（応用）",
+    "type": "multiple_choice",
+    "question": "x²−4xy+4y² を因数分解すると？",
+    "choices": ["(x−2y)²", "(x+2y)²", "(x−2y)(x+2y)", "(x−y)²"],
+    "answer": "(x−2y)²",
+    "explanation": "x²−2·2y·x+(2y)²=(x−2y)²。"
+  },
+  {
+    "id": "lv98-q6",
+    "level": 98,
+    "category": "入試総合（応用）",
+    "type": "multiple_choice",
+    "question": "縦が横より2cm長い長方形があり、面積が48cm²。横の長さは？",
+    "choices": ["4cm", "6cm", "7cm", "8cm"],
+    "answer": "6cm",
+    "acceptableAnswers": ["6"],
+    "explanation": "横x、縦x+2、x(x+2)=48 → x²+2x−48=0 → (x−6)(x+8)=0 → x=6cm。"
+  }
+]

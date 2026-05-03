@@ -1,0 +1,61 @@
+[
+  {
+    "id": "lv83-q1",
+    "level": 83,
+    "category": "入試（数の性質）",
+    "type": "multiple_choice",
+    "question": "ある自然数nを4で割ると2余り、5で割ると3余る。最も小さいnは？",
+    "choices": ["13", "18", "23", "28"],
+    "answer": "18",
+    "explanation": "4で割って2余る:2,6,10,14,18,22… 5で割って3余る:3,8,13,18,23… 共通最小は18。"
+  },
+  {
+    "id": "lv83-q2",
+    "level": 83,
+    "category": "入試（規則性）",
+    "type": "multiple_choice",
+    "question": "数列 2, 5, 8, 11, 14, ... の20番目の数は？",
+    "choices": ["56", "59", "62", "65"],
+    "answer": "59",
+    "explanation": "初項2、公差3。a_n=2+3(n−1)=3n−1。a_20=59。"
+  },
+  {
+    "id": "lv83-q3",
+    "level": 83,
+    "category": "入試（規則性）",
+    "type": "multiple_choice",
+    "question": "1段に1個、2段に3個、3段に5個…のように積み上げる。10段目に積む個数は？",
+    "choices": ["15個", "17個", "19個", "21個"],
+    "answer": "19個",
+    "explanation": "n段目=2n−1個。10段目=2×10−1=19個。"
+  },
+  {
+    "id": "lv83-q4",
+    "level": 83,
+    "category": "入試（連続整数）",
+    "type": "multiple_choice",
+    "question": "連続する2つの偶数の積が48。小さい方の偶数は？",
+    "choices": ["4", "6", "8", "10"],
+    "answer": "6",
+    "explanation": "x(x+2)=48 → x²+2x−48=0 → (x−6)(x+8)=0。正の偶数なので6。"
+  },
+  {
+    "id": "lv83-q5",
+    "level": 83,
+    "category": "入試（数の性質）",
+    "type": "multiple_choice",
+    "question": "3けたの自然数で、各位の数の和が9の倍数。下記のうち該当するものは？",
+    "choices": ["123", "234", "356", "567"],
+    "answer": "234",
+    "explanation": "234 → 2+3+4=9。9の倍数判定は各位の和が9の倍数。"
+  },
+  {
+    "id": "lv83-q6",
+    "level": 83,
+    "category": "入試（規則性）",
+    "type": "numeric",
+    "question": "1+2+3+...+20 の合計を求めなさい。",
+    "answer": "210",
+    "explanation": "等差数列の和=(初項+末項)×個数÷2=(1+20)×20÷2=210。"
+  }
+]

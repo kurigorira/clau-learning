@@ -1,0 +1,68 @@
+[
+  {
+    "id": "lv73-q1",
+    "level": 73,
+    "category": "入試（図形）",
+    "type": "multiple_choice",
+    "question": "△ABCで∠A=50°、∠B=70°。∠Cは？",
+    "choices": ["50°", "60°", "70°", "120°"],
+    "answer": "60°",
+    "explanation": "180−50−70=60°。"
+  },
+  {
+    "id": "lv73-q2",
+    "level": 73,
+    "category": "入試（合同）",
+    "type": "multiple_choice",
+    "question": "次の三角形の合同条件のうち正しいものは？",
+    "choices": [
+      "3辺が等しい",
+      "3角が等しい",
+      "2辺の長さの比が等しい",
+      "角度の比が等しい"
+    ],
+    "answer": "3辺が等しい",
+    "explanation": "3辺がそれぞれ等しいなら合同（SSS）。"
+  },
+  {
+    "id": "lv73-q3",
+    "level": 73,
+    "category": "入試（円）",
+    "type": "multiple_choice",
+    "question": "半径4cmの円の面積は？（円周率π）",
+    "choices": ["8π cm²", "16π cm²", "12π cm²", "4π cm²"],
+    "answer": "16π cm²",
+    "explanation": "πr²=π×16=16π cm²。"
+  },
+  {
+    "id": "lv73-q4",
+    "level": 73,
+    "category": "入試（おうぎ形）",
+    "type": "multiple_choice",
+    "question": "半径10cm、中心角72°のおうぎ形の弧の長さは？（円周率π）",
+    "choices": ["2π cm", "4π cm", "5π cm", "10π cm"],
+    "answer": "4π cm",
+    "explanation": "2π×10×72/360=20π/5=4π cm。"
+  },
+  {
+    "id": "lv73-q5",
+    "level": 73,
+    "category": "入試（角度）",
+    "type": "multiple_choice",
+    "question": "正八角形の1つの内角は？",
+    "choices": ["120°", "135°", "144°", "150°"],
+    "answer": "135°",
+    "acceptableAnswers": ["135"],
+    "explanation": "(8−2)×180÷8=1080÷8=135°。"
+  },
+  {
+    "id": "lv73-q6",
+    "level": 73,
+    "category": "入試（円周角）",
+    "type": "multiple_choice",
+    "question": "円周角∠APB=35°のとき、対応する中心角∠AOBは？",
+    "choices": ["17.5°", "35°", "55°", "70°"],
+    "answer": "70°",
+    "explanation": "中心角=2×円周角=70°。"
+  }
+]

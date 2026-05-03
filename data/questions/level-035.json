@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv35-q1",
+    "level": 35,
+    "category": "1次方程式の利用",
+    "type": "multiple_choice",
+    "question": "ある数の3倍に7を加えると25になる。ある数は？",
+    "choices": ["4", "6", "8", "10"],
+    "answer": "6",
+    "explanation": "3x+7=25 → 3x=18 → x=6。"
+  },
+  {
+    "id": "lv35-q2",
+    "level": 35,
+    "category": "1次方程式の利用（年令）",
+    "type": "multiple_choice",
+    "question": "現在、母は40歳、子は12歳。母の年令が子の年令の3倍になるのは何年後？",
+    "choices": ["1年後", "2年後", "3年後", "4年後"],
+    "answer": "2年後",
+    "acceptableAnswers": ["2"],
+    "explanation": "x年後 40+x=3(12+x) → 40+x=36+3x → 4=2x → x=2。"
+  },
+  {
+    "id": "lv35-q3",
+    "level": 35,
+    "category": "1次方程式の利用（個数）",
+    "type": "multiple_choice",
+    "question": "1個80円のりんごと1個50円のみかんを合わせて10個買って710円になった。りんごは何個？",
+    "choices": ["3個", "5個", "7個", "8個"],
+    "answer": "7個",
+    "acceptableAnswers": ["7"],
+    "explanation": "りんごx個、みかん10−x個。80x+50(10−x)=710 → 30x+500=710 → x=7。"
+  },
+  {
+    "id": "lv35-q4",
+    "level": 35,
+    "category": "1次方程式の利用（速さ）",
+    "type": "multiple_choice",
+    "question": "兄は分速80mで、弟は分速60mで同じ地点から同じ方向に進む。弟が10分先に出発した。兄が弟に追いつくのは兄が出発してから何分後？",
+    "choices": ["20分", "30分", "40分", "60分"],
+    "answer": "30分",
+    "acceptableAnswers": ["30"],
+    "explanation": "弟は10分先=600m先。1分で20m差が縮まる。600÷20=30分。"
+  },
+  {
+    "id": "lv35-q5",
+    "level": 35,
+    "category": "1次方程式の利用（割合）",
+    "type": "multiple_choice",
+    "question": "ある数の20%増しが288です。ある数は？",
+    "choices": ["230", "240", "250", "260"],
+    "answer": "240",
+    "explanation": "1.2x=288 → x=240。"
+  },
+  {
+    "id": "lv35-q6",
+    "level": 35,
+    "category": "1次方程式（移項）",
+    "type": "multiple_choice",
+    "question": "7x − 2 = 5x + 8 を解くと？",
+    "choices": ["x=3", "x=4", "x=5", "x=6"],
+    "answer": "x=5",
+    "acceptableAnswers": ["5"],
+    "explanation": "7x−5x=8+2 → 2x=10 → x=5。"
+  }
+]

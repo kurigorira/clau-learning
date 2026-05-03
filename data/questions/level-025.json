@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv25-q1",
+    "level": 25,
+    "category": "概数",
+    "type": "multiple_choice",
+    "question": "23456 を四捨五入して百の位までの概数にすると？",
+    "choices": ["23000", "23400", "23500", "24000"],
+    "answer": "23500",
+    "acceptableAnswers": ["23500"],
+    "explanation": "十の位は5なので切り上げ。23500。"
+  },
+  {
+    "id": "lv25-q2",
+    "level": 25,
+    "category": "概数",
+    "type": "multiple_choice",
+    "question": "84321 を上から2けたの概数で表すと？",
+    "choices": ["84000", "85000", "80000", "84300"],
+    "answer": "84000",
+    "explanation": "上から3けた目（百の位の3）を四捨五入。84000。"
+  },
+  {
+    "id": "lv25-q3",
+    "level": 25,
+    "category": "概数",
+    "type": "multiple_choice",
+    "question": "切り上げで百の位までの概数にしたとき、3500になる整数の範囲は？",
+    "choices": ["3401〜3500", "3401〜3499", "3400〜3499", "3500〜3599"],
+    "answer": "3401〜3500",
+    "explanation": "百の位までで3500になるのは、十の位以下を切り上げて3500になる範囲。3401〜3500。"
+  },
+  {
+    "id": "lv25-q4",
+    "level": 25,
+    "category": "単位換算",
+    "type": "multiple_choice",
+    "question": "2.5 km は何 m？",
+    "choices": ["25m", "250m", "2500m", "25000m"],
+    "answer": "2500m",
+    "acceptableAnswers": ["2500"],
+    "explanation": "1km=1000m。2.5×1000=2500m。"
+  },
+  {
+    "id": "lv25-q5",
+    "level": 25,
+    "category": "単位換算",
+    "type": "multiple_choice",
+    "question": "1500g は何 kg？",
+    "choices": ["1.5kg", "15kg", "0.15kg", "150kg"],
+    "answer": "1.5kg",
+    "acceptableAnswers": ["1.5"],
+    "explanation": "1kg=1000g。1500÷1000=1.5kg。"
+  },
+  {
+    "id": "lv25-q6",
+    "level": 25,
+    "category": "単位換算",
+    "type": "multiple_choice",
+    "question": "3000mL は何 L？",
+    "choices": ["0.3L", "3L", "30L", "300L"],
+    "answer": "3L",
+    "acceptableAnswers": ["3"],
+    "explanation": "1L=1000mL。3000÷1000=3L。"
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "lv27-q1",
+    "level": 27,
+    "category": "比例の応用",
+    "type": "multiple_choice",
+    "question": "ガソリン10Lで150km走る車は、ガソリン25Lで何km走る？（比例）",
+    "choices": ["300km", "350km", "375km", "450km"],
+    "answer": "375km",
+    "acceptableAnswers": ["375"],
+    "explanation": "1Lあたり15km。15×25=375km。"
+  },
+  {
+    "id": "lv27-q2",
+    "level": 27,
+    "category": "反比例の応用",
+    "type": "multiple_choice",
+    "question": "12人で15日かかる仕事を、20人ですると何日かかる？",
+    "choices": ["6日", "9日", "12日", "25日"],
+    "answer": "9日",
+    "acceptableAnswers": ["9"],
+    "explanation": "総作業量=12×15=180人日。180÷20=9日。"
+  },
+  {
+    "id": "lv27-q3",
+    "level": 27,
+    "category": "比例反比例",
+    "type": "multiple_choice",
+    "question": "y=24/x で表される関係はどれ？",
+    "choices": ["比例", "反比例", "どちらでもない", "両方"],
+    "answer": "反比例",
+    "explanation": "y=a/x の形は反比例。xが2倍になるとyは1/2倍。"
+  },
+  {
+    "id": "lv27-q4",
+    "level": 27,
+    "category": "比例グラフ",
+    "type": "multiple_choice",
+    "question": "比例 y=3x のグラフが通る点は？",
+    "choices": ["(2, 5)", "(2, 6)", "(3, 1)", "(0, 3)"],
+    "answer": "(2, 6)",
+    "explanation": "x=2 なら y=3×2=6。点(2,6)を通る。"
+  },
+  {
+    "id": "lv27-q5",
+    "level": 27,
+    "category": "比例反比例",
+    "type": "multiple_choice",
+    "question": "yがxに反比例し、x=3のときy=12です。x=4のときyは？",
+    "choices": ["6", "8", "9", "16"],
+    "answer": "9",
+    "explanation": "xy=一定。3×12=36。4×y=36 → y=9。"
+  },
+  {
+    "id": "lv27-q6",
+    "level": 27,
+    "category": "比例の式",
+    "type": "multiple_choice",
+    "question": "yがxに比例し、x=6のときy=24。比例定数は？",
+    "choices": ["2", "3", "4", "6"],
+    "answer": "4",
+    "explanation": "y=ax、24=6a → a=4。"
+  }
+]

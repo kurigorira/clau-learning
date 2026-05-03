@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv95-q1",
+    "level": 95,
+    "category": "入試総合（複合）",
+    "type": "multiple_choice",
+    "question": "1個120円のおかしと1個80円のあめを合わせて20個買い、合計2080円。おかしは何個？",
+    "choices": ["8個", "10個", "12個", "14個"],
+    "answer": "12個",
+    "acceptableAnswers": ["12"],
+    "explanation": "おかしx個。120x+80(20−x)=2080 → 40x=480 → x=12。"
+  },
+  {
+    "id": "lv95-q2",
+    "level": 95,
+    "category": "入試総合（速さ）",
+    "type": "multiple_choice",
+    "question": "船で川を上るとき時速10km、下るとき時速14km。静水時の速さは？",
+    "choices": ["時速2km", "時速12km", "時速4km", "時速24km"],
+    "answer": "時速12km",
+    "acceptableAnswers": ["12", "12km", "時速12"],
+    "explanation": "静水時=（上り+下り）÷2=(10+14)/2=12km/時。"
+  },
+  {
+    "id": "lv95-q3",
+    "level": 95,
+    "category": "入試総合（関数）",
+    "type": "multiple_choice",
+    "question": "y=ax² 上の点(3, −18)から、a の値は？",
+    "choices": ["−2", "2", "−3", "3"],
+    "answer": "−2",
+    "explanation": "−18=9a → a=−2。"
+  },
+  {
+    "id": "lv95-q4",
+    "level": 95,
+    "category": "入試総合（連立方程式）",
+    "type": "multiple_choice",
+    "question": "3x + y = 10, 2x − 3y = −8 を解くと？",
+    "choices": ["x=2, y=4", "x=4, y=−2", "x=2, y=2", "x=1, y=7"],
+    "answer": "x=2, y=4",
+    "explanation": "上式×3+下式：9x+3y+2x−3y=30−8 → 11x=22 → x=2、y=4。"
+  },
+  {
+    "id": "lv95-q5",
+    "level": 95,
+    "category": "入試総合（標本調査）",
+    "type": "multiple_choice",
+    "question": "袋の中に白玉と黒玉が合計2000個。50個の標本を取ったら白玉が35個。袋の中の白玉の総数の推定は？",
+    "choices": ["1000個", "1200個", "1400個", "1600個"],
+    "answer": "1400個",
+    "acceptableAnswers": ["1400"],
+    "explanation": "白玉割合=35/50=0.7。2000×0.7=1400個。"
+  },
+  {
+    "id": "lv95-q6",
+    "level": 95,
+    "category": "入試総合（図形）",
+    "type": "multiple_choice",
+    "question": "円Oの周上の3点A, B, Cで、ABが直径、AC=5cm、BC=12cm。半径は？",
+    "choices": ["5cm", "6.5cm", "7cm", "12cm"],
+    "answer": "6.5cm",
+    "acceptableAnswers": ["6.5", "13/2"],
+    "explanation": "直径ABに対する円周角∠C=90°。AB=√(5²+12²)=13。半径=13/2=6.5cm。"
+  }
+]

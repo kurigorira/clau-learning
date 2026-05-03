@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv89-q1",
+    "level": 89,
+    "category": "入試（円と接線）",
+    "type": "multiple_choice",
+    "question": "中心O、半径5cmの円の外側の点Pがある。OP=13cm。Pから引いた接線の長さは？",
+    "choices": ["8cm", "10cm", "12cm", "13cm"],
+    "answer": "12cm",
+    "acceptableAnswers": ["12"],
+    "explanation": "接点をTとすると ∠OTP=90°。PT=√(13²−5²)=√144=12cm。"
+  },
+  {
+    "id": "lv89-q2",
+    "level": 89,
+    "category": "入試（円と相似）",
+    "type": "multiple_choice",
+    "question": "円Oで、2つの弦ABとCDが点Pで交わる。AP=4、PB=6、CP=3 のとき、PD は？",
+    "choices": ["6", "8", "9", "12"],
+    "answer": "8",
+    "explanation": "方べきの定理：AP×PB=CP×PD → 4×6=3×PD → PD=8。"
+  },
+  {
+    "id": "lv89-q3",
+    "level": 89,
+    "category": "入試（円周角）",
+    "type": "multiple_choice",
+    "question": "円Oに点A, B, C, Dが順に並ぶ。∠ABC=85°、∠ADC は？",
+    "choices": ["85°", "95°", "105°", "115°"],
+    "answer": "95°",
+    "explanation": "円に内接する四角形の対角の和=180°。180−85=95°。"
+  },
+  {
+    "id": "lv89-q4",
+    "level": 89,
+    "category": "入試（三平方の応用）",
+    "type": "multiple_choice",
+    "question": "1辺6cmの正三角形の面積は？",
+    "choices": ["6√3 cm²", "9√3 cm²", "12√3 cm²", "18√3 cm²"],
+    "answer": "9√3 cm²",
+    "explanation": "高さ=3√3。面積=6×3√3÷2=9√3 cm²。"
+  },
+  {
+    "id": "lv89-q5",
+    "level": 89,
+    "category": "入試（円すいの体積）",
+    "type": "multiple_choice",
+    "question": "底面の半径6cm、母線10cmの円すいの体積は？（円周率π）",
+    "choices": ["48π cm³", "72π cm³", "96π cm³", "120π cm³"],
+    "answer": "96π cm³",
+    "explanation": "高さ=√(10²−6²)=8。体積=(1/3)×π×36×8=96π cm³。"
+  },
+  {
+    "id": "lv89-q6",
+    "level": 89,
+    "category": "入試（球）",
+    "type": "multiple_choice",
+    "question": "半径3cmの球の表面積は？（円周率π）",
+    "choices": ["12π cm²", "27π cm²", "36π cm²", "108π cm²"],
+    "answer": "36π cm²",
+    "explanation": "4πr²=4π×9=36π cm²。"
+  }
+]

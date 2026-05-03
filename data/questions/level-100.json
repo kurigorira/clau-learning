@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv100-q1",
+    "level": 100,
+    "category": "賢者の試練（融合）",
+    "type": "multiple_choice",
+    "question": "y=x² と y=x+2 の2つの交点を結ぶ線分の長さは？",
+    "choices": ["3√2", "5", "3", "5√2"],
+    "answer": "3√2",
+    "explanation": "x²=x+2 → x=2, −1。点(2,4)、(−1,1)。距離=√(3²+3²)=3√2。"
+  },
+  {
+    "id": "lv100-q2",
+    "level": 100,
+    "category": "賢者の試練（証明的思考）",
+    "type": "multiple_choice",
+    "question": "連続する3つの整数の和は、必ず何の倍数？",
+    "choices": ["2の倍数", "3の倍数", "5の倍数", "6の倍数"],
+    "answer": "3の倍数",
+    "explanation": "(n−1)+n+(n+1)=3n。常に3の倍数。"
+  },
+  {
+    "id": "lv100-q3",
+    "level": 100,
+    "category": "賢者の試練（融合）",
+    "type": "multiple_choice",
+    "question": "三角形ABCで、AB=AC=10cm、BC=12cm。AからBCにおろした垂線の長さは？",
+    "choices": ["6cm", "8cm", "√64 cm", "10cm"],
+    "answer": "8cm",
+    "acceptableAnswers": ["8"],
+    "explanation": "二等辺三角形、AからBCの中点Hまで。BH=6、AH=√(10²−6²)=√64=8cm。"
+  },
+  {
+    "id": "lv100-q4",
+    "level": 100,
+    "category": "賢者の試練（関数）",
+    "type": "multiple_choice",
+    "question": "y=(1/4)x² のグラフ上に点A(−4, 4)、B(2, 1)、原点O。三角形OABの面積は？",
+    "choices": ["3", "6", "9", "12"],
+    "answer": "6",
+    "explanation": "直線AB:傾き=(1−4)/(2−(−4))=−1/2。y=−(1/2)x+2。x=0でy=2。底辺OC=2、高さ=|x_A|+|x_B|=6。面積=2×6÷2=6。"
+  },
+  {
+    "id": "lv100-q5",
+    "level": 100,
+    "category": "賢者の試練（融合）",
+    "type": "multiple_choice",
+    "question": "1辺6cmの立方体に内接する球の体積は？（円周率π）",
+    "choices": ["9π cm³", "27π cm³", "36π cm³", "108π cm³"],
+    "answer": "36π cm³",
+    "explanation": "内接する球の半径=立方体の半分=3cm。(4/3)π×27=36π cm³。"
+  },
+  {
+    "id": "lv100-q6",
+    "level": 100,
+    "category": "賢者の試練（応用）",
+    "type": "multiple_choice",
+    "question": "栗原才弥は ここまでの 100レベルを すべてクリアしました。\nこれで 才弥は「大賢者」となりました。\n才弥が修行で 解いた問題の数は およそ何問でしょう？\n（1レベル5問×100レベル）",
+    "choices": ["100問", "300問", "500問", "1000問"],
+    "answer": "500問",
+    "explanation": "1レベル5問×100レベル=500問。長い道のり、よくがんばりました。これからの入試本番でも、自分の力を信じて。"
+  }
+]

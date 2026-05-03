@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv14-q1",
+    "level": 14,
+    "category": "対称な図形",
+    "type": "multiple_choice",
+    "question": "次のうち、線対称な図形はどれ？（複数あるかもしれませんが1つだけ選ぶ）",
+    "choices": ["平行四辺形", "二等辺三角形", "一般の四角形", "L字型"],
+    "answer": "二等辺三角形",
+    "explanation": "二等辺三角形は頂角からおろした垂線で線対称。一般の平行四辺形は線対称ではない（点対称）。"
+  },
+  {
+    "id": "lv14-q2",
+    "level": 14,
+    "category": "点対称",
+    "type": "multiple_choice",
+    "question": "次のうち、点対称な図形はどれ？",
+    "choices": ["二等辺三角形（正三角形以外）", "正三角形", "平行四辺形", "台形"],
+    "answer": "平行四辺形",
+    "explanation": "平行四辺形は対角線の交点を中心に180°回転すると元の形に重なる。"
+  },
+  {
+    "id": "lv14-q3",
+    "level": 14,
+    "category": "対称軸",
+    "type": "multiple_choice",
+    "question": "正方形の対称軸は何本？",
+    "choices": ["2本", "4本", "6本", "8本"],
+    "answer": "4本",
+    "acceptableAnswers": ["4"],
+    "explanation": "縦・横と2つの対角線の合計4本。"
+  },
+  {
+    "id": "lv14-q4",
+    "level": 14,
+    "category": "対称軸",
+    "type": "multiple_choice",
+    "question": "正六角形の対称軸は何本？",
+    "choices": ["3本", "4本", "6本", "12本"],
+    "answer": "6本",
+    "acceptableAnswers": ["6"],
+    "explanation": "頂点と頂点を結ぶ3本＋向かい合う辺の中点を結ぶ3本=6本。"
+  },
+  {
+    "id": "lv14-q5",
+    "level": 14,
+    "category": "拡大と縮小",
+    "type": "multiple_choice",
+    "question": "辺の長さが3cm、4cm、5cmの三角形を、すべての辺を2倍にした拡大図の周の長さは？",
+    "choices": ["12cm", "18cm", "24cm", "36cm"],
+    "answer": "24cm",
+    "acceptableAnswers": ["24"],
+    "explanation": "もとの周12cm×2=24cm。拡大図では辺の長さが2倍になる。"
+  },
+  {
+    "id": "lv14-q6",
+    "level": 14,
+    "category": "縮図",
+    "type": "multiple_choice",
+    "question": "実際の長さ300mを縮尺1/1000の縮図にすると何cm？",
+    "choices": ["0.3cm", "3cm", "30cm", "300cm"],
+    "answer": "30cm",
+    "acceptableAnswers": ["30"],
+    "explanation": "300m=30000cm、30000÷1000=30cm。"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv60-q1",
+    "level": 60,
+    "category": "円周角の定理",
+    "type": "multiple_choice",
+    "question": "中心角が80°の弧に対する円周角は？",
+    "choices": ["20°", "40°", "80°", "160°"],
+    "answer": "40°",
+    "acceptableAnswers": ["40"],
+    "explanation": "円周角は中心角の半分。80÷2=40°。"
+  },
+  {
+    "id": "lv60-q2",
+    "level": 60,
+    "category": "円周角",
+    "type": "multiple_choice",
+    "question": "同じ弧に対する円周角は？",
+    "choices": ["すべて等しい", "中心角と等しい", "和が180°", "増えていく"],
+    "answer": "すべて等しい",
+    "explanation": "同じ弧に対する円周角はすべて等しい（円周角の定理）。"
+  },
+  {
+    "id": "lv60-q3",
+    "level": 60,
+    "category": "円周角（半円）",
+    "type": "multiple_choice",
+    "question": "半円の弧に対する円周角は？",
+    "choices": ["45°", "60°", "90°", "180°"],
+    "answer": "90°",
+    "acceptableAnswers": ["90"],
+    "explanation": "中心角180°の半分=90°。よって直径を弦とする三角形の頂点は直角。"
+  },
+  {
+    "id": "lv60-q4",
+    "level": 60,
+    "category": "円と相似",
+    "type": "multiple_choice",
+    "question": "円に内接する四角形の対角の和は？",
+    "choices": ["90°", "120°", "180°", "360°"],
+    "answer": "180°",
+    "explanation": "円に内接する四角形の対角の和は180°。"
+  },
+  {
+    "id": "lv60-q5",
+    "level": 60,
+    "category": "三平方の定理（基礎）",
+    "type": "multiple_choice",
+    "question": "直角三角形の直角を挟む2辺の長さが3cmと4cmのとき、斜辺の長さは？",
+    "choices": ["5cm", "6cm", "7cm", "12cm"],
+    "answer": "5cm",
+    "acceptableAnswers": ["5"],
+    "explanation": "三平方の定理：a²+b²=c²。3²+4²=25 → c=5cm。"
+  },
+  {
+    "id": "lv60-q6",
+    "level": 60,
+    "category": "三平方の定理",
+    "type": "multiple_choice",
+    "question": "直角三角形の斜辺が13cm、1辺が5cm。残りの辺は？",
+    "choices": ["8cm", "10cm", "12cm", "14cm"],
+    "answer": "12cm",
+    "acceptableAnswers": ["12"],
+    "explanation": "5²+x²=13² → x²=169−25=144 → x=12cm。"
+  }
+]

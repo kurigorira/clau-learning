@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv94-q1",
+    "level": 94,
+    "category": "入試総合（応用）",
+    "type": "multiple_choice",
+    "question": "3つの連続する整数の2乗の和が77。中央の整数は？",
+    "choices": ["3", "4", "5", "6"],
+    "answer": "5",
+    "explanation": "(n−1)²+n²+(n+1)²=3n²+2=77 → n²=25 → n=5。"
+  },
+  {
+    "id": "lv94-q2",
+    "level": 94,
+    "category": "入試総合（関数応用）",
+    "type": "multiple_choice",
+    "question": "y=(1/2)x² 上に点A(−2, 2)、B(4, 8) がある。直線ABの式は？",
+    "choices": ["y=x+4", "y=x+2", "y=2x+2", "y=(1/2)x+3"],
+    "answer": "y=x+4",
+    "explanation": "傾き=(8−2)/(4−(−2))=1。点A：2=−2+b → b=4。"
+  },
+  {
+    "id": "lv94-q3",
+    "level": 94,
+    "category": "入試総合（円の応用）",
+    "type": "multiple_choice",
+    "question": "半径10cmの円に内接する正方形の1辺の長さは？",
+    "choices": ["5√2 cm", "10 cm", "10√2 cm", "20 cm"],
+    "answer": "10√2 cm",
+    "explanation": "対角線=直径=20cm。1辺=20/√2=10√2 cm。"
+  },
+  {
+    "id": "lv94-q4",
+    "level": 94,
+    "category": "入試総合（三平方）",
+    "type": "multiple_choice",
+    "question": "縦4cm、横6cm、高さ12cmの直方体の対角線の長さは？",
+    "choices": ["13 cm", "14 cm", "√196 cm", "16 cm"],
+    "answer": "14 cm",
+    "acceptableAnswers": ["14"],
+    "explanation": "√(16+36+144)=√196=14 cm。"
+  },
+  {
+    "id": "lv94-q5",
+    "level": 94,
+    "category": "入試総合（座標）",
+    "type": "multiple_choice",
+    "question": "原点O、A(4, 0)、B(0, 3) でできる三角形OABの周の長さは？",
+    "choices": ["10", "12", "13", "15"],
+    "answer": "12",
+    "explanation": "OA=4、OB=3、AB=√(16+9)=5。和=12。"
+  },
+  {
+    "id": "lv94-q6",
+    "level": 94,
+    "category": "入試総合（角度）",
+    "type": "multiple_choice",
+    "question": "円Oの周上の3点A, B, Cが、∠A=40°, ∠B=70°の三角形をつくる。∠Cは？",
+    "choices": ["50°", "60°", "70°", "80°"],
+    "answer": "70°",
+    "explanation": "三角形の内角の和180°。180−40−70=70°。"
+  }
+]

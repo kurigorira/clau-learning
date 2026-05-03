@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lv39-q1",
+    "level": 39,
+    "category": "資料の活用（中学）",
+    "type": "multiple_choice",
+    "question": "10人の身長(cm) 152, 158, 160, 161, 163, 165, 167, 170, 172, 178 の中央値は？",
+    "choices": ["161", "163", "164", "165"],
+    "answer": "164",
+    "explanation": "10人なので中央2つ(5番目と6番目)の平均：(163+165)÷2=164。"
+  },
+  {
+    "id": "lv39-q2",
+    "level": 39,
+    "category": "資料の活用",
+    "type": "multiple_choice",
+    "question": "次のデータの最頻値（モード）は？\n5, 7, 7, 8, 9, 9, 9, 10",
+    "choices": ["7", "8", "9", "10"],
+    "answer": "9",
+    "explanation": "9 が3回で最も多い。"
+  },
+  {
+    "id": "lv39-q3",
+    "level": 39,
+    "category": "資料の活用（範囲）",
+    "type": "multiple_choice",
+    "question": "あるテストの最高点が95、最低点が42。範囲は？",
+    "choices": ["42", "53", "95", "137"],
+    "answer": "53",
+    "explanation": "範囲=最大値−最小値=95−42=53。"
+  },
+  {
+    "id": "lv39-q4",
+    "level": 39,
+    "category": "資料の活用（度数分布）",
+    "type": "multiple_choice",
+    "question": "ある階級の度数が15、合計度数が60のとき、相対度数は？",
+    "choices": ["0.15", "0.20", "0.25", "0.30"],
+    "answer": "0.25",
+    "explanation": "相対度数=階級の度数÷合計度数=15÷60=0.25。"
+  },
+  {
+    "id": "lv39-q5",
+    "level": 39,
+    "category": "資料の活用",
+    "type": "multiple_choice",
+    "question": "8人のテストの平均点が72点。合計点は？",
+    "choices": ["480点", "560点", "576点", "600点"],
+    "answer": "576点",
+    "acceptableAnswers": ["576"],
+    "explanation": "平均×人数=合計。72×8=576点。"
+  },
+  {
+    "id": "lv39-q6",
+    "level": 39,
+    "category": "資料の活用",
+    "type": "numeric",
+    "question": "5人の体重 50, 52, 54, 56, 58 (kg) の平均（kg）は？",
+    "answer": "54",
+    "explanation": "(50+52+54+56+58)÷5=270÷5=54kg。"
+  }
+]

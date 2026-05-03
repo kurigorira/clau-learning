@@ -1,0 +1,67 @@
+[
+  {
+    "id": "lv58-q1",
+    "level": 58,
+    "category": "二次関数 y=ax²",
+    "type": "multiple_choice",
+    "question": "y = x² で、x = 3 のとき y は？",
+    "choices": ["3", "6", "9", "12"],
+    "answer": "9",
+    "explanation": "y=3²=9。"
+  },
+  {
+    "id": "lv58-q2",
+    "level": 58,
+    "category": "二次関数 y=ax²",
+    "type": "multiple_choice",
+    "question": "y = 2x² で、x = −3 のとき y は？",
+    "choices": ["−18", "−6", "6", "18"],
+    "answer": "18",
+    "explanation": "y=2×(−3)²=2×9=18。負の符号は2乗で消える。"
+  },
+  {
+    "id": "lv58-q3",
+    "level": 58,
+    "category": "二次関数（変化の割合）",
+    "type": "multiple_choice",
+    "question": "y = x² で、xが1から3まで変化するときの変化の割合は？",
+    "choices": ["2", "3", "4", "8"],
+    "answer": "4",
+    "explanation": "yの増加=9−1=8、xの増加=2。8÷2=4。"
+  },
+  {
+    "id": "lv58-q4",
+    "level": 58,
+    "category": "二次関数（変域）",
+    "type": "multiple_choice",
+    "question": "y = x² で、−2 ≤ x ≤ 3 のときyの変域は？",
+    "choices": ["0 ≤ y ≤ 9", "4 ≤ y ≤ 9", "−4 ≤ y ≤ 9", "0 ≤ y ≤ 4"],
+    "answer": "0 ≤ y ≤ 9",
+    "explanation": "x=0 で最小y=0、x=3 で最大y=9。負の値も0以上のyになる点に注意。"
+  },
+  {
+    "id": "lv58-q5",
+    "level": 58,
+    "category": "二次関数（係数の式）",
+    "type": "multiple_choice",
+    "question": "y = ax² が点(2, 8)を通るとき、a の値は？",
+    "choices": ["1", "2", "4", "8"],
+    "answer": "2",
+    "explanation": "8=a×4 → a=2。"
+  },
+  {
+    "id": "lv58-q6",
+    "level": 58,
+    "category": "二次関数のグラフ",
+    "type": "multiple_choice",
+    "question": "y = −x² のグラフの形は？",
+    "choices": [
+      "上に開いた放物線",
+      "下に開いた放物線",
+      "原点を通る直線",
+      "双曲線"
+    ],
+    "answer": "下に開いた放物線",
+    "explanation": "a<0 のとき放物線は下に開く。"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv82-q1",
+    "level": 82,
+    "category": "入試（二次関数と直線）",
+    "type": "multiple_choice",
+    "question": "y=x² と y=−x+2 の交点のx座標は？",
+    "choices": ["x=−2, 1", "x=2, −1", "x=−2, 1", "x=1, −1"],
+    "answer": "x=−2, 1",
+    "explanation": "x²=−x+2 → x²+x−2=0 → (x+2)(x−1)=0 → x=−2, 1。"
+  },
+  {
+    "id": "lv82-q2",
+    "level": 82,
+    "category": "入試（関数と図形）",
+    "type": "multiple_choice",
+    "question": "y=x² 上の点A(−2, 4)、B(1, 1) を結ぶ直線とx軸との交点のx座標は？",
+    "choices": ["x=−1", "x=−2", "x=2", "x=1"],
+    "answer": "x=2",
+    "explanation": "傾き=(1−4)/(1−(−2))=−1。y−1=−1(x−1) → y=−x+2。y=0 で x=2。"
+  },
+  {
+    "id": "lv82-q3",
+    "level": 82,
+    "category": "入試（三平方）",
+    "type": "multiple_choice",
+    "question": "1辺6cmの正三角形ABCで、頂点Aから辺BCにおろした垂線の長さは？",
+    "choices": ["3 cm", "3√2 cm", "3√3 cm", "6√3 cm"],
+    "answer": "3√3 cm",
+    "explanation": "高さ=√(6²−3²)=√27=3√3 cm。"
+  },
+  {
+    "id": "lv82-q4",
+    "level": 82,
+    "category": "入試（円と相似）",
+    "type": "multiple_choice",
+    "question": "円Oの中心から弦ABまでの距離が4cm、弦ABの長さが6cm。半径は？",
+    "choices": ["4 cm", "5 cm", "6 cm", "10 cm"],
+    "answer": "5 cm",
+    "acceptableAnswers": ["5"],
+    "explanation": "弦の半分=3cm、距離4cmで直角三角形 → 半径=√(3²+4²)=5cm。"
+  },
+  {
+    "id": "lv82-q5",
+    "level": 82,
+    "category": "入試（円周角）",
+    "type": "multiple_choice",
+    "question": "円Oの周上に点A, B, Cがあり、∠BAC=25°、弧BCに対する中心角は？",
+    "choices": ["12.5°", "25°", "50°", "75°"],
+    "answer": "50°",
+    "explanation": "中心角=円周角の2倍=50°。"
+  },
+  {
+    "id": "lv82-q6",
+    "level": 82,
+    "category": "入試（角度）",
+    "type": "multiple_choice",
+    "question": "正十二角形の1つの内角は？",
+    "choices": ["120°", "135°", "150°", "165°"],
+    "answer": "150°",
+    "explanation": "(12−2)×180÷12=1800÷12=150°。"
+  }
+]

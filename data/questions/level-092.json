@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv92-q1",
+    "level": 92,
+    "category": "入試総合（関数と図形）",
+    "type": "multiple_choice",
+    "question": "y=x² 上に2点A(−1, 1)、B(2, 4) がある。直線ABとx軸の交点のx座標は？",
+    "choices": ["x=2", "x=−2", "x=1", "x=−1"],
+    "answer": "x=−2",
+    "explanation": "直線ABの傾き=1。点(2,4): 4=2+b → b=2。y=x+2、y=0でx=−2。"
+  },
+  {
+    "id": "lv92-q2",
+    "level": 92,
+    "category": "入試総合（三平方）",
+    "type": "multiple_choice",
+    "question": "1辺6cmの立方体の体積は？",
+    "choices": ["36 cm³", "108 cm³", "216 cm³", "432 cm³"],
+    "answer": "216 cm³",
+    "acceptableAnswers": ["216"],
+    "explanation": "6³=216 cm³。"
+  },
+  {
+    "id": "lv92-q3",
+    "level": 92,
+    "category": "入試総合（球）",
+    "type": "multiple_choice",
+    "question": "半径2cmの球の体積は？（円周率π）",
+    "choices": ["(8/3)π cm³", "(16/3)π cm³", "(32/3)π cm³", "8π cm³"],
+    "answer": "(32/3)π cm³",
+    "explanation": "(4/3)πr³=(4/3)π×8=(32/3)π cm³。"
+  },
+  {
+    "id": "lv92-q4",
+    "level": 92,
+    "category": "入試総合（円周角）",
+    "type": "multiple_choice",
+    "question": "円Oで、∠AOB=140° のとき、円周角∠APBは（点Pは弧ABを含まない側）？",
+    "choices": ["35°", "40°", "70°", "140°"],
+    "answer": "70°",
+    "explanation": "中心角の半分=70°。"
+  },
+  {
+    "id": "lv92-q5",
+    "level": 92,
+    "category": "入試総合（相似）",
+    "type": "multiple_choice",
+    "question": "相似比3:5の2つの立体の体積比は？",
+    "choices": ["3:5", "9:25", "27:125", "1:5"],
+    "answer": "27:125",
+    "explanation": "体積比=3³:5³=27:125。"
+  },
+  {
+    "id": "lv92-q6",
+    "level": 92,
+    "category": "入試総合（角度）",
+    "type": "multiple_choice",
+    "question": "正多角形の1つの外角が30°のとき、何角形？",
+    "choices": ["八角形", "十角形", "十二角形", "十五角形"],
+    "answer": "十二角形",
+    "explanation": "360÷30=12。"
+  }
+]

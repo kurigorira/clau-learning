@@ -1,0 +1,65 @@
+[
+  {
+    "id": "lv76-q1",
+    "level": 76,
+    "category": "入試（連立方程式の応用）",
+    "type": "multiple_choice",
+    "question": "ある中学校の今年の生徒数は男女合わせて550人。去年と比べ男子は4%増、女子は2%減で、全体は1人増えた。今年の男子の人数は？",
+    "choices": ["260人", "286人", "260人", "312人"],
+    "answer": "312人",
+    "acceptableAnswers": ["312"],
+    "explanation": "去年男子x、女子y。x+y=549、0.04x−0.02y=1。連立解：x=300、y=249。今年男子=300×1.04=312人。"
+  },
+  {
+    "id": "lv76-q2",
+    "level": 76,
+    "category": "入試（速さ）",
+    "type": "multiple_choice",
+    "question": "AB間を行きは時速4km、帰りは時速6kmで往復したら、全部で5時間かかった。AB間の距離は？",
+    "choices": ["8km", "10km", "12km", "15km"],
+    "answer": "12km",
+    "acceptableAnswers": ["12"],
+    "explanation": "x/4+x/6=5 → 3x+2x=60 → 5x=60 → x=12km。"
+  },
+  {
+    "id": "lv76-q3",
+    "level": 76,
+    "category": "入試（割合）",
+    "type": "multiple_choice",
+    "question": "原価600円の商品に20%の利益を見込んで定価をつけ、定価の10%引きで売った。利益はいくら？",
+    "choices": ["48円", "60円", "72円", "84円"],
+    "answer": "48円",
+    "acceptableAnswers": ["48"],
+    "explanation": "定価=600×1.2=720円。売値=720×0.9=648円。利益=648−600=48円。"
+  },
+  {
+    "id": "lv76-q4",
+    "level": 76,
+    "category": "入試（食塩水）",
+    "type": "multiple_choice",
+    "question": "8%の食塩水200gと12%の食塩水300gを混ぜると、何%の食塩水になる？",
+    "choices": ["9.6%", "10%", "10.4%", "11%"],
+    "answer": "10.4%",
+    "explanation": "食塩量=200×0.08+300×0.12=16+36=52g。総量500g。52÷500=0.104=10.4%。"
+  },
+  {
+    "id": "lv76-q5",
+    "level": 76,
+    "category": "入試（連続整数）",
+    "type": "multiple_choice",
+    "question": "連続する3つの整数の和が72。中央の数は？",
+    "choices": ["22", "23", "24", "25"],
+    "answer": "24",
+    "explanation": "中央 x として x−1+x+x+1=3x=72 → x=24。"
+  },
+  {
+    "id": "lv76-q6",
+    "level": 76,
+    "category": "入試（年令）",
+    "type": "multiple_choice",
+    "question": "現在、母40歳、子15歳。母の年令が子の年令の2倍になるのは何年後？",
+    "choices": ["5年後", "10年後", "15年後", "25年後"],
+    "answer": "10年後",
+    "explanation": "x年後 40+x=2(15+x) → 40+x=30+2x → x=10。"
+  }
+]

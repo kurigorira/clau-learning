@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv90-q1",
+    "level": 90,
+    "category": "入試（複合）",
+    "type": "multiple_choice",
+    "question": "(x+2)(x−5) − (x−1)(x−3) を計算すると？",
+    "choices": ["x − 13", "−x − 13", "x − 7", "−x + 13"],
+    "answer": "x − 13",
+    "acceptableAnswers": ["x-13"],
+    "explanation": "(x²−3x−10)−(x²−4x+3) = x − 13。"
+  },
+  {
+    "id": "lv90-q2",
+    "level": 90,
+    "category": "入試（平方根）",
+    "type": "multiple_choice",
+    "question": "√50 − √18 + √8 を簡単にすると？",
+    "choices": ["3√2", "4√2", "5√2", "6√2"],
+    "answer": "4√2",
+    "explanation": "5√2 − 3√2 + 2√2 = 4√2。"
+  },
+  {
+    "id": "lv90-q3",
+    "level": 90,
+    "category": "入試（連立方程式）",
+    "type": "multiple_choice",
+    "question": "5x + 2y = −7, 2x − y = 8 を解くと？",
+    "choices": ["x=1, y=−6", "x=2, y=−4", "x=3, y=−2", "x=−1, y=−1"],
+    "answer": "x=1, y=−6",
+    "explanation": "下式から y=2x−8。上式に代入：5x+2(2x−8)=−7 → 9x=9 → x=1、y=−6。"
+  },
+  {
+    "id": "lv90-q4",
+    "level": 90,
+    "category": "入試（二次方程式の利用）",
+    "type": "multiple_choice",
+    "question": "ある正の数を2乗してから6を引くと、その数の5倍に等しい。ある数は？",
+    "choices": ["3", "5", "6", "8"],
+    "answer": "6",
+    "explanation": "x²−6=5x → x²−5x−6=0 → (x−6)(x+1)=0。正の数なのでx=6。"
+  },
+  {
+    "id": "lv90-q5",
+    "level": 90,
+    "category": "入試（関数）",
+    "type": "multiple_choice",
+    "question": "y=−2x+5 のグラフがx軸と交わる点のx座標は？",
+    "choices": ["−5/2", "−2", "5/2", "5"],
+    "answer": "5/2",
+    "explanation": "y=0 で 0=−2x+5 → x=5/2。"
+  },
+  {
+    "id": "lv90-q6",
+    "level": 90,
+    "category": "入試（図形）",
+    "type": "multiple_choice",
+    "question": "正多角形の1つの内角が135°のとき、何角形？",
+    "choices": ["六角形", "七角形", "八角形", "九角形"],
+    "answer": "八角形",
+    "explanation": "外角=180−135=45°。360÷45=8。"
+  }
+]

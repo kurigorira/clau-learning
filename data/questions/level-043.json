@@ -1,0 +1,64 @@
+[
+  {
+    "id": "lv43-q1",
+    "level": 43,
+    "category": "連立方程式（速さ）",
+    "type": "multiple_choice",
+    "question": "10kmの道のりを行きは時速x km、帰りは時速y kmで往復したら、行き2時間、帰り1時間かかりました。x, y はそれぞれ？",
+    "choices": ["x=5, y=10", "x=10, y=5", "x=2, y=10", "x=20, y=10"],
+    "answer": "x=5, y=10",
+    "explanation": "10/x=2 → x=5、10/y=1 → y=10。"
+  },
+  {
+    "id": "lv43-q2",
+    "level": 43,
+    "category": "連立方程式の利用（個数）",
+    "type": "multiple_choice",
+    "question": "10円玉と50円玉が合わせて20枚あり、合計金額が560円。50円玉は何枚？",
+    "choices": ["7枚", "8枚", "9枚", "12枚"],
+    "answer": "9枚",
+    "acceptableAnswers": ["9"],
+    "explanation": "x+y=20、10x+50y=560。下式−10×上式: 40y=360 → y=9、x=11。"
+  },
+  {
+    "id": "lv43-q3",
+    "level": 43,
+    "category": "連立方程式（割合）",
+    "type": "multiple_choice",
+    "question": "ある中学校の去年の生徒は男女合わせて500人。今年は男子が5%増え、女子が10%減って合計485人。今年の男子の人数は？\n（去年の男子をx、女子をyとする）",
+    "choices": ["210人", "230人", "250人", "270人"],
+    "answer": "210人",
+    "acceptableAnswers": ["210"],
+    "explanation": "x+y=500、1.05x+0.9y=485。去年の男子200人、女子300人 → 今年の男子=200×1.05=210人。"
+  },
+  {
+    "id": "lv43-q4",
+    "level": 43,
+    "category": "連立方程式",
+    "type": "multiple_choice",
+    "question": "2x + 3y = 14, 4x − y = 7 を解くと？",
+    "choices": ["x=2, y=3", "x=2.5, y=3", "x=3, y=2", "x=2, y=2"],
+    "answer": "x=2.5, y=3",
+    "explanation": "下式から y=4x−7。上式に代入：2x+3(4x−7)=14 → 14x=35 → x=2.5、y=4×2.5−7=3。"
+  },
+  {
+    "id": "lv43-q5",
+    "level": 43,
+    "category": "連立方程式",
+    "type": "multiple_choice",
+    "question": "x + 2y = 10, 3x − y = 2 を解くと？",
+    "choices": ["x=2, y=4", "x=4, y=2", "x=3, y=3", "x=1, y=4"],
+    "answer": "x=2, y=4",
+    "explanation": "上式×3 − 下式: 6y+y=30−2 → 7y=28 → y=4、x=2。"
+  },
+  {
+    "id": "lv43-q6",
+    "level": 43,
+    "category": "連立方程式（応用）",
+    "type": "multiple_choice",
+    "question": "ある2けたの数があります。十の位と一の位の数の和は11で、入れ替えると元の数より27大きい。元の数は？",
+    "choices": ["38", "47", "56", "65"],
+    "answer": "47",
+    "explanation": "十の位x、一の位y。x+y=11、(10y+x)=(10x+y)+27 → 9y−9x=27 → y−x=3。x=4, y=7。元の数=47。"
+  }
+]

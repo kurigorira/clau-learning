@@ -1,0 +1,61 @@
+[
+  {
+    "id": "lv49-q1",
+    "level": 49,
+    "category": "四分位数",
+    "type": "multiple_choice",
+    "question": "次のデータの中央値（第2四分位数）は？\n3, 5, 7, 8, 10, 12, 14",
+    "choices": ["7", "8", "9", "10"],
+    "answer": "8",
+    "explanation": "7個のうち中央4番目の値。8。"
+  },
+  {
+    "id": "lv49-q2",
+    "level": 49,
+    "category": "四分位数",
+    "type": "multiple_choice",
+    "question": "データ 2, 4, 5, 7, 8, 10, 12, 14 の第1四分位数は？",
+    "choices": ["3", "4", "4.5", "5"],
+    "answer": "4.5",
+    "explanation": "下位半分 2,4,5,7 の中央値=(4+5)/2=4.5。"
+  },
+  {
+    "id": "lv49-q3",
+    "level": 49,
+    "category": "四分位範囲",
+    "type": "multiple_choice",
+    "question": "ある資料の第1四分位数が35、第3四分位数が65のとき、四分位範囲は？",
+    "choices": ["20", "30", "35", "65"],
+    "answer": "30",
+    "explanation": "四分位範囲=Q3−Q1=65−35=30。"
+  },
+  {
+    "id": "lv49-q4",
+    "level": 49,
+    "category": "箱ひげ図",
+    "type": "multiple_choice",
+    "question": "箱ひげ図で「箱」の左端と右端は何を表す？",
+    "choices": ["最小値と最大値", "第1四分位数と第3四分位数", "平均と中央値", "最頻値と中央値"],
+    "answer": "第1四分位数と第3四分位数",
+    "explanation": "箱の両端はQ1とQ3、中の線は中央値（Q2）。"
+  },
+  {
+    "id": "lv49-q5",
+    "level": 49,
+    "category": "中央値",
+    "type": "multiple_choice",
+    "question": "8個のデータの中央値は？",
+    "choices": ["4番目の値", "5番目の値", "4番目と5番目の平均", "1番目と8番目の平均"],
+    "answer": "4番目と5番目の平均",
+    "explanation": "偶数個のときは中央2つの値の平均。"
+  },
+  {
+    "id": "lv49-q6",
+    "level": 49,
+    "category": "資料の活用（平均）",
+    "type": "numeric",
+    "question": "データ 60, 65, 70, 75, 80 の平均は？",
+    "answer": "70",
+    "explanation": "(60+65+70+75+80)÷5=350÷5=70。"
+  }
+]

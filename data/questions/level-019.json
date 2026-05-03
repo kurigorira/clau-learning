@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv19-q1",
+    "level": 19,
+    "category": "資料の整理（平均）",
+    "type": "multiple_choice",
+    "question": "5人のテストの点数 70, 65, 80, 75, 60 の平均点は？",
+    "choices": ["68点", "70点", "72点", "75点"],
+    "answer": "70点",
+    "acceptableAnswers": ["70"],
+    "explanation": "(70+65+80+75+60)÷5=350÷5=70点。"
+  },
+  {
+    "id": "lv19-q2",
+    "level": 19,
+    "category": "資料の整理（中央値）",
+    "type": "multiple_choice",
+    "question": "5, 8, 3, 9, 7 を小さい順に並べたときの中央値は？",
+    "choices": ["3", "5", "7", "8"],
+    "answer": "7",
+    "explanation": "並べ替え:3,5,7,8,9。中央の値は7。"
+  },
+  {
+    "id": "lv19-q3",
+    "level": 19,
+    "category": "資料の整理（最頻値）",
+    "type": "multiple_choice",
+    "question": "次のデータの最頻値は？\n2, 5, 3, 5, 7, 5, 8, 3",
+    "choices": ["3", "5", "7", "8"],
+    "answer": "5",
+    "explanation": "5が3回、3が2回。最も多く出た5が最頻値。"
+  },
+  {
+    "id": "lv19-q4",
+    "level": 19,
+    "category": "資料の整理",
+    "type": "multiple_choice",
+    "question": "20人の身長を調べたら、最も高い人が165cm、最も低い人が135cmでした。範囲は？",
+    "choices": ["20cm", "25cm", "30cm", "35cm"],
+    "answer": "30cm",
+    "acceptableAnswers": ["30"],
+    "explanation": "範囲=最大値−最小値=165−135=30cm。"
+  },
+  {
+    "id": "lv19-q5",
+    "level": 19,
+    "category": "円グラフ",
+    "type": "multiple_choice",
+    "question": "ある学校の生徒180人のうち、25%が運動部。運動部の人数は？",
+    "choices": ["30人", "36人", "45人", "50人"],
+    "answer": "45人",
+    "acceptableAnswers": ["45"],
+    "explanation": "180×0.25=45人。"
+  },
+  {
+    "id": "lv19-q6",
+    "level": 19,
+    "category": "資料の整理（割合）",
+    "type": "multiple_choice",
+    "question": "全校400人のうち120人がメガネをかけている。割合は何%？",
+    "choices": ["20%", "25%", "30%", "33%"],
+    "answer": "30%",
+    "acceptableAnswers": ["30"],
+    "explanation": "120÷400=0.3=30%。"
+  }
+]

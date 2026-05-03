@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lv61-q1",
+    "level": 61,
+    "category": "二次関数 y=ax²",
+    "type": "multiple_choice",
+    "question": "y = (1/2)x² で x = 4 のとき y は？",
+    "choices": ["2", "4", "8", "16"],
+    "answer": "8",
+    "explanation": "y=(1/2)×16=8。"
+  },
+  {
+    "id": "lv61-q2",
+    "level": 61,
+    "category": "二次関数",
+    "type": "multiple_choice",
+    "question": "y = ax² が点(−2, 12)を通るとき、a は？",
+    "choices": ["3", "4", "−3", "6"],
+    "answer": "3",
+    "explanation": "12=a×4 → a=3。"
+  },
+  {
+    "id": "lv61-q3",
+    "level": 61,
+    "category": "二次関数（変化の割合）",
+    "type": "multiple_choice",
+    "question": "y = x² で、xが−1から2まで変化するときの変化の割合は？",
+    "choices": ["1", "2", "3", "4"],
+    "answer": "1",
+    "explanation": "yの増加=4−1=3、xの増加=3。3÷3=1。"
+  },
+  {
+    "id": "lv61-q4",
+    "level": 61,
+    "category": "二次関数（最大最小）",
+    "type": "multiple_choice",
+    "question": "y = x² で、−3 ≤ x ≤ 1 のときyの最大値は？",
+    "choices": ["0", "1", "9", "−9"],
+    "answer": "9",
+    "explanation": "x=−3 のとき最大 y=9。"
+  },
+  {
+    "id": "lv61-q5",
+    "level": 61,
+    "category": "二次関数",
+    "type": "multiple_choice",
+    "question": "y = 2x² と y = x² のグラフはどちらが急（細い）？",
+    "choices": ["y = 2x²", "y = x²", "同じ", "x の値による"],
+    "answer": "y = 2x²",
+    "explanation": "係数の絶対値が大きい方がy軸近くに広がり、グラフが急（細い）。"
+  },
+  {
+    "id": "lv61-q6",
+    "level": 61,
+    "category": "二次関数（軸との交点）",
+    "type": "multiple_choice",
+    "question": "y = x² − 4 のグラフがx軸と交わる点は？",
+    "choices": ["(±1, 0)", "(±2, 0)", "(0, ±2)", "(0, ±4)"],
+    "answer": "(±2, 0)",
+    "explanation": "y=0 のとき x²=4 → x=±2。"
+  }
+]

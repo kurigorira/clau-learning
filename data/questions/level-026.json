@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv26-q1",
+    "level": 26,
+    "category": "速さ・時間・道のり",
+    "type": "multiple_choice",
+    "question": "時速80kmで45分走ると、何km進む？",
+    "choices": ["36km", "45km", "60km", "120km"],
+    "answer": "60km",
+    "acceptableAnswers": ["60"],
+    "explanation": "45分=3/4時間。80×3/4=60km。"
+  },
+  {
+    "id": "lv26-q2",
+    "level": 26,
+    "category": "速さ",
+    "type": "multiple_choice",
+    "question": "300mを20秒で走るときの秒速は？",
+    "choices": ["秒速10m", "秒速15m", "秒速20m", "秒速25m"],
+    "answer": "秒速15m",
+    "acceptableAnswers": ["15", "15m", "秒速15"],
+    "explanation": "300÷20=15m/秒。"
+  },
+  {
+    "id": "lv26-q3",
+    "level": 26,
+    "category": "速さ",
+    "type": "multiple_choice",
+    "question": "分速400mを時速に直すと？",
+    "choices": ["時速4km", "時速24km", "時速40km", "時速240km"],
+    "answer": "時速24km",
+    "acceptableAnswers": ["24", "24km", "時速24"],
+    "explanation": "1時間=60分。400×60=24000m=24km。"
+  },
+  {
+    "id": "lv26-q4",
+    "level": 26,
+    "category": "速さの応用",
+    "type": "multiple_choice",
+    "question": "AB間を行きは時速60km、帰りは時速40kmで往復したときの平均速度は？",
+    "choices": ["時速48km", "時速50km", "時速52km", "時速100km"],
+    "answer": "時速48km",
+    "acceptableAnswers": ["48", "48km", "時速48"],
+    "explanation": "片道を120kmとすると、行き2時間、帰り3時間。合計240kmを5時間=48km/時。"
+  },
+  {
+    "id": "lv26-q5",
+    "level": 26,
+    "category": "速さの単位",
+    "type": "numeric",
+    "question": "秒速8mを分速に直すと何m/分？",
+    "answer": "480",
+    "explanation": "8×60=480m/分。"
+  },
+  {
+    "id": "lv26-q6",
+    "level": 26,
+    "category": "速さ",
+    "type": "multiple_choice",
+    "question": "180kmの道のりを時速45kmで走ると、何時間かかる？",
+    "choices": ["3時間", "4時間", "5時間", "6時間"],
+    "answer": "4時間",
+    "acceptableAnswers": ["4"],
+    "explanation": "180÷45=4時間。"
+  }
+]

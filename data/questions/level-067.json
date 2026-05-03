@@ -1,0 +1,64 @@
+[
+  {
+    "id": "lv67-q1",
+    "level": 67,
+    "category": "三平方の応用",
+    "type": "multiple_choice",
+    "question": "1辺10cmの正方形の対角線の長さは？",
+    "choices": ["5√2 cm", "10√2 cm", "20 cm", "10√3 cm"],
+    "answer": "10√2 cm",
+    "explanation": "対角線=√(10²+10²)=√200=10√2 cm。"
+  },
+  {
+    "id": "lv67-q2",
+    "level": 67,
+    "category": "三平方の応用",
+    "type": "multiple_choice",
+    "question": "縦5cm、横12cmの長方形の対角線の長さは？",
+    "choices": ["13 cm", "17 cm", "√119 cm", "60 cm"],
+    "answer": "13 cm",
+    "acceptableAnswers": ["13", "13cm"],
+    "explanation": "√(5²+12²)=√169=13cm。"
+  },
+  {
+    "id": "lv67-q3",
+    "level": 67,
+    "category": "三平方の応用（座標）",
+    "type": "multiple_choice",
+    "question": "2点A(2, 1)、B(5, 5)の距離は？",
+    "choices": ["3", "4", "5", "7"],
+    "answer": "5",
+    "explanation": "√((5−2)²+(5−1)²)=√(9+16)=√25=5。"
+  },
+  {
+    "id": "lv67-q4",
+    "level": 67,
+    "category": "特別な直角三角形",
+    "type": "multiple_choice",
+    "question": "45°-45°-90°直角三角形で、直角を挟む辺が6cm。斜辺は？",
+    "choices": ["6 cm", "6√2 cm", "12 cm", "6√3 cm"],
+    "answer": "6√2 cm",
+    "explanation": "1:1:√2 の比。斜辺=6√2 cm。"
+  },
+  {
+    "id": "lv67-q5",
+    "level": 67,
+    "category": "三平方の定理（円）",
+    "type": "multiple_choice",
+    "question": "半径10cmの円の中心から、ある弦までの距離が6cm。弦の長さは？",
+    "choices": ["8 cm", "12 cm", "16 cm", "20 cm"],
+    "answer": "16 cm",
+    "acceptableAnswers": ["16", "16cm"],
+    "explanation": "弦の半分=√(10²−6²)=√64=8cm。弦全体は16cm。"
+  },
+  {
+    "id": "lv67-q6",
+    "level": 67,
+    "category": "三平方の応用",
+    "type": "multiple_choice",
+    "question": "底面が1辺4cmの正方形、高さ3cmの直方体の対角線の長さは？",
+    "choices": ["5 cm", "√41 cm", "7 cm", "12 cm"],
+    "answer": "√41 cm",
+    "explanation": "√(4²+4²+3²)=√41 cm。"
+  }
+]

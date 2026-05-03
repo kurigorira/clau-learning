@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv45-q1",
+    "level": 45,
+    "category": "一次関数（交点）",
+    "type": "multiple_choice",
+    "question": "y=x+1 と y=−x+5 の交点の座標は？",
+    "choices": ["(1, 2)", "(2, 3)", "(3, 4)", "(4, 5)"],
+    "answer": "(2, 3)",
+    "explanation": "x+1=−x+5 → 2x=4 → x=2、y=3。"
+  },
+  {
+    "id": "lv45-q2",
+    "level": 45,
+    "category": "一次関数（x切片）",
+    "type": "multiple_choice",
+    "question": "y = 2x − 8 のグラフがx軸と交わる点のx座標は？",
+    "choices": ["−8", "−4", "4", "8"],
+    "answer": "4",
+    "explanation": "y=0 のとき。0=2x−8 → x=4。"
+  },
+  {
+    "id": "lv45-q3",
+    "level": 45,
+    "category": "一次関数（変域）",
+    "type": "multiple_choice",
+    "question": "y=−2x+5 で、xの変域が 1 ≤ x ≤ 3 のとき、yの変域は？",
+    "choices": ["−1 ≤ y ≤ 3", "−3 ≤ y ≤ 3", "3 ≤ y ≤ 7", "−1 ≤ y ≤ 5"],
+    "answer": "−1 ≤ y ≤ 3",
+    "explanation": "x=1 のとき y=3、x=3 のとき y=−1。傾きが負なので逆になり、−1≤y≤3。"
+  },
+  {
+    "id": "lv45-q4",
+    "level": 45,
+    "category": "一次関数（速さの応用）",
+    "type": "multiple_choice",
+    "question": "家から学校まで分速80mで進むと、xを家を出てからの時間（分）、yを残り距離（m）とすると、y=−80x+1200 と表せた。学校までの距離は？",
+    "choices": ["80m", "800m", "1000m", "1200m"],
+    "answer": "1200m",
+    "acceptableAnswers": ["1200"],
+    "explanation": "x=0（出発時）の y が距離。y=1200。"
+  },
+  {
+    "id": "lv45-q5",
+    "level": 45,
+    "category": "連立方程式と一次関数",
+    "type": "multiple_choice",
+    "question": "2直線 y=2x+1, y=−x+7 の交点は？",
+    "choices": ["(1, 3)", "(2, 5)", "(3, 7)", "(2, 6)"],
+    "answer": "(2, 5)",
+    "explanation": "2x+1=−x+7 → 3x=6 → x=2、y=5。"
+  },
+  {
+    "id": "lv45-q6",
+    "level": 45,
+    "category": "一次関数（傾きと切片）",
+    "type": "multiple_choice",
+    "question": "切片が4で、点(2, 0)を通る直線の式は？",
+    "choices": ["y=−2x+4", "y=2x+4", "y=−x+4", "y=x−4"],
+    "answer": "y=−2x+4",
+    "explanation": "切片4 → b=4。(2,0)を代入：0=2a+4 → a=−2。y=−2x+4。"
+  }
+]

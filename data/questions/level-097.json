@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv97-q1",
+    "level": 97,
+    "category": "入試総合（応用）",
+    "type": "multiple_choice",
+    "question": "√(48n) が整数となる最小の自然数 n は？",
+    "choices": ["1", "2", "3", "6"],
+    "answer": "3",
+    "explanation": "48=2⁴×3。√(48n)が整数 → 48n が平方数 → 不足する 3 をかける。n=3。"
+  },
+  {
+    "id": "lv97-q2",
+    "level": 97,
+    "category": "入試総合（応用）",
+    "type": "multiple_choice",
+    "question": "x+y=5, xy=4 のとき、x²+y² は？",
+    "choices": ["13", "17", "21", "25"],
+    "answer": "17",
+    "explanation": "x²+y²=(x+y)²−2xy=25−8=17。"
+  },
+  {
+    "id": "lv97-q3",
+    "level": 97,
+    "category": "入試総合（応用）",
+    "type": "multiple_choice",
+    "question": "二次方程式 x² + ax + 6 = 0 の解の1つが2のとき、a の値は？",
+    "choices": ["−5", "−4", "5", "4"],
+    "answer": "−5",
+    "explanation": "x=2を代入：4+2a+6=0 → 2a=−10 → a=−5。"
+  },
+  {
+    "id": "lv97-q4",
+    "level": 97,
+    "category": "入試総合（関数）",
+    "type": "multiple_choice",
+    "question": "y=ax² と y=bx+c の交点が(−1, 1) と (3, 9)。a は？",
+    "choices": ["1/2", "1", "2", "3"],
+    "answer": "1",
+    "explanation": "(−1, 1):1=a → a=1。確認：3²=9 ○。"
+  },
+  {
+    "id": "lv97-q5",
+    "level": 97,
+    "category": "入試総合（角度・円）",
+    "type": "multiple_choice",
+    "question": "中心角90°のおうぎ形（半径6cm）の弧の長さは？（円周率π）",
+    "choices": ["3π cm", "6π cm", "9π cm", "12π cm"],
+    "answer": "3π cm",
+    "explanation": "2π×6×90/360=3π cm。"
+  },
+  {
+    "id": "lv97-q6",
+    "level": 97,
+    "category": "入試総合（証明準備）",
+    "type": "multiple_choice",
+    "question": "△ABCで、辺ABの中点をM、辺ACの中点をN。MN=5cm のとき、BCは？",
+    "choices": ["5cm", "7.5cm", "10cm", "15cm"],
+    "answer": "10cm",
+    "acceptableAnswers": ["10"],
+    "explanation": "中点連結定理 BC=2×MN=10cm。"
+  }
+]

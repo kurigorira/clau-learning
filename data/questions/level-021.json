@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv21-q1",
+    "level": 21,
+    "category": "分数の四則混合",
+    "type": "multiple_choice",
+    "question": "1/2 + 1/3 × 3/4 = ?",
+    "choices": ["3/4", "1/2", "5/8", "3/8"],
+    "answer": "3/4",
+    "explanation": "かけ算を先に。1/3×3/4=1/4。次に 1/2+1/4=3/4。"
+  },
+  {
+    "id": "lv21-q2",
+    "level": 21,
+    "category": "分数の四則混合",
+    "type": "multiple_choice",
+    "question": "(2/3 + 1/4) × 12 = ?",
+    "choices": ["3", "9", "11", "20"],
+    "answer": "11",
+    "explanation": "かっこの中:8/12+3/12=11/12。11/12×12=11。"
+  },
+  {
+    "id": "lv21-q3",
+    "level": 21,
+    "category": "分数の四則",
+    "type": "multiple_choice",
+    "question": "5/6 ÷ 1/3 − 1/2 = ?",
+    "choices": ["1/2", "2", "5/2", "5/3"],
+    "answer": "2",
+    "explanation": "5/6÷1/3=5/6×3=15/6=5/2。5/2−1/2=4/2=2。"
+  },
+  {
+    "id": "lv21-q4",
+    "level": 21,
+    "category": "分数小数混合",
+    "type": "multiple_choice",
+    "question": "0.5 + 1/4 = ?",
+    "choices": ["0.65", "0.75", "0.55", "1"],
+    "answer": "0.75",
+    "acceptableAnswers": ["3/4"],
+    "explanation": "1/4=0.25。0.5+0.25=0.75=3/4。"
+  },
+  {
+    "id": "lv21-q5",
+    "level": 21,
+    "category": "分数のかけ算",
+    "type": "numeric",
+    "question": "8 × 3/4 = ?",
+    "answer": "6",
+    "explanation": "8×3/4=24/4=6。"
+  },
+  {
+    "id": "lv21-q6",
+    "level": 21,
+    "category": "分数のわり算",
+    "type": "multiple_choice",
+    "question": "4/5 ÷ 8/15 = ?",
+    "choices": ["3/2", "32/75", "2/3", "60/75"],
+    "answer": "3/2",
+    "acceptableAnswers": ["1と1/2", "1 1/2"],
+    "explanation": "4/5×15/8=60/40=3/2。"
+  }
+]

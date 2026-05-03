@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lv71-q1",
+    "level": 71,
+    "category": "入試（計算）",
+    "type": "multiple_choice",
+    "question": "−3² × (−2) + 4 ÷ 2 を計算すると？",
+    "choices": ["−16", "20", "16", "−20"],
+    "answer": "20",
+    "explanation": "−3²=−9。−9×(−2)=18。4÷2=2。合計18+2=20。"
+  },
+  {
+    "id": "lv71-q2",
+    "level": 71,
+    "category": "入試（計算）",
+    "type": "multiple_choice",
+    "question": "(−6a²b) ÷ 2ab × 3a を計算すると？",
+    "choices": ["−9a²", "9a²", "−9ab", "−9a²b"],
+    "answer": "−9a²",
+    "explanation": "符号 −/+/+ → −。係数 6/2×3=9。文字 a²b÷ab×a=a²。よって −9a²。"
+  },
+  {
+    "id": "lv71-q3",
+    "level": 71,
+    "category": "入試（連立方程式）",
+    "type": "multiple_choice",
+    "question": "3x − 2y = 7, x + y = 4 を解くと？",
+    "choices": ["x=1, y=3", "x=2, y=2", "x=3, y=1", "x=4, y=0"],
+    "answer": "x=3, y=1",
+    "explanation": "下式 y=4−x。代入：3x−2(4−x)=7 → 5x=15 → x=3、y=1。"
+  },
+  {
+    "id": "lv71-q4",
+    "level": 71,
+    "category": "入試（平方根）",
+    "type": "multiple_choice",
+    "question": "(√3+√2)(√3−√2) = ?",
+    "choices": ["1", "√6", "2√3", "5"],
+    "answer": "1",
+    "explanation": "(a+b)(a−b)=a²−b²=3−2=1。"
+  },
+  {
+    "id": "lv71-q5",
+    "level": 71,
+    "category": "入試（因数分解）",
+    "type": "multiple_choice",
+    "question": "x² − 6x + 9 − y² を因数分解すると？",
+    "choices": ["(x−3+y)(x−3−y)", "(x+3+y)(x+3−y)", "(x−3)²−y²", "(x−y)²"],
+    "answer": "(x−3+y)(x−3−y)",
+    "explanation": "x²−6x+9=(x−3)² → (x−3)²−y² → 差の平方の因数分解。"
+  },
+  {
+    "id": "lv71-q6",
+    "level": 71,
+    "category": "入試（方程式）",
+    "type": "multiple_choice",
+    "question": "x² − 4x − 12 = 0 を解くと？",
+    "choices": ["x=2, −6", "x=6, −2", "x=4, 3", "x=−4, 3"],
+    "answer": "x=6, −2",
+    "explanation": "(x−6)(x+2)=0 → x=6, −2。"
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "lv31-q1",
+    "level": 31,
+    "category": "正負の数（加法）",
+    "type": "multiple_choice",
+    "question": "(+5) + (−8) = ?",
+    "choices": ["+13", "−13", "+3", "−3"],
+    "answer": "−3",
+    "acceptableAnswers": ["-3"],
+    "explanation": "符号が違うので大きい方の絶対値から小さい方を引く。8−5=3、大きい方の符号は−なので −3。"
+  },
+  {
+    "id": "lv31-q2",
+    "level": 31,
+    "category": "正負の数（減法）",
+    "type": "multiple_choice",
+    "question": "(−6) − (−4) = ?",
+    "choices": ["−10", "−2", "+2", "+10"],
+    "answer": "−2",
+    "acceptableAnswers": ["-2"],
+    "explanation": "減法は加法に直す。(−6)+(+4)=−2。"
+  },
+  {
+    "id": "lv31-q3",
+    "level": 31,
+    "category": "正負の数（加減）",
+    "type": "multiple_choice",
+    "question": "−7 + 12 − 5 = ?",
+    "choices": ["−10", "0", "10", "−24"],
+    "answer": "0",
+    "explanation": "−7+12=5。5−5=0。"
+  },
+  {
+    "id": "lv31-q4",
+    "level": 31,
+    "category": "正負の数（絶対値）",
+    "type": "multiple_choice",
+    "question": "−9 の絶対値は？",
+    "choices": ["−9", "0", "9", "81"],
+    "answer": "9",
+    "explanation": "絶対値は0からの距離。−9 の絶対値は 9。"
+  },
+  {
+    "id": "lv31-q5",
+    "level": 31,
+    "category": "正負の数（大小）",
+    "type": "multiple_choice",
+    "question": "−3, −7, 2, 0 を小さい順に並べると？",
+    "choices": ["−7, −3, 0, 2", "0, −3, −7, 2", "2, 0, −3, −7", "−3, −7, 0, 2"],
+    "answer": "−7, −3, 0, 2",
+    "explanation": "負の数は絶対値が大きいほど小さい。−7<−3<0<2。"
+  },
+  {
+    "id": "lv31-q6",
+    "level": 31,
+    "category": "正負の数",
+    "type": "numeric",
+    "question": "次の値を求めなさい。半角数字で（負の数なら先頭に - を付ける）。\n−15 + 8 = ?",
+    "answer": "-7",
+    "acceptableAnswers": ["−7"],
+    "explanation": "符号違いの加法。15−8=7、大きい方が−なので −7。"
+  }
+]

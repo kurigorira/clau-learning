@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv29-q1",
+    "level": 29,
+    "category": "面積（複合）",
+    "type": "multiple_choice",
+    "question": "縦8cm、横10cmの長方形と、底辺6cm・高さ4cmの三角形を合わせた図形の面積は？",
+    "choices": ["80cm²", "92cm²", "104cm²", "100cm²"],
+    "answer": "92cm²",
+    "acceptableAnswers": ["92"],
+    "explanation": "長方形 80cm² + 三角形 12cm² = 92cm²。"
+  },
+  {
+    "id": "lv29-q2",
+    "level": 29,
+    "category": "体積（複合）",
+    "type": "multiple_choice",
+    "question": "縦5cm、横8cmの底面で、高さ3cmの直方体と高さ4cmの直方体を重ねた立体の体積は？（断面同じ）",
+    "choices": ["120cm³", "240cm³", "280cm³", "320cm³"],
+    "answer": "280cm³",
+    "acceptableAnswers": ["280"],
+    "explanation": "全体高さ=3+4=7cm。5×8×7=280cm³。"
+  },
+  {
+    "id": "lv29-q3",
+    "level": 29,
+    "category": "面積",
+    "type": "multiple_choice",
+    "question": "1辺10mの正方形の畑から、縦3m、横4mの長方形の通路をぬいた畑の面積は？",
+    "choices": ["88m²", "94m²", "96m²", "100m²"],
+    "answer": "88m²",
+    "acceptableAnswers": ["88"],
+    "explanation": "100−12=88m²。"
+  },
+  {
+    "id": "lv29-q4",
+    "level": 29,
+    "category": "周の長さ",
+    "type": "multiple_choice",
+    "question": "縦7cm、横9cmの長方形の周の長さは？",
+    "choices": ["16cm", "23cm", "32cm", "63cm"],
+    "answer": "32cm",
+    "acceptableAnswers": ["32"],
+    "explanation": "(7+9)×2=32cm。"
+  },
+  {
+    "id": "lv29-q5",
+    "level": 29,
+    "category": "面積の応用",
+    "type": "multiple_choice",
+    "question": "長方形と同じ周の長さの正方形をつくる。長方形が縦4cm、横10cmのとき、正方形の1辺は？",
+    "choices": ["5cm", "6cm", "7cm", "8cm"],
+    "answer": "7cm",
+    "acceptableAnswers": ["7"],
+    "explanation": "周=(4+10)×2=28cm。正方形の1辺=28÷4=7cm。"
+  },
+  {
+    "id": "lv29-q6",
+    "level": 29,
+    "category": "面積",
+    "type": "numeric",
+    "question": "底辺10cm、高さ8cmの平行四辺形と、底辺10cm・高さ8cmの三角形の面積の差は何cm²？",
+    "answer": "40",
+    "explanation": "平行四辺形=80cm²、三角形=40cm²。差=40cm²。"
+  }
+]

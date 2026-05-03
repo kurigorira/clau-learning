@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv13-q1",
+    "level": 13,
+    "category": "角柱の体積",
+    "type": "multiple_choice",
+    "question": "底面積が15cm²、高さが10cmの三角柱の体積は？",
+    "choices": ["50cm³", "75cm³", "100cm³", "150cm³"],
+    "answer": "150cm³",
+    "acceptableAnswers": ["150"],
+    "explanation": "角柱の体積=底面積×高さ=15×10=150cm³。"
+  },
+  {
+    "id": "lv13-q2",
+    "level": 13,
+    "category": "円柱の体積",
+    "type": "multiple_choice",
+    "question": "半径3cm、高さ10cmの円柱の体積は？（円周率3.14）",
+    "choices": ["94.2cm³", "188.4cm³", "282.6cm³", "31.4cm³"],
+    "answer": "282.6cm³",
+    "acceptableAnswers": ["282.6"],
+    "explanation": "底面積=3×3×3.14=28.26、体積=28.26×10=282.6cm³。"
+  },
+  {
+    "id": "lv13-q3",
+    "level": 13,
+    "category": "容積",
+    "type": "multiple_choice",
+    "question": "縦20cm、横30cm、高さ10cmの直方体の容器に水をいっぱいに入れると何L？",
+    "choices": ["6L", "60L", "0.6L", "600L"],
+    "answer": "6L",
+    "acceptableAnswers": ["6"],
+    "explanation": "20×30×10=6000cm³=6L。"
+  },
+  {
+    "id": "lv13-q4",
+    "level": 13,
+    "category": "立方体の表面積",
+    "type": "multiple_choice",
+    "question": "1辺5cmの立方体の表面積は？",
+    "choices": ["25cm²", "75cm²", "125cm²", "150cm²"],
+    "answer": "150cm²",
+    "acceptableAnswers": ["150"],
+    "explanation": "1面の面積=5×5=25cm²、6面で150cm²。"
+  },
+  {
+    "id": "lv13-q5",
+    "level": 13,
+    "category": "直方体の表面積",
+    "type": "numeric",
+    "question": "縦4cm、横6cm、高さ5cmの直方体の表面積（cm²）を答えなさい。",
+    "answer": "148",
+    "explanation": "(4×6+6×5+4×5)×2=(24+30+20)×2=74×2=148cm²。"
+  },
+  {
+    "id": "lv13-q6",
+    "level": 13,
+    "category": "角柱の体積",
+    "type": "multiple_choice",
+    "question": "長方形の底面（縦6cm×横8cm）、高さ12cmの四角柱の体積は？",
+    "choices": ["288cm³", "576cm³", "192cm³", "96cm³"],
+    "answer": "576cm³",
+    "acceptableAnswers": ["576"],
+    "explanation": "6×8×12=576cm³。"
+  }
+]

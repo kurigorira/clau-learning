@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv70-q1",
+    "level": 70,
+    "category": "中3総合（計算）",
+    "type": "multiple_choice",
+    "question": "(x+3)(x−5) − (x−2)² を計算すると？",
+    "choices": ["2x − 19", "−2x − 11", "3x − 11", "−x − 19"],
+    "answer": "2x − 19",
+    "acceptableAnswers": ["2x-19"],
+    "explanation": "(x²−2x−15) − (x²−4x+4) = 2x − 19。"
+  },
+  {
+    "id": "lv70-q2",
+    "level": 70,
+    "category": "中3総合（平方根）",
+    "type": "multiple_choice",
+    "question": "√3(√6+2) を計算すると？",
+    "choices": ["3√2 + 2√3", "√18 + 2√3", "3√2 + 2", "√18 + 6"],
+    "answer": "3√2 + 2√3",
+    "explanation": "√3×√6=√18=3√2、√3×2=2√3。"
+  },
+  {
+    "id": "lv70-q3",
+    "level": 70,
+    "category": "中3総合（二次方程式）",
+    "type": "multiple_choice",
+    "question": "x² − 6x + 4 = 0 を解くと？",
+    "choices": ["x = 3 ± √5", "x = −3 ± √5", "x = 3 ± 2√5", "x = 6 ± √5"],
+    "answer": "x = 3 ± √5",
+    "explanation": "x = (6±√(36−16))/2 = (6±√20)/2 = 3±√5。"
+  },
+  {
+    "id": "lv70-q4",
+    "level": 70,
+    "category": "中3総合（関数）",
+    "type": "multiple_choice",
+    "question": "y = ax² が点(2, 8)を通るとき、a と、x=−3 のときの y の値は？",
+    "choices": ["a=2, y=18", "a=4, y=36", "a=2, y=−18", "a=4, y=−36"],
+    "answer": "a=2, y=18",
+    "explanation": "8=4a → a=2。y=2×9=18。"
+  },
+  {
+    "id": "lv70-q5",
+    "level": 70,
+    "category": "中3総合（円）",
+    "type": "multiple_choice",
+    "question": "半径6cmの円で中心角120°のおうぎ形の面積は？（円周率π）",
+    "choices": ["6π cm²", "9π cm²", "12π cm²", "24π cm²"],
+    "answer": "12π cm²",
+    "explanation": "πr²×120/360 = π×36×1/3 = 12π cm²。"
+  },
+  {
+    "id": "lv70-q6",
+    "level": 70,
+    "category": "中3総合（三平方）",
+    "type": "multiple_choice",
+    "question": "1辺6cmの正三角形の面積は？",
+    "choices": ["9√3 cm²", "12√3 cm²", "18√3 cm²", "36 cm²"],
+    "answer": "9√3 cm²",
+    "explanation": "高さ=3√3。面積=6×3√3÷2=9√3 cm²。"
+  }
+]

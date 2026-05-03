@@ -1,0 +1,65 @@
+[
+  {
+    "id": "lv74-q1",
+    "level": 74,
+    "category": "入試（三平方の定理）",
+    "type": "multiple_choice",
+    "question": "直角三角形の2辺が 9cm と 12cm（直角を挟む）のとき、斜辺は？",
+    "choices": ["13cm", "14cm", "15cm", "21cm"],
+    "answer": "15cm",
+    "acceptableAnswers": ["15"],
+    "explanation": "9²+12²=81+144=225=15²。よって15cm。"
+  },
+  {
+    "id": "lv74-q2",
+    "level": 74,
+    "category": "入試（三平方）",
+    "type": "multiple_choice",
+    "question": "1辺6cmの正方形の対角線の長さは？",
+    "choices": ["6cm", "6√2 cm", "12cm", "6√3 cm"],
+    "answer": "6√2 cm",
+    "explanation": "対角線=√(6²+6²)=6√2 cm。"
+  },
+  {
+    "id": "lv74-q3",
+    "level": 74,
+    "category": "入試（三平方の応用）",
+    "type": "multiple_choice",
+    "question": "底面の半径3cm、高さ4cmの円すいの母線（側面の斜辺）の長さは？",
+    "choices": ["5cm", "6cm", "7cm", "12cm"],
+    "answer": "5cm",
+    "acceptableAnswers": ["5"],
+    "explanation": "母線=√(3²+4²)=√25=5cm。"
+  },
+  {
+    "id": "lv74-q4",
+    "level": 74,
+    "category": "入試（座標）",
+    "type": "multiple_choice",
+    "question": "2点A(−1, 2)、B(2, −2) の距離は？",
+    "choices": ["3", "4", "5", "7"],
+    "answer": "5",
+    "explanation": "√((2−(−1))²+(−2−2)²)=√(9+16)=√25=5。"
+  },
+  {
+    "id": "lv74-q5",
+    "level": 74,
+    "category": "入試（三平方）",
+    "type": "multiple_choice",
+    "question": "1辺4cmの正三角形の高さは？",
+    "choices": ["2cm", "2√3 cm", "4cm", "4√3 cm"],
+    "answer": "2√3 cm",
+    "explanation": "高さ=√(4²−2²)=√12=2√3 cm。"
+  },
+  {
+    "id": "lv74-q6",
+    "level": 74,
+    "category": "入試（直方体の対角線）",
+    "type": "multiple_choice",
+    "question": "縦2cm、横3cm、高さ6cmの直方体の対角線の長さは？",
+    "choices": ["7cm", "√41 cm", "√49 cm", "11cm"],
+    "answer": "7cm",
+    "acceptableAnswers": ["7"],
+    "explanation": "√(2²+3²+6²)=√49=7cm。"
+  }
+]

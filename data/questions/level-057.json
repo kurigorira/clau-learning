@@ -1,0 +1,72 @@
+[
+  {
+    "id": "lv57-q1",
+    "level": 57,
+    "category": "二次方程式（解の公式）",
+    "type": "multiple_choice",
+    "question": "解の公式で x² + 3x + 1 = 0 を解くと？",
+    "choices": [
+      "x = (−3 ± √5)/2",
+      "x = (3 ± √5)/2",
+      "x = (−3 ± √13)/2",
+      "x = (−3 ± √7)/2"
+    ],
+    "answer": "x = (−3 ± √5)/2",
+    "explanation": "x = (−b±√(b²−4ac))/(2a) = (−3±√(9−4))/2 = (−3±√5)/2。"
+  },
+  {
+    "id": "lv57-q2",
+    "level": 57,
+    "category": "二次方程式",
+    "type": "multiple_choice",
+    "question": "2x² − 5x + 2 = 0 を解くと？",
+    "choices": ["x = 1, 2", "x = 1/2, 2", "x = −1/2, 2", "x = 2, 5"],
+    "answer": "x = 1/2, 2",
+    "explanation": "(2x−1)(x−2)=0 → x=1/2, 2。"
+  },
+  {
+    "id": "lv57-q3",
+    "level": 57,
+    "category": "二次方程式の利用",
+    "type": "multiple_choice",
+    "question": "ある正の数を2乗したら、その数の3倍より10大きい。ある数は？",
+    "choices": ["2", "5", "−2", "10"],
+    "answer": "5",
+    "explanation": "x²=3x+10 → x²−3x−10=0 → (x−5)(x+2)=0。正なのでx=5。"
+  },
+  {
+    "id": "lv57-q4",
+    "level": 57,
+    "category": "二次方程式",
+    "type": "multiple_choice",
+    "question": "x² + 2x − 8 = 0 を解くと？",
+    "choices": ["x = 2, −4", "x = −2, 4", "x = 1, −8", "x = 4, −2"],
+    "answer": "x = 2, −4",
+    "explanation": "(x−2)(x+4)=0 → x=2, −4。"
+  },
+  {
+    "id": "lv57-q5",
+    "level": 57,
+    "category": "二次方程式",
+    "type": "multiple_choice",
+    "question": "x² + 4x + 1 = 0 を解の公式で解くと？",
+    "choices": [
+      "x = −2 ± √3",
+      "x = 2 ± √3",
+      "x = −2 ± √5",
+      "x = −4 ± 2√3"
+    ],
+    "answer": "x = −2 ± √3",
+    "explanation": "x=(−4±√(16−4))/2=(−4±2√3)/2=−2±√3。"
+  },
+  {
+    "id": "lv57-q6",
+    "level": 57,
+    "category": "二次方程式の利用（連続整数）",
+    "type": "multiple_choice",
+    "question": "連続する2つの自然数の積が42。小さい方の数は？",
+    "choices": ["5", "6", "7", "8"],
+    "answer": "6",
+    "explanation": "x(x+1)=42 → x²+x−42=0 → (x−6)(x+7)=0。自然数なので x=6。"
+  }
+]

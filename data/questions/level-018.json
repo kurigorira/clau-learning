@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv18-q1",
+    "level": 18,
+    "category": "文字を使った式",
+    "type": "multiple_choice",
+    "question": "1個 x 円のおかしを5個買って合計y円。yを表す式は？",
+    "choices": ["y=x+5", "y=x−5", "y=5x", "y=x/5"],
+    "answer": "y=5x",
+    "explanation": "個数×単価=代金。y=x×5=5x。"
+  },
+  {
+    "id": "lv18-q2",
+    "level": 18,
+    "category": "文字を使った式",
+    "type": "multiple_choice",
+    "question": "周の長さがLcmの正方形の1辺の長さは？",
+    "choices": ["L+4", "L−4", "4L", "L/4"],
+    "answer": "L/4",
+    "explanation": "正方形は4辺等しい。1辺=L÷4=L/4。"
+  },
+  {
+    "id": "lv18-q3",
+    "level": 18,
+    "category": "式の値",
+    "type": "numeric",
+    "question": "x=4 のとき、3x+5 の値はいくつ？",
+    "answer": "17",
+    "explanation": "3×4+5=12+5=17。"
+  },
+  {
+    "id": "lv18-q4",
+    "level": 18,
+    "category": "等式",
+    "type": "multiple_choice",
+    "question": "x+8=15 を解くと？",
+    "choices": ["x=5", "x=7", "x=8", "x=23"],
+    "answer": "x=7",
+    "acceptableAnswers": ["7"],
+    "explanation": "両辺から8を引く。x=15−8=7。"
+  },
+  {
+    "id": "lv18-q5",
+    "level": 18,
+    "category": "等式",
+    "type": "multiple_choice",
+    "question": "4x=24 を解くと？",
+    "choices": ["x=4", "x=6", "x=20", "x=96"],
+    "answer": "x=6",
+    "acceptableAnswers": ["6"],
+    "explanation": "両辺を4で割る。x=24÷4=6。"
+  },
+  {
+    "id": "lv18-q6",
+    "level": 18,
+    "category": "文字式",
+    "type": "multiple_choice",
+    "question": "縦acm、横bcmの長方形の面積を表す式は？",
+    "choices": ["a+b", "a−b", "ab", "2(a+b)"],
+    "answer": "ab",
+    "explanation": "面積=縦×横=a×b=ab。最後の2(a+b)は周の長さ。"
+  }
+]

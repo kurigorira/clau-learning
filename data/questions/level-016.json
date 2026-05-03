@@ -1,0 +1,67 @@
+[
+  {
+    "id": "lv16-q1",
+    "level": 16,
+    "category": "比例",
+    "type": "multiple_choice",
+    "question": "yがxに比例し、x=2のときy=10。x=5のときyは？",
+    "choices": ["15", "20", "25", "30"],
+    "answer": "25",
+    "explanation": "y=ax の形。10=2a → a=5。y=5x、x=5なら y=25。"
+  },
+  {
+    "id": "lv16-q2",
+    "level": 16,
+    "category": "比例の式",
+    "type": "multiple_choice",
+    "question": "比例 y=4x で、xが3倍になるとyはどうなる？",
+    "choices": ["1/3倍", "そのまま", "3倍", "9倍"],
+    "answer": "3倍",
+    "explanation": "比例関係ではxがa倍になればyもa倍になる。"
+  },
+  {
+    "id": "lv16-q3",
+    "level": 16,
+    "category": "反比例",
+    "type": "multiple_choice",
+    "question": "yがxに反比例し、x=4のときy=6。x=8のときyは？",
+    "choices": ["3", "6", "9", "12"],
+    "answer": "3",
+    "explanation": "xy=一定。4×6=24、x=8なら 24÷8=3。"
+  },
+  {
+    "id": "lv16-q4",
+    "level": 16,
+    "category": "比例反比例の判別",
+    "type": "multiple_choice",
+    "question": "次のうち比例の関係なのは？",
+    "choices": [
+      "面積一定の長方形の縦と横",
+      "1m200円のリボンの長さと代金",
+      "12kmの道のりを進む速さと時間",
+      "歳と身長"
+    ],
+    "answer": "1m200円のリボンの長さと代金",
+    "explanation": "代金=200×長さ なので比例。1番目と3番目は反比例、4番目は比例ではない。"
+  },
+  {
+    "id": "lv16-q5",
+    "level": 16,
+    "category": "場合の数",
+    "type": "numeric",
+    "question": "1, 2, 3, 4 の4枚のカードから2枚並べてできる2けたの整数は何通り？",
+    "answer": "12",
+    "explanation": "十の位4通り×一の位3通り=12通り。"
+  },
+  {
+    "id": "lv16-q6",
+    "level": 16,
+    "category": "場合の数",
+    "type": "multiple_choice",
+    "question": "A, B, C, D の4人から2人を選ぶ組み合わせは何通り？",
+    "choices": ["4通り", "6通り", "8通り", "12通り"],
+    "answer": "6通り",
+    "acceptableAnswers": ["6"],
+    "explanation": "AB, AC, AD, BC, BD, CD の6通り。並べ方ではなく組み合わせなので順序は無視。"
+  }
+]

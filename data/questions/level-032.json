@@ -1,0 +1,68 @@
+[
+  {
+    "id": "lv32-q1",
+    "level": 32,
+    "category": "正負の数（乗法）",
+    "type": "multiple_choice",
+    "question": "(−4) × (+3) = ?",
+    "choices": ["+12", "−12", "+7", "−7"],
+    "answer": "−12",
+    "acceptableAnswers": ["-12"],
+    "explanation": "符号が違う数のかけ算は負。4×3=12 で −12。"
+  },
+  {
+    "id": "lv32-q2",
+    "level": 32,
+    "category": "正負の数（乗法）",
+    "type": "multiple_choice",
+    "question": "(−5) × (−6) = ?",
+    "choices": ["+30", "−30", "+11", "−11"],
+    "answer": "+30",
+    "acceptableAnswers": ["30"],
+    "explanation": "負×負=正。5×6=30。"
+  },
+  {
+    "id": "lv32-q3",
+    "level": 32,
+    "category": "正負の数（除法）",
+    "type": "multiple_choice",
+    "question": "(−24) ÷ (+6) = ?",
+    "choices": ["+4", "−4", "+18", "−18"],
+    "answer": "−4",
+    "acceptableAnswers": ["-4"],
+    "explanation": "符号違いのわり算は負。24÷6=4 で −4。"
+  },
+  {
+    "id": "lv32-q4",
+    "level": 32,
+    "category": "正負の数（累乗）",
+    "type": "multiple_choice",
+    "question": "(−3)² = ?",
+    "choices": ["−9", "+9", "−6", "+6"],
+    "answer": "+9",
+    "acceptableAnswers": ["9"],
+    "explanation": "(−3)²=(−3)×(−3)=+9。"
+  },
+  {
+    "id": "lv32-q5",
+    "level": 32,
+    "category": "正負の数（累乗）",
+    "type": "multiple_choice",
+    "question": "−3² = ?",
+    "choices": ["−9", "+9", "−6", "+6"],
+    "answer": "−9",
+    "acceptableAnswers": ["-9"],
+    "explanation": "−3² = −(3²) = −9。かっこなしの符号は2乗の外。"
+  },
+  {
+    "id": "lv32-q6",
+    "level": 32,
+    "category": "正負の数（四則）",
+    "type": "multiple_choice",
+    "question": "−2 × 3 + (−4) = ?",
+    "choices": ["−10", "−2", "10", "2"],
+    "answer": "−10",
+    "acceptableAnswers": ["-10"],
+    "explanation": "かけ算先：−2×3=−6。次に −6+(−4)=−10。"
+  }
+]

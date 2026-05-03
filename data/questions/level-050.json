@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lv50-q1",
+    "level": 50,
+    "category": "中2総合（連立方程式）",
+    "type": "multiple_choice",
+    "question": "x + 3y = 11, 2x − y = 1 を解くと？",
+    "choices": ["x=2, y=3", "x=3, y=2", "x=4, y=1", "x=1, y=3"],
+    "answer": "x=2, y=3",
+    "explanation": "上式 x=11−3y を下式に代入：2(11−3y)−y=1 → 22−7y=1 → y=3、x=2。"
+  },
+  {
+    "id": "lv50-q2",
+    "level": 50,
+    "category": "中2総合（一次関数）",
+    "type": "multiple_choice",
+    "question": "2点(−1, 2)と(3, −6)を通る直線の式は？",
+    "choices": ["y=−2x", "y=2x", "y=−2x+1", "y=−2x−1"],
+    "answer": "y=−2x",
+    "explanation": "傾き=(−6−2)/(3−(−1))=−8/4=−2。切片：2=−2(−1)+b → b=0。"
+  },
+  {
+    "id": "lv50-q3",
+    "level": 50,
+    "category": "中2総合（図形）",
+    "type": "multiple_choice",
+    "question": "1つの内角が140°の正多角形は何角形？",
+    "choices": ["六角形", "八角形", "九角形", "十角形"],
+    "answer": "九角形",
+    "explanation": "外角=180−140=40°。外角の和360°÷40=9。"
+  },
+  {
+    "id": "lv50-q4",
+    "level": 50,
+    "category": "中2総合（確率）",
+    "type": "multiple_choice",
+    "question": "コインを3枚投げて、表が2枚出る確率は？",
+    "choices": ["1/8", "2/8", "3/8", "1/2"],
+    "answer": "3/8",
+    "explanation": "全8通り。表2枚は(表表裏)(表裏表)(裏表表)の3通り。3/8。"
+  },
+  {
+    "id": "lv50-q5",
+    "level": 50,
+    "category": "中2総合（資料）",
+    "type": "multiple_choice",
+    "question": "あるデータで第1四分位数20、中央値35、第3四分位数50。四分位範囲は？",
+    "choices": ["15", "30", "35", "50"],
+    "answer": "30",
+    "explanation": "Q3−Q1=50−20=30。"
+  },
+  {
+    "id": "lv50-q6",
+    "level": 50,
+    "category": "中2総合（一次関数の利用）",
+    "type": "multiple_choice",
+    "question": "ろうそくを点火して0分後の長さが20cm。1分間に2cm短くなるとき、x分後の長さyを表す式は？",
+    "choices": ["y=2x+20", "y=−2x+20", "y=20x−2", "y=20−x"],
+    "answer": "y=−2x+20",
+    "explanation": "1分で−2cm、初め20cm。y=−2x+20。"
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "lv11-q1",
+    "level": 11,
+    "category": "割合の応用",
+    "type": "multiple_choice",
+    "question": "定員30人のバスに42人乗っています。乗車率は？",
+    "choices": ["120%", "130%", "140%", "150%"],
+    "answer": "140%",
+    "acceptableAnswers": ["140"],
+    "explanation": "比べる量÷もとにする量=42÷30=1.4=140%。"
+  },
+  {
+    "id": "lv11-q2",
+    "level": 11,
+    "category": "割合の文章題",
+    "type": "multiple_choice",
+    "question": "原価500円の商品に2割の利益を見込んで定価をつけました。定価は？",
+    "choices": ["520円", "550円", "600円", "650円"],
+    "answer": "600円",
+    "acceptableAnswers": ["600"],
+    "explanation": "500×(1+0.2)=500×1.2=600円。"
+  },
+  {
+    "id": "lv11-q3",
+    "level": 11,
+    "category": "百分率",
+    "type": "numeric",
+    "question": "120人の40%は何人？",
+    "answer": "48",
+    "explanation": "120×0.4=48人。"
+  },
+  {
+    "id": "lv11-q4",
+    "level": 11,
+    "category": "割合（もとにする量）",
+    "type": "multiple_choice",
+    "question": "ある数の60%が90です。ある数は？",
+    "choices": ["54", "120", "150", "180"],
+    "answer": "150",
+    "explanation": "比べる量÷割合=90÷0.6=150。"
+  },
+  {
+    "id": "lv11-q5",
+    "level": 11,
+    "category": "百分率の比較",
+    "type": "multiple_choice",
+    "question": "Aクラスは40人中30人合格、Bクラスは50人中35人合格。合格率が高いのは？",
+    "choices": ["Aクラス", "Bクラス", "同じ", "比べられない"],
+    "answer": "Aクラス",
+    "explanation": "A:30÷40=75%、B:35÷50=70%。Aの方が高い。"
+  },
+  {
+    "id": "lv11-q6",
+    "level": 11,
+    "category": "割合のグラフ",
+    "type": "multiple_choice",
+    "question": "全校生徒300人のうち、運動部が45%。運動部は何人？",
+    "choices": ["120人", "135人", "150人", "165人"],
+    "answer": "135人",
+    "acceptableAnswers": ["135"],
+    "explanation": "300×0.45=135人。"
+  }
+]

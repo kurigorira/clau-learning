@@ -1,0 +1,69 @@
+[
+  {
+    "id": "lv36-q1",
+    "level": 36,
+    "category": "比例（中学）",
+    "type": "multiple_choice",
+    "question": "yがxに比例し、x=3のときy=−9。yをxの式で表すと？",
+    "choices": ["y=3x", "y=−3x", "y=9x", "y=x/3"],
+    "answer": "y=−3x",
+    "explanation": "y=ax、−9=3a → a=−3。よってy=−3x。"
+  },
+  {
+    "id": "lv36-q2",
+    "level": 36,
+    "category": "反比例（中学）",
+    "type": "multiple_choice",
+    "question": "yがxに反比例し、x=4のときy=3。yをxの式で表すと？",
+    "choices": ["y=12/x", "y=12x", "y=4/x", "y=3/x"],
+    "answer": "y=12/x",
+    "explanation": "y=a/x、3=a/4 → a=12。y=12/x。"
+  },
+  {
+    "id": "lv36-q3",
+    "level": 36,
+    "category": "比例のグラフ",
+    "type": "multiple_choice",
+    "question": "比例 y=2x のグラフは？",
+    "choices": [
+      "原点を通る右上がりの直線",
+      "原点を通る右下がりの直線",
+      "x軸に平行な直線",
+      "曲線（双曲線）"
+    ],
+    "answer": "原点を通る右上がりの直線",
+    "explanation": "比例y=axのグラフは原点を通る直線。a>0なら右上がり。"
+  },
+  {
+    "id": "lv36-q4",
+    "level": 36,
+    "category": "反比例のグラフ",
+    "type": "multiple_choice",
+    "question": "反比例 y=6/x のグラフ上にある点は？",
+    "choices": ["(2, 3)", "(2, 4)", "(3, 3)", "(6, 6)"],
+    "answer": "(2, 3)",
+    "explanation": "y=6/x、x=2 ならy=3。点(2, 3)を通る。"
+  },
+  {
+    "id": "lv36-q5",
+    "level": 36,
+    "category": "比例（中学）",
+    "type": "multiple_choice",
+    "question": "比例 y=−4x で、x=3 のときy は？",
+    "choices": ["12", "−12", "1", "−1"],
+    "answer": "−12",
+    "acceptableAnswers": ["-12"],
+    "explanation": "y=−4×3=−12。"
+  },
+  {
+    "id": "lv36-q6",
+    "level": 36,
+    "category": "比例反比例",
+    "type": "multiple_choice",
+    "question": "y=−5/x について、x=−10 のときyは？",
+    "choices": ["−2", "2", "−0.5", "0.5"],
+    "answer": "0.5",
+    "acceptableAnswers": ["1/2"],
+    "explanation": "y=−5÷(−10)=0.5=1/2。"
+  }
+]

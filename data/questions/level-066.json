@@ -1,0 +1,70 @@
+[
+  {
+    "id": "lv66-q1",
+    "level": 66,
+    "category": "円周角の応用",
+    "type": "multiple_choice",
+    "question": "円周上の3点A, B, Cがあり、∠AOB=120°（中心O）。∠ACB は？",
+    "choices": ["30°", "60°", "120°", "240°"],
+    "answer": "60°",
+    "explanation": "円周角は中心角の半分。120÷2=60°。"
+  },
+  {
+    "id": "lv66-q2",
+    "level": 66,
+    "category": "円周角",
+    "type": "multiple_choice",
+    "question": "円Oの周上に点A, B, C があり、ABが直径。∠ACB は？",
+    "choices": ["45°", "60°", "90°", "180°"],
+    "answer": "90°",
+    "explanation": "直径に対する円周角は90°（半円の弧の中心角=180°、円周角=その半分）。"
+  },
+  {
+    "id": "lv66-q3",
+    "level": 66,
+    "category": "接線と弦の角",
+    "type": "multiple_choice",
+    "question": "円外の1点から円に引いた2本の接線について、正しいのは？",
+    "choices": [
+      "接線の長さは等しい",
+      "接線は円の中心を通る",
+      "接線の長さの和は半径と等しい",
+      "互いに垂直"
+    ],
+    "answer": "接線の長さは等しい",
+    "explanation": "円外の点から円に引いた2本の接線の長さは等しい。"
+  },
+  {
+    "id": "lv66-q4",
+    "level": 66,
+    "category": "円に内接する四角形",
+    "type": "multiple_choice",
+    "question": "円に内接する四角形ABCDで、∠A=80°のとき∠Cは？",
+    "choices": ["80°", "90°", "100°", "180°"],
+    "answer": "100°",
+    "acceptableAnswers": ["100"],
+    "explanation": "対角の和は180°。180−80=100°。"
+  },
+  {
+    "id": "lv66-q5",
+    "level": 66,
+    "category": "円周角",
+    "type": "multiple_choice",
+    "question": "1つの弧に対する円周角が65°のとき、その弧に対する中心角は？",
+    "choices": ["32.5°", "65°", "130°", "180°"],
+    "answer": "130°",
+    "acceptableAnswers": ["130"],
+    "explanation": "中心角=円周角の2倍=130°。"
+  },
+  {
+    "id": "lv66-q6",
+    "level": 66,
+    "category": "円周角",
+    "type": "multiple_choice",
+    "question": "円周上の4点A, B, C, Dで弧BCに対する円周角∠BAC=40°、弧CDに対する円周角∠CBD=30°。弧BDに対する円周角は？",
+    "choices": ["10°", "70°", "100°", "140°"],
+    "answer": "70°",
+    "acceptableAnswers": ["70"],
+    "explanation": "∠BAD=∠BAC+∠CAD のように分解。弧BDの円周角=40+30=70°。"
+  }
+]

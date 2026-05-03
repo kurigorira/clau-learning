@@ -1,0 +1,68 @@
+[
+  {
+    "id": "lv20-q1",
+    "level": 20,
+    "category": "総合（小学校算数）",
+    "type": "multiple_choice",
+    "question": "60ページの本を1日に12ページずつ読むと、何日で読み終わる？",
+    "choices": ["3日", "4日", "5日", "6日"],
+    "answer": "5日",
+    "acceptableAnswers": ["5"],
+    "explanation": "60÷12=5日。"
+  },
+  {
+    "id": "lv20-q2",
+    "level": 20,
+    "category": "総合",
+    "type": "multiple_choice",
+    "question": "兄は1500円、弟は900円持っています。兄が弟にいくらあげると、2人とも同じ金額になる？",
+    "choices": ["100円", "200円", "300円", "600円"],
+    "answer": "300円",
+    "acceptableAnswers": ["300"],
+    "explanation": "合計2400円÷2=1200円ずつ。兄は1500−1200=300円渡す。"
+  },
+  {
+    "id": "lv20-q3",
+    "level": 20,
+    "category": "総合（割合・速さ）",
+    "type": "multiple_choice",
+    "question": "時速60kmで走る車が、20%減速すると新しい時速は？",
+    "choices": ["時速40km", "時速48km", "時速50km", "時速72km"],
+    "answer": "時速48km",
+    "acceptableAnswers": ["48", "48km", "時速48"],
+    "explanation": "60×(1−0.2)=60×0.8=48km/時。"
+  },
+  {
+    "id": "lv20-q4",
+    "level": 20,
+    "category": "総合（つるかめ算）",
+    "type": "multiple_choice",
+    "question": "つるとかめが合わせて10匹で、足の数の合計は28本。かめは何匹？",
+    "choices": ["2匹", "3匹", "4匹", "5匹"],
+    "answer": "4匹",
+    "acceptableAnswers": ["4"],
+    "explanation": "全部つる(2本)とすると 10×2=20本。実際28本との差8本÷(4−2)=4匹がかめ。"
+  },
+  {
+    "id": "lv20-q5",
+    "level": 20,
+    "category": "総合（分数）",
+    "type": "multiple_choice",
+    "question": "あるクラスは、男子が全体の3/5。男子が18人なら全体は何人？",
+    "choices": ["24人", "25人", "30人", "36人"],
+    "answer": "30人",
+    "acceptableAnswers": ["30"],
+    "explanation": "18÷(3/5)=18×5/3=30人。"
+  },
+  {
+    "id": "lv20-q6",
+    "level": 20,
+    "category": "総合（過不足算）",
+    "type": "multiple_choice",
+    "question": "あめを子どもに5個ずつ配ると4個余り、6個ずつ配ると2個足りない。子どもの人数は？",
+    "choices": ["4人", "5人", "6人", "7人"],
+    "answer": "6人",
+    "acceptableAnswers": ["6"],
+    "explanation": "1人につき1個増やすと差が4+2=6個生まれる。よって人数=6÷(6−5)=6人。"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lv52-q1",
+    "level": 52,
+    "category": "因数分解（共通因数）",
+    "type": "multiple_choice",
+    "question": "3x² + 6x を因数分解すると？",
+    "choices": ["3x(x + 2)", "3(x² + 2)", "x(3x + 6)", "3x(x + 6)"],
+    "answer": "3x(x + 2)",
+    "explanation": "共通因数 3x をくくり出す。"
+  },
+  {
+    "id": "lv52-q2",
+    "level": 52,
+    "category": "因数分解（x²+(a+b)x+ab）",
+    "type": "multiple_choice",
+    "question": "x² + 7x + 12 を因数分解すると？",
+    "choices": ["(x+1)(x+12)", "(x+2)(x+6)", "(x+3)(x+4)", "(x+4)(x+3)"],
+    "answer": "(x+3)(x+4)",
+    "explanation": "和7、積12 → 3と4。(x+3)(x+4)。最後の選択肢も同じ。"
+  },
+  {
+    "id": "lv52-q3",
+    "level": 52,
+    "category": "因数分解",
+    "type": "multiple_choice",
+    "question": "x² − 9x + 18 を因数分解すると？",
+    "choices": ["(x−3)(x−6)", "(x−2)(x−9)", "(x−3)(x+6)", "(x+3)(x+6)"],
+    "answer": "(x−3)(x−6)",
+    "explanation": "和−9、積18 → −3と−6。"
+  },
+  {
+    "id": "lv52-q4",
+    "level": 52,
+    "category": "因数分解（差の平方）",
+    "type": "multiple_choice",
+    "question": "x² − 25 を因数分解すると？",
+    "choices": ["(x+5)(x−5)", "(x+5)²", "(x−5)²", "x(x−25)"],
+    "answer": "(x+5)(x−5)",
+    "explanation": "a²−b²=(a+b)(a−b)。"
+  },
+  {
+    "id": "lv52-q5",
+    "level": 52,
+    "category": "因数分解（完全平方）",
+    "type": "multiple_choice",
+    "question": "x² + 6x + 9 を因数分解すると？",
+    "choices": ["(x+3)²", "(x+9)²", "(x+3)(x+6)", "(x+6)(x+9)"],
+    "answer": "(x+3)²",
+    "explanation": "a²+2ab+b²=(a+b)² 形。x²+2·3·x+3²=(x+3)²。"
+  },
+  {
+    "id": "lv52-q6",
+    "level": 52,
+    "category": "因数分解",
+    "type": "multiple_choice",
+    "question": "x² − 8x + 16 を因数分解すると？",
+    "choices": ["(x−4)²", "(x+4)²", "(x−4)(x+4)", "(x−2)²"],
+    "answer": "(x−4)²",
+    "explanation": "a²−2ab+b²=(a−b)²。x²−8x+16=(x−4)²。"
+  }
+]

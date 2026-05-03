@@ -1,0 +1,65 @@
+[
+  {
+    "id": "lv22-q1",
+    "level": 22,
+    "category": "縮図",
+    "type": "multiple_choice",
+    "question": "縮尺1/200の地図上で5cmの距離は、実際は何m？",
+    "choices": ["5m", "10m", "100m", "1000m"],
+    "answer": "10m",
+    "acceptableAnswers": ["10"],
+    "explanation": "5cm×200=1000cm=10m。"
+  },
+  {
+    "id": "lv22-q2",
+    "level": 22,
+    "category": "拡大図",
+    "type": "multiple_choice",
+    "question": "縦3cm、横4cmの長方形を3倍に拡大すると面積は何倍？",
+    "choices": ["3倍", "6倍", "9倍", "12倍"],
+    "answer": "9倍",
+    "acceptableAnswers": ["9"],
+    "explanation": "辺の長さが3倍なら面積は3×3=9倍。"
+  },
+  {
+    "id": "lv22-q3",
+    "level": 22,
+    "category": "拡大図",
+    "type": "multiple_choice",
+    "question": "辺の長さがすべて2倍に拡大された立方体は、もとの立方体の何倍の体積？",
+    "choices": ["2倍", "4倍", "6倍", "8倍"],
+    "answer": "8倍",
+    "acceptableAnswers": ["8"],
+    "explanation": "辺2倍なら体積は2×2×2=8倍。"
+  },
+  {
+    "id": "lv22-q4",
+    "level": 22,
+    "category": "縮図",
+    "type": "numeric",
+    "question": "縮尺1/50000の地図で、2cm離れた2地点の実際の距離は何km？",
+    "answer": "1",
+    "explanation": "2cm×50000=100000cm=1000m=1km。"
+  },
+  {
+    "id": "lv22-q5",
+    "level": 22,
+    "category": "対称",
+    "type": "multiple_choice",
+    "question": "正五角形の対称軸は何本？",
+    "choices": ["3本", "5本", "10本", "0本"],
+    "answer": "5本",
+    "acceptableAnswers": ["5"],
+    "explanation": "頂点と向かい合う辺の中点を結ぶ線が5本。"
+  },
+  {
+    "id": "lv22-q6",
+    "level": 22,
+    "category": "対称",
+    "type": "multiple_choice",
+    "question": "次のうち、線対称でも点対称でもある図形は？",
+    "choices": ["正三角形", "二等辺三角形", "正方形", "台形"],
+    "answer": "正方形",
+    "explanation": "正方形は4本の対称軸（線対称）と中心点での180°回転（点対称）の両方。"
+  }
+]

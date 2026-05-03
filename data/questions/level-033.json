@@ -1,0 +1,64 @@
+[
+  {
+    "id": "lv33-q1",
+    "level": 33,
+    "category": "文字式",
+    "type": "multiple_choice",
+    "question": "次のうち、a × b × 4 を文字式の表し方で正しく書いたものは？",
+    "choices": ["ab4", "4ab", "a+b+4", "4(ab)"],
+    "answer": "4ab",
+    "explanation": "文字式は数を前に、文字をアルファベット順に書く。"
+  },
+  {
+    "id": "lv33-q2",
+    "level": 33,
+    "category": "文字式",
+    "type": "multiple_choice",
+    "question": "a ÷ 5 を文字式の表し方で書くと？",
+    "choices": ["a/5", "5/a", "5a", "a−5"],
+    "answer": "a/5",
+    "explanation": "わり算は分数の形で。a/5 または a÷5の代わりに分数表記。"
+  },
+  {
+    "id": "lv33-q3",
+    "level": 33,
+    "category": "代入",
+    "type": "numeric",
+    "question": "x=−2 のとき、3x+7 の値はいくつ？",
+    "answer": "1",
+    "explanation": "3×(−2)+7=−6+7=1。"
+  },
+  {
+    "id": "lv33-q4",
+    "level": 33,
+    "category": "1次式の加減",
+    "type": "multiple_choice",
+    "question": "3x + 5 + 2x − 3 を簡単にすると？",
+    "choices": ["5x + 2", "5x + 8", "x + 2", "6x − 3"],
+    "answer": "5x + 2",
+    "acceptableAnswers": ["5x+2"],
+    "explanation": "同類項をまとめる。x項:3x+2x=5x、定数項:5−3=2。"
+  },
+  {
+    "id": "lv33-q5",
+    "level": 33,
+    "category": "分配法則",
+    "type": "multiple_choice",
+    "question": "3(2x − 5) を展開すると？",
+    "choices": ["6x − 5", "6x − 15", "5x − 5", "2x − 15"],
+    "answer": "6x − 15",
+    "acceptableAnswers": ["6x-15"],
+    "explanation": "分配法則。3×2x − 3×5 = 6x − 15。"
+  },
+  {
+    "id": "lv33-q6",
+    "level": 33,
+    "category": "1次式",
+    "type": "multiple_choice",
+    "question": "−2(3x − 4) を展開すると？",
+    "choices": ["−6x − 8", "−6x + 8", "6x + 8", "6x − 8"],
+    "answer": "−6x + 8",
+    "acceptableAnswers": ["-6x+8"],
+    "explanation": "−2×3x=−6x、−2×(−4)=+8。よって −6x+8。"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv91-q1",
+    "level": 91,
+    "category": "入試総合（計算）",
+    "type": "multiple_choice",
+    "question": "(2x − 3)(x + 4) − (x − 1)² を計算すると？",
+    "choices": ["x² + 7x − 13", "x² + 7x + 11", "x² + 7x − 11", "x² + 11x − 13"],
+    "answer": "x² + 7x − 13",
+    "acceptableAnswers": ["x^2+7x-13"],
+    "explanation": "(2x²+5x−12) − (x²−2x+1) = x² + 7x − 13。"
+  },
+  {
+    "id": "lv91-q2",
+    "level": 91,
+    "category": "入試総合（連立）",
+    "type": "multiple_choice",
+    "question": "0.3x − 0.4y = 0.4, x + y = 13 を解くと？",
+    "choices": ["x=8, y=5", "x=10, y=3", "x=7, y=6", "x=5, y=8"],
+    "answer": "x=8, y=5",
+    "explanation": "上式×10:3x−4y=4。下式×4:4x+4y=52。和:7x=56 → x=8、y=5。"
+  },
+  {
+    "id": "lv91-q3",
+    "level": 91,
+    "category": "入試総合（二次方程式）",
+    "type": "multiple_choice",
+    "question": "2x² − 5x − 3 = 0 を解くと？",
+    "choices": ["x=3, −1/2", "x=−3, 1/2", "x=3, 1/2", "x=−3, −1/2"],
+    "answer": "x=3, −1/2",
+    "explanation": "(2x+1)(x−3)=0 → x=3 または x=−1/2。"
+  },
+  {
+    "id": "lv91-q4",
+    "level": 91,
+    "category": "入試総合（関数）",
+    "type": "multiple_choice",
+    "question": "y=ax² 上に点(2, 6) がある。x=−4 のときyは？",
+    "choices": ["12", "18", "24", "32"],
+    "answer": "24",
+    "explanation": "6=4a → a=3/2。y=(3/2)×16=24。"
+  },
+  {
+    "id": "lv91-q5",
+    "level": 91,
+    "category": "入試総合（図形）",
+    "type": "multiple_choice",
+    "question": "1辺8cmの立方体の対角線の長さは？",
+    "choices": ["8√2 cm", "8√3 cm", "16 cm", "24 cm"],
+    "answer": "8√3 cm",
+    "explanation": "√(8²×3)=8√3 cm。"
+  },
+  {
+    "id": "lv91-q6",
+    "level": 91,
+    "category": "入試総合（確率）",
+    "type": "multiple_choice",
+    "question": "袋に赤玉3個、白玉2個。1つ取り出して色を見て戻し、もう1つ取り出す。両方とも赤の確率は？",
+    "choices": ["6/25", "9/25", "9/20", "1/2"],
+    "answer": "9/25",
+    "explanation": "(3/5)×(3/5)=9/25。"
+  }
+]

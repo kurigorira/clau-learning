@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv37-q1",
+    "level": 37,
+    "category": "平面図形（角）",
+    "type": "multiple_choice",
+    "question": "平行な2直線に1本の直線が交わるとき、同位角の関係は？",
+    "choices": ["等しい", "和が180°", "差が180°", "関係ない"],
+    "answer": "等しい",
+    "explanation": "平行線の同位角は等しい。錯角も等しい。"
+  },
+  {
+    "id": "lv37-q2",
+    "level": 37,
+    "category": "平面図形（角）",
+    "type": "multiple_choice",
+    "question": "右図のような直線で、∠a=70°のとき、対頂角∠bの大きさは？",
+    "choices": ["70°", "90°", "110°", "180°"],
+    "answer": "70°",
+    "acceptableAnswers": ["70"],
+    "explanation": "対頂角は等しい。"
+  },
+  {
+    "id": "lv37-q3",
+    "level": 37,
+    "category": "おうぎ形（中学）",
+    "type": "multiple_choice",
+    "question": "半径6cm、中心角120°のおうぎ形の弧の長さは？（円周率π）",
+    "choices": ["2π cm", "4π cm", "6π cm", "12π cm"],
+    "answer": "4π cm",
+    "explanation": "弧=2πr×中心角/360 = 2π×6×120/360 = 4π cm。"
+  },
+  {
+    "id": "lv37-q4",
+    "level": 37,
+    "category": "おうぎ形",
+    "type": "multiple_choice",
+    "question": "半径4cm、中心角90°のおうぎ形の面積は？（円周率π）",
+    "choices": ["2π cm²", "4π cm²", "8π cm²", "16π cm²"],
+    "answer": "4π cm²",
+    "explanation": "面積=πr²×中心角/360 = π×16×90/360 = 4π cm²。"
+  },
+  {
+    "id": "lv37-q5",
+    "level": 37,
+    "category": "空間図形",
+    "type": "multiple_choice",
+    "question": "立方体の頂点・辺・面の数の組み合わせとして正しいのは？",
+    "choices": ["6, 12, 8", "8, 12, 6", "8, 6, 12", "12, 8, 6"],
+    "answer": "8, 12, 6",
+    "explanation": "立方体は頂点8個、辺12本、面6面。"
+  },
+  {
+    "id": "lv37-q6",
+    "level": 37,
+    "category": "空間図形（投影図）",
+    "type": "multiple_choice",
+    "question": "底面が三角形で、すべての側面が三角形の立体の名前は？",
+    "choices": ["三角柱", "三角すい（四面体）", "三角錘台", "三角形"],
+    "answer": "三角すい（四面体）",
+    "explanation": "底面と側面がすべて三角形なのは三角すい（正四面体含む）。"
+  }
+]

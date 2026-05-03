@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv34-q1",
+    "level": 34,
+    "category": "1次方程式",
+    "type": "multiple_choice",
+    "question": "x + 7 = 12 を解くと？",
+    "choices": ["x=4", "x=5", "x=7", "x=19"],
+    "answer": "x=5",
+    "acceptableAnswers": ["5"],
+    "explanation": "x=12−7=5。"
+  },
+  {
+    "id": "lv34-q2",
+    "level": 34,
+    "category": "1次方程式",
+    "type": "multiple_choice",
+    "question": "3x = 21 を解くと？",
+    "choices": ["x=3", "x=7", "x=18", "x=63"],
+    "answer": "x=7",
+    "acceptableAnswers": ["7"],
+    "explanation": "両辺を3で割る。x=7。"
+  },
+  {
+    "id": "lv34-q3",
+    "level": 34,
+    "category": "1次方程式",
+    "type": "multiple_choice",
+    "question": "2x + 5 = 17 を解くと？",
+    "choices": ["x=4", "x=5", "x=6", "x=11"],
+    "answer": "x=6",
+    "acceptableAnswers": ["6"],
+    "explanation": "2x=17−5=12、x=6。"
+  },
+  {
+    "id": "lv34-q4",
+    "level": 34,
+    "category": "1次方程式",
+    "type": "multiple_choice",
+    "question": "5x − 3 = 2x + 12 を解くと？",
+    "choices": ["x=3", "x=4", "x=5", "x=6"],
+    "answer": "x=5",
+    "acceptableAnswers": ["5"],
+    "explanation": "5x−2x=12+3 → 3x=15 → x=5。"
+  },
+  {
+    "id": "lv34-q5",
+    "level": 34,
+    "category": "1次方程式",
+    "type": "numeric",
+    "question": "4(x − 2) = x + 4 を解くとxはいくつ？",
+    "answer": "4",
+    "explanation": "4x−8=x+4 → 3x=12 → x=4。"
+  },
+  {
+    "id": "lv34-q6",
+    "level": 34,
+    "category": "1次方程式（分数）",
+    "type": "multiple_choice",
+    "question": "x/2 + 1 = 4 を解くと？",
+    "choices": ["x=4", "x=5", "x=6", "x=8"],
+    "answer": "x=6",
+    "acceptableAnswers": ["6"],
+    "explanation": "x/2=3 → x=6。"
+  }
+]

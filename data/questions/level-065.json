@@ -1,0 +1,65 @@
+[
+  {
+    "id": "lv65-q1",
+    "level": 65,
+    "category": "相似（中点連結）",
+    "type": "multiple_choice",
+    "question": "△ABCで、辺AB、ACの中点をそれぞれM、Nとする。BC=14cmのとき、MNは？",
+    "choices": ["3.5cm", "7cm", "14cm", "28cm"],
+    "answer": "7cm",
+    "acceptableAnswers": ["7"],
+    "explanation": "中点連結定理 MN=BC/2=7cm。"
+  },
+  {
+    "id": "lv65-q2",
+    "level": 65,
+    "category": "相似な図形（面積）",
+    "type": "multiple_choice",
+    "question": "相似比 2:5 の三角形の面積比は？",
+    "choices": ["2:5", "4:25", "8:125", "1:5"],
+    "answer": "4:25",
+    "explanation": "面積比は相似比の2乗。"
+  },
+  {
+    "id": "lv65-q3",
+    "level": 65,
+    "category": "相似",
+    "type": "multiple_choice",
+    "question": "△ABC ∽ △DEF で、面積比 9:25。相似比は？",
+    "choices": ["3:5", "9:25", "81:625", "9:5"],
+    "answer": "3:5",
+    "explanation": "面積比9:25=3²:5² → 相似比は3:5。"
+  },
+  {
+    "id": "lv65-q4",
+    "level": 65,
+    "category": "平行線と比",
+    "type": "multiple_choice",
+    "question": "△ABCで、辺AB上の点Dを通り辺BCに平行な直線が辺ACと点Eで交わる。AD:DB=2:3、AC=10cm のとき、AE は？",
+    "choices": ["2cm", "3cm", "4cm", "6cm"],
+    "answer": "4cm",
+    "acceptableAnswers": ["4"],
+    "explanation": "DE//BCなのでAD:AB=AE:AC。2:5=AE:10 → AE=4cm。"
+  },
+  {
+    "id": "lv65-q5",
+    "level": 65,
+    "category": "相似（高さの比）",
+    "type": "multiple_choice",
+    "question": "高さ1.5mの棒が90cmの影をつくっている。同時刻に18mの影をつくる木の高さは？",
+    "choices": ["10m", "20m", "27m", "30m"],
+    "answer": "30m",
+    "acceptableAnswers": ["30"],
+    "explanation": "高さ:影=1.5:0.9=x:18 → x=1.5×18/0.9=30m。"
+  },
+  {
+    "id": "lv65-q6",
+    "level": 65,
+    "category": "相似",
+    "type": "multiple_choice",
+    "question": "相似な2つの円柱の半径の比が 2:3 のとき、体積比は？",
+    "choices": ["2:3", "4:9", "6:27", "8:27"],
+    "answer": "8:27",
+    "explanation": "体積比=相似比の3乗=2³:3³=8:27。"
+  }
+]

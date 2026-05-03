@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv79-q1",
+    "level": 79,
+    "category": "入試（図形・面積）",
+    "type": "multiple_choice",
+    "question": "底辺12cm、高さ8cmの三角形と等しい面積の長方形（縦4cm）の横の長さは？",
+    "choices": ["10cm", "12cm", "15cm", "16cm"],
+    "answer": "12cm",
+    "acceptableAnswers": ["12"],
+    "explanation": "三角形面積=12×8÷2=48。横=48÷4=12cm。"
+  },
+  {
+    "id": "lv79-q2",
+    "level": 79,
+    "category": "入試（円柱）",
+    "type": "multiple_choice",
+    "question": "底面の半径5cm、高さ12cmの円柱の体積は？（円周率π）",
+    "choices": ["60π cm³", "150π cm³", "300π cm³", "60 cm³"],
+    "answer": "300π cm³",
+    "explanation": "πr²h=π×25×12=300π cm³。"
+  },
+  {
+    "id": "lv79-q3",
+    "level": 79,
+    "category": "入試（球）",
+    "type": "multiple_choice",
+    "question": "半径6cmの球の体積は？（円周率π）",
+    "choices": ["72π cm³", "144π cm³", "216π cm³", "288π cm³"],
+    "answer": "288π cm³",
+    "explanation": "(4/3)πr³=(4/3)π×216=288π cm³。"
+  },
+  {
+    "id": "lv79-q4",
+    "level": 79,
+    "category": "入試（円すい）",
+    "type": "multiple_choice",
+    "question": "底面半径3cm、高さ4cmの円すいの体積は？（円周率π）",
+    "choices": ["4π cm³", "12π cm³", "24π cm³", "36π cm³"],
+    "answer": "12π cm³",
+    "explanation": "(1/3)πr²h=(1/3)π×9×4=12π cm³。"
+  },
+  {
+    "id": "lv79-q5",
+    "level": 79,
+    "category": "入試（おうぎ形と弧）",
+    "type": "multiple_choice",
+    "question": "半径8cm、弧の長さ6π cmのおうぎ形の中心角は？",
+    "choices": ["90°", "120°", "135°", "150°"],
+    "answer": "135°",
+    "explanation": "中心角=弧/円周×360=6π/(16π)×360=135°。"
+  },
+  {
+    "id": "lv79-q6",
+    "level": 79,
+    "category": "入試（複合図形）",
+    "type": "multiple_choice",
+    "question": "1辺6cmの正方形に内接する円の面積は？（円周率π）",
+    "choices": ["3π cm²", "6π cm²", "9π cm²", "36π cm²"],
+    "answer": "9π cm²",
+    "explanation": "内接円の半径=3cm。π×9=9π cm²。"
+  }
+]

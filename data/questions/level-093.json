@@ -1,0 +1,64 @@
+[
+  {
+    "id": "lv93-q1",
+    "level": 93,
+    "category": "入試総合（融合）",
+    "type": "multiple_choice",
+    "question": "y=x² 上の点A(2, 4) を通り、傾き−1 の直線の式は？",
+    "choices": ["y=−x+6", "y=−x+4", "y=−x+2", "y=x+2"],
+    "answer": "y=−x+6",
+    "explanation": "y=−x+b に(2,4)：4=−2+b → b=6。"
+  },
+  {
+    "id": "lv93-q2",
+    "level": 93,
+    "category": "入試総合（場合の数）",
+    "type": "multiple_choice",
+    "question": "5人の中から委員長1人と副委員長1人を選ぶ方法は何通り？",
+    "choices": ["10通り", "15通り", "20通り", "25通り"],
+    "answer": "20通り",
+    "acceptableAnswers": ["20"],
+    "explanation": "5×4=20通り。順番（役職）が違うので並び方。"
+  },
+  {
+    "id": "lv93-q3",
+    "level": 93,
+    "category": "入試総合（確率）",
+    "type": "multiple_choice",
+    "question": "1〜6の数字が書かれたカード6枚から1枚引いて元に戻し、もう1枚引く。2枚の数字の和が偶数になる確率は？",
+    "choices": ["1/4", "1/3", "1/2", "2/3"],
+    "answer": "1/2",
+    "explanation": "和が偶数=偶+偶 or 奇+奇。(3/6)²+(3/6)²=18/36=1/2。"
+  },
+  {
+    "id": "lv93-q4",
+    "level": 93,
+    "category": "入試総合（平方根）",
+    "type": "multiple_choice",
+    "question": "√3+√2 と √5 の大小は？",
+    "choices": ["√3+√2 < √5", "等しい", "√3+√2 > √5", "比べられない"],
+    "answer": "√3+√2 > √5",
+    "explanation": "(√3+√2)²=3+2+2√6=5+2√6 > 5=(√5)²。"
+  },
+  {
+    "id": "lv93-q5",
+    "level": 93,
+    "category": "入試総合（規則性）",
+    "type": "multiple_choice",
+    "question": "数列 1, 4, 9, 16, ... の20番目の数は？",
+    "choices": ["100", "200", "300", "400"],
+    "answer": "400",
+    "explanation": "n番目=n²。20²=400。"
+  },
+  {
+    "id": "lv93-q6",
+    "level": 93,
+    "category": "入試総合（割合）",
+    "type": "multiple_choice",
+    "question": "8%の食塩水500gから水を蒸発させて10%の食塩水にした。残った食塩水の量は？",
+    "choices": ["350g", "400g", "450g", "480g"],
+    "answer": "400g",
+    "acceptableAnswers": ["400"],
+    "explanation": "食塩量=500×0.08=40g（一定）。40÷0.10=400g。"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv85-q1",
+    "level": 85,
+    "category": "入試（三平方の応用）",
+    "type": "multiple_choice",
+    "question": "底面が1辺6cmの正方形、高さ8cmの直方体の対角線の長さは？",
+    "choices": ["10cm", "√136 cm", "11cm", "12cm"],
+    "answer": "√136 cm",
+    "explanation": "√(6²+6²+8²)=√136 cm（=2√34 cm）。"
+  },
+  {
+    "id": "lv85-q2",
+    "level": 85,
+    "category": "入試（座標と三平方）",
+    "type": "multiple_choice",
+    "question": "原点Oと点A(3, 4) の距離は？",
+    "choices": ["3", "4", "5", "7"],
+    "answer": "5",
+    "explanation": "√(3²+4²)=5。"
+  },
+  {
+    "id": "lv85-q3",
+    "level": 85,
+    "category": "入試（円と三平方）",
+    "type": "multiple_choice",
+    "question": "半径6cmの円Oで、中心からの距離が4cmの弦の長さは？",
+    "choices": ["√52 cm", "2√5 cm", "4√5 cm", "10 cm"],
+    "answer": "4√5 cm",
+    "explanation": "弦の半分=√(6²−4²)=√20=2√5。弦全体=4√5 cm。"
+  },
+  {
+    "id": "lv85-q4",
+    "level": 85,
+    "category": "入試（直角三角形）",
+    "type": "multiple_choice",
+    "question": "直角を挟む2辺が xcm と 7cm、斜辺が 25cm のとき、xの値は？",
+    "choices": ["18", "20", "22", "24"],
+    "answer": "24",
+    "explanation": "x²+49=625 → x²=576 → x=24。"
+  },
+  {
+    "id": "lv85-q5",
+    "level": 85,
+    "category": "入試（三平方・特別な角）",
+    "type": "multiple_choice",
+    "question": "30°-60°-90°の直角三角形で、最も長い辺（斜辺）が10cmのとき、最も短い辺は？",
+    "choices": ["3cm", "4cm", "5cm", "5√3 cm"],
+    "answer": "5cm",
+    "acceptableAnswers": ["5"],
+    "explanation": "比1:√3:2。斜辺10なら最短は10×1/2=5cm。"
+  },
+  {
+    "id": "lv85-q6",
+    "level": 85,
+    "category": "入試（円すい・展開）",
+    "type": "multiple_choice",
+    "question": "底面の半径2cm、母線6cmの円すいの側面のおうぎ形の中心角は？",
+    "choices": ["60°", "90°", "120°", "180°"],
+    "answer": "120°",
+    "explanation": "中心角=底面の円周/母線の円周×360=4π/12π×360=120°。"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "lv59-q1",
+    "level": 59,
+    "category": "相似",
+    "type": "multiple_choice",
+    "question": "相似な2つの三角形の相似比が 2:3 のとき、面積比は？",
+    "choices": ["2:3", "4:6", "4:9", "8:27"],
+    "answer": "4:9",
+    "explanation": "面積比は相似比の2乗。2²:3² = 4:9。"
+  },
+  {
+    "id": "lv59-q2",
+    "level": 59,
+    "category": "相似（体積比）",
+    "type": "multiple_choice",
+    "question": "相似な2つの立体の相似比が 1:2 のとき、体積比は？",
+    "choices": ["1:2", "1:4", "1:6", "1:8"],
+    "answer": "1:8",
+    "explanation": "体積比は相似比の3乗。1³:2³=1:8。"
+  },
+  {
+    "id": "lv59-q3",
+    "level": 59,
+    "category": "相似な三角形",
+    "type": "multiple_choice",
+    "question": "△ABCと△DEFが相似で、AB=4cm、DE=6cm。相似比は？",
+    "choices": ["2:3", "3:2", "4:6", "1:1.5"],
+    "answer": "2:3",
+    "explanation": "AB:DE=4:6=2:3。"
+  },
+  {
+    "id": "lv59-q4",
+    "level": 59,
+    "category": "相似比から長さ",
+    "type": "multiple_choice",
+    "question": "△ABC ∽ △DEF で、相似比 3:5。AB=9cm のとき DE は？",
+    "choices": ["12cm", "15cm", "18cm", "21cm"],
+    "answer": "15cm",
+    "acceptableAnswers": ["15"],
+    "explanation": "9×5/3=15cm。"
+  },
+  {
+    "id": "lv59-q5",
+    "level": 59,
+    "category": "中点連結定理",
+    "type": "multiple_choice",
+    "question": "△ABCで、辺AB、ACの中点をそれぞれM、Nとするとき、MNとBCの長さの関係は？",
+    "choices": [
+      "MN = BC",
+      "MN = BC × 2",
+      "MN = BC × 1/2",
+      "MN = BC × 1/3"
+    ],
+    "answer": "MN = BC × 1/2",
+    "explanation": "中点連結定理：MN は BC に平行で長さは半分。"
+  },
+  {
+    "id": "lv59-q6",
+    "level": 59,
+    "category": "相似",
+    "type": "multiple_choice",
+    "question": "高さの比が3:5の相似な円錐の体積比は？",
+    "choices": ["3:5", "9:25", "27:125", "1:5"],
+    "answer": "27:125",
+    "explanation": "体積比=相似比の3乗。3³:5³=27:125。"
+  }
+]

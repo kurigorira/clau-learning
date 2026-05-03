@@ -1,0 +1,70 @@
+[
+  {
+    "id": "lv86-q1",
+    "level": 86,
+    "category": "入試（相似と面積）",
+    "type": "multiple_choice",
+    "question": "△ABC ∽ △DEF で、相似比 2:3。△ABCの面積が16cm² のとき、△DEFの面積は？",
+    "choices": ["24cm²", "27cm²", "36cm²", "54cm²"],
+    "answer": "36cm²",
+    "acceptableAnswers": ["36"],
+    "explanation": "面積比=2²:3²=4:9。16:S=4:9 → S=36cm²。"
+  },
+  {
+    "id": "lv86-q2",
+    "level": 86,
+    "category": "入試（相似）",
+    "type": "multiple_choice",
+    "question": "AD//BCの台形ABCDで、AD=6cm、BC=10cm、台形の高さ8cm。対角線の交点をPとする。AからPまでの高さは？",
+    "choices": ["3cm", "4cm", "5cm", "6cm"],
+    "answer": "3cm",
+    "acceptableAnswers": ["3"],
+    "explanation": "△APD∽△CPB（相似比6:10=3:5）。高さも3:5、合計8。AからPまでの高さ=8×3/8=3cm。"
+  },
+  {
+    "id": "lv86-q3",
+    "level": 86,
+    "category": "入試（角度）",
+    "type": "multiple_choice",
+    "question": "三角形の3つの角の比が 2:3:4 のとき、最大の角は？",
+    "choices": ["60°", "70°", "80°", "90°"],
+    "answer": "80°",
+    "explanation": "和180°を2+3+4=9で割って20°×4=80°。"
+  },
+  {
+    "id": "lv86-q4",
+    "level": 86,
+    "category": "入試（平行四辺形）",
+    "type": "multiple_choice",
+    "question": "平行四辺形ABCDで対角線の交点をOとする。OA=5cm、OB=7cm。BD=？",
+    "choices": ["10cm", "12cm", "14cm", "24cm"],
+    "answer": "14cm",
+    "acceptableAnswers": ["14"],
+    "explanation": "対角線は中点で交わる。BD=2×OB=14cm。"
+  },
+  {
+    "id": "lv86-q5",
+    "level": 86,
+    "category": "入試（角度）",
+    "type": "multiple_choice",
+    "question": "ある三角形の外角が110°、もう一方の隣り合わない内角が60°。残りの内角は？",
+    "choices": ["40°", "50°", "60°", "70°"],
+    "answer": "50°",
+    "explanation": "外角=隣り合わない2内角の和。110−60=50°。"
+  },
+  {
+    "id": "lv86-q6",
+    "level": 86,
+    "category": "入試（合同条件）",
+    "type": "multiple_choice",
+    "question": "次のうち、直角三角形の合同条件として正しいものは？",
+    "choices": [
+      "斜辺と1つの鋭角が等しい",
+      "斜辺と1つの内角が等しい",
+      "2つの鋭角が等しい",
+      "2辺が等しい"
+    ],
+    "answer": "斜辺と1つの鋭角が等しい",
+    "explanation": "直角三角形の合同条件：斜辺と1鋭角、または斜辺と他の1辺。"
+  }
+]

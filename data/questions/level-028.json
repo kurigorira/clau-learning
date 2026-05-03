@@ -1,0 +1,61 @@
+[
+  {
+    "id": "lv28-q1",
+    "level": 28,
+    "category": "数の大小（小数・分数・整数）",
+    "type": "multiple_choice",
+    "question": "次のうち、最も大きい数はどれ？",
+    "choices": ["0.7", "3/4", "0.65", "5/8"],
+    "answer": "3/4",
+    "explanation": "3/4=0.75。0.75>0.7>0.65>0.625。"
+  },
+  {
+    "id": "lv28-q2",
+    "level": 28,
+    "category": "分数→小数",
+    "type": "multiple_choice",
+    "question": "3/8 を小数で表すと？",
+    "choices": ["0.25", "0.3", "0.375", "0.5"],
+    "answer": "0.375",
+    "explanation": "3÷8=0.375。"
+  },
+  {
+    "id": "lv28-q3",
+    "level": 28,
+    "category": "小数→分数",
+    "type": "multiple_choice",
+    "question": "0.4 を分数で表すと（約分後）？",
+    "choices": ["1/4", "2/5", "4/10", "1/2"],
+    "answer": "2/5",
+    "explanation": "0.4=4/10=2/5。"
+  },
+  {
+    "id": "lv28-q4",
+    "level": 28,
+    "category": "数のしくみ",
+    "type": "multiple_choice",
+    "question": "0.001 は 1 の何分の一？",
+    "choices": ["1/10", "1/100", "1/1000", "1/10000"],
+    "answer": "1/1000",
+    "explanation": "0.001=千分の1。"
+  },
+  {
+    "id": "lv28-q5",
+    "level": 28,
+    "category": "概数",
+    "type": "multiple_choice",
+    "question": "2854 を四捨五入して上から1けたの概数にすると？",
+    "choices": ["2000", "2800", "3000", "2900"],
+    "answer": "3000",
+    "explanation": "上から2けた目（百の位8）を四捨五入。2854→3000。"
+  },
+  {
+    "id": "lv28-q6",
+    "level": 28,
+    "category": "数の応用",
+    "type": "numeric",
+    "question": "ある数を10倍してから100で割ると0.85になります。ある数は？",
+    "answer": "8.5",
+    "explanation": "ある数 x。x×10÷100=x/10=0.85 → x=8.5。"
+  }
+]

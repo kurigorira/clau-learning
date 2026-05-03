@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv77-q1",
+    "level": 77,
+    "category": "入試（資料の活用）",
+    "type": "multiple_choice",
+    "question": "9個のデータの中央値は？",
+    "choices": ["1番目", "5番目", "4番目と5番目の平均", "9番目"],
+    "answer": "5番目",
+    "explanation": "奇数個のとき中央値は (n+1)/2 番目の値。"
+  },
+  {
+    "id": "lv77-q2",
+    "level": 77,
+    "category": "入試（標本調査）",
+    "type": "multiple_choice",
+    "question": "ある池で40匹の魚に印をつけて放した。後日90匹捕まえたら印がついた魚が6匹いた。池の魚の総数の推定は？",
+    "choices": ["240匹", "400匹", "600匹", "900匹"],
+    "answer": "600匹",
+    "acceptableAnswers": ["600"],
+    "explanation": "比例：40:N=6:90 → N=40×90/6=600匹。"
+  },
+  {
+    "id": "lv77-q3",
+    "level": 77,
+    "category": "入試（資料の活用）",
+    "type": "multiple_choice",
+    "question": "10人のテスト結果の平均が72点で、上位5人の平均が80点だった。下位5人の平均は？",
+    "choices": ["60点", "62点", "64点", "68点"],
+    "answer": "64点",
+    "acceptableAnswers": ["64"],
+    "explanation": "全体合計=720。上位合計=400。下位=320、平均=64。"
+  },
+  {
+    "id": "lv77-q4",
+    "level": 77,
+    "category": "入試（四分位数）",
+    "type": "multiple_choice",
+    "question": "データ 12, 15, 18, 20, 22, 25, 28, 30 の第3四分位数は？",
+    "choices": ["20", "25", "26.5", "28"],
+    "answer": "26.5",
+    "explanation": "上位半分 22, 25, 28, 30 の中央値=(25+28)/2=26.5。"
+  },
+  {
+    "id": "lv77-q5",
+    "level": 77,
+    "category": "入試（資料の活用）",
+    "type": "multiple_choice",
+    "question": "ある度数分布表で、最頻値を含む階級は度数最大。階級値が25で、度数が15、合計度数60のとき、相対度数は？",
+    "choices": ["0.20", "0.25", "0.30", "0.40"],
+    "answer": "0.25",
+    "explanation": "15÷60=0.25。"
+  },
+  {
+    "id": "lv77-q6",
+    "level": 77,
+    "category": "入試（資料）",
+    "type": "numeric",
+    "question": "5人の身長 158, 162, 165, 168, 172 (cm) の平均（cm）は？",
+    "answer": "165",
+    "explanation": "(158+162+165+168+172)÷5=825÷5=165cm。"
+  }
+]

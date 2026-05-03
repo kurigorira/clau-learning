@@ -1,0 +1,68 @@
+[
+  {
+    "id": "lv69-q1",
+    "level": 69,
+    "category": "相似と面積",
+    "type": "multiple_choice",
+    "question": "△ABCで、辺ABを2:3に分ける点Pを通り、BCに平行な直線が辺ACと点Qで交わる。△APQと△ABCの面積比は？",
+    "choices": ["2:5", "4:25", "2:3", "4:9"],
+    "answer": "4:25",
+    "explanation": "AP:AB=2:5。相似比2:5、面積比は2乗で4:25。"
+  },
+  {
+    "id": "lv69-q2",
+    "level": 69,
+    "category": "相似と長さ",
+    "type": "multiple_choice",
+    "question": "AD//BCの台形ABCDで、AD=4cm、BC=10cm。対角線の交点をPとするとき、AP:PCは？",
+    "choices": ["2:3", "2:5", "4:10", "1:2"],
+    "answer": "2:5",
+    "explanation": "△APD ∽ △CPB（AA相似）、AD:CB=4:10=2:5、対応辺なのでAP:PC=2:5。"
+  },
+  {
+    "id": "lv69-q3",
+    "level": 69,
+    "category": "相似条件",
+    "type": "multiple_choice",
+    "question": "三角形の相似条件として正しくないものは？",
+    "choices": [
+      "3組の辺の比がすべて等しい",
+      "2組の角がそれぞれ等しい",
+      "2組の辺の比とその間の角が等しい",
+      "1組の辺の比とその両端の角が等しい"
+    ],
+    "answer": "1組の辺の比とその両端の角が等しい",
+    "explanation": "三角形の相似条件は3つ。1辺の比だけでは判定不可。"
+  },
+  {
+    "id": "lv69-q4",
+    "level": 69,
+    "category": "相似",
+    "type": "multiple_choice",
+    "question": "ある木の影の長さが12m、同じ時刻に1mの棒の影が0.4m。木の高さは？",
+    "choices": ["20m", "24m", "30m", "48m"],
+    "answer": "30m",
+    "acceptableAnswers": ["30"],
+    "explanation": "1:0.4=x:12 → x=30m。"
+  },
+  {
+    "id": "lv69-q5",
+    "level": 69,
+    "category": "中点連結定理",
+    "type": "multiple_choice",
+    "question": "△ABCの3辺の中点を結んでできる三角形の周の長さは、もとの三角形の周の長さの何倍？",
+    "choices": ["1/4倍", "1/2倍", "等しい", "2倍"],
+    "answer": "1/2倍",
+    "explanation": "各辺の中点を結ぶと各辺は対応する辺の半分。周も1/2。"
+  },
+  {
+    "id": "lv69-q6",
+    "level": 69,
+    "category": "相似な立体",
+    "type": "multiple_choice",
+    "question": "相似比 1:3 の2つの円錐がある。表面積の比は？",
+    "choices": ["1:3", "1:6", "1:9", "1:27"],
+    "answer": "1:9",
+    "explanation": "面積比は相似比の2乗。1²:3²=1:9。"
+  }
+]

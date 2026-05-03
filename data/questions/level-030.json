@@ -1,0 +1,68 @@
+[
+  {
+    "id": "lv30-q1",
+    "level": 30,
+    "category": "小学校総合（割合・速さ）",
+    "type": "multiple_choice",
+    "question": "30%引きで2100円の品物の定価はいくら？",
+    "choices": ["2400円", "2700円", "3000円", "3500円"],
+    "answer": "3000円",
+    "acceptableAnswers": ["3000"],
+    "explanation": "30%引き=70%の値段。2100÷0.7=3000円。"
+  },
+  {
+    "id": "lv30-q2",
+    "level": 30,
+    "category": "小学校総合（差集め算）",
+    "type": "multiple_choice",
+    "question": "鉛筆を1本80円で何本か買う予定だったが、実際は1本60円で買えたので予定より400円安く買えた。何本買った？",
+    "choices": ["10本", "15本", "20本", "25本"],
+    "answer": "20本",
+    "acceptableAnswers": ["20"],
+    "explanation": "1本あたり20円安く、合計400円安いので 400÷20=20本。"
+  },
+  {
+    "id": "lv30-q3",
+    "level": 30,
+    "category": "小学校総合（仕事算）",
+    "type": "multiple_choice",
+    "question": "Aは1人で12日、Bは1人で6日かかる仕事。2人で同時にすると何日で終わる？",
+    "choices": ["2日", "3日", "4日", "9日"],
+    "answer": "4日",
+    "acceptableAnswers": ["4"],
+    "explanation": "1日にAは1/12、Bは1/6できる。合計1/12+1/6=3/12=1/4。1÷1/4=4日。"
+  },
+  {
+    "id": "lv30-q4",
+    "level": 30,
+    "category": "小学校総合（食塩水）",
+    "type": "multiple_choice",
+    "question": "5%の食塩水200gに含まれる食塩は何g？",
+    "choices": ["5g", "10g", "20g", "40g"],
+    "answer": "10g",
+    "acceptableAnswers": ["10"],
+    "explanation": "200×0.05=10g。"
+  },
+  {
+    "id": "lv30-q5",
+    "level": 30,
+    "category": "小学校総合（年令算）",
+    "type": "multiple_choice",
+    "question": "今、父は40歳、子は10歳。父が子の3倍の年令になるのは何年後？",
+    "choices": ["3年後", "5年後", "10年後", "15年後"],
+    "answer": "5年後",
+    "acceptableAnswers": ["5"],
+    "explanation": "x年後、40+x=3(10+x) → 40+x=30+3x → 10=2x → x=5。"
+  },
+  {
+    "id": "lv30-q6",
+    "level": 30,
+    "category": "小学校総合（流水算）",
+    "type": "multiple_choice",
+    "question": "静水時の速さが時速12kmの船が、流速2kmの川を上るときの速さは？",
+    "choices": ["時速10km", "時速12km", "時速14km", "時速24km"],
+    "answer": "時速10km",
+    "acceptableAnswers": ["10", "10km", "時速10"],
+    "explanation": "上り=静水時の速さ−流速=12−2=10km/時。"
+  }
+]

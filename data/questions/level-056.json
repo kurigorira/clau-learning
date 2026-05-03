@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lv56-q1",
+    "level": 56,
+    "category": "二次方程式（平方根）",
+    "type": "multiple_choice",
+    "question": "x² = 25 を解くと？",
+    "choices": ["x = 5", "x = ±5", "x = 25", "x = ±25"],
+    "answer": "x = ±5",
+    "explanation": "x²=25 → x=±√25=±5。両方の符号が解。"
+  },
+  {
+    "id": "lv56-q2",
+    "level": 56,
+    "category": "二次方程式",
+    "type": "multiple_choice",
+    "question": "(x − 3)² = 16 を解くと？",
+    "choices": ["x = 3, 7", "x = −1, 7", "x = 7, −7", "x = 1, 7"],
+    "answer": "x = −1, 7",
+    "explanation": "x−3=±4 → x=3+4=7 または x=3−4=−1。"
+  },
+  {
+    "id": "lv56-q3",
+    "level": 56,
+    "category": "二次方程式（因数分解）",
+    "type": "multiple_choice",
+    "question": "x² − 5x + 6 = 0 を解くと？",
+    "choices": ["x = 1, 6", "x = 2, 3", "x = −2, −3", "x = 5, 6"],
+    "answer": "x = 2, 3",
+    "explanation": "(x−2)(x−3)=0 → x=2 または x=3。"
+  },
+  {
+    "id": "lv56-q4",
+    "level": 56,
+    "category": "二次方程式",
+    "type": "multiple_choice",
+    "question": "x² − 7x + 12 = 0 を解くと？",
+    "choices": ["x = 1, 12", "x = 3, 4", "x = −3, −4", "x = 2, 6"],
+    "answer": "x = 3, 4",
+    "explanation": "(x−3)(x−4)=0 → x=3, 4。"
+  },
+  {
+    "id": "lv56-q5",
+    "level": 56,
+    "category": "二次方程式（共通因数）",
+    "type": "multiple_choice",
+    "question": "x² − 4x = 0 を解くと？",
+    "choices": ["x = 0, 4", "x = 0, −4", "x = 4", "x = −4"],
+    "answer": "x = 0, 4",
+    "explanation": "x(x−4)=0 → x=0 または x=4。"
+  },
+  {
+    "id": "lv56-q6",
+    "level": 56,
+    "category": "二次方程式",
+    "type": "multiple_choice",
+    "question": "x² = 6x を解くと？",
+    "choices": ["x = 6", "x = 0, 6", "x = 0, −6", "x = ±6"],
+    "answer": "x = 0, 6",
+    "explanation": "x²−6x=0 → x(x−6)=0 → x=0, 6。"
+  }
+]

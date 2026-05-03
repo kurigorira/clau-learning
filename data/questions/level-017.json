@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv17-q1",
+    "level": 17,
+    "category": "速さの応用",
+    "type": "multiple_choice",
+    "question": "家から学校まで900mを15分で歩くと、分速は？",
+    "choices": ["分速30m", "分速45m", "分速60m", "分速90m"],
+    "answer": "分速60m",
+    "acceptableAnswers": ["60", "60m", "分速60"],
+    "explanation": "900÷15=60。分速60m。"
+  },
+  {
+    "id": "lv17-q2",
+    "level": 17,
+    "category": "速さの単位換算",
+    "type": "multiple_choice",
+    "question": "時速72kmは秒速何m？",
+    "choices": ["秒速10m", "秒速20m", "秒速36m", "秒速72m"],
+    "answer": "秒速20m",
+    "acceptableAnswers": ["20", "20m", "秒速20"],
+    "explanation": "72km=72000m、1時間=3600秒。72000÷3600=20m/秒。"
+  },
+  {
+    "id": "lv17-q3",
+    "level": 17,
+    "category": "速さの文章題",
+    "type": "multiple_choice",
+    "question": "時速60kmで2時間半進むと何km？",
+    "choices": ["120km", "130km", "150km", "180km"],
+    "answer": "150km",
+    "acceptableAnswers": ["150"],
+    "explanation": "60×2.5=150km。"
+  },
+  {
+    "id": "lv17-q4",
+    "level": 17,
+    "category": "速さの文章題（出会い）",
+    "type": "multiple_choice",
+    "question": "1200m離れたAB間で、Aから分速80m、Bから分速70mで同時に向かい合って進むと何分後に出会う？",
+    "choices": ["6分後", "8分後", "10分後", "12分後"],
+    "answer": "8分後",
+    "acceptableAnswers": ["8"],
+    "explanation": "1分間に近づく距離=80+70=150m。1200÷150=8分後。"
+  },
+  {
+    "id": "lv17-q5",
+    "level": 17,
+    "category": "速さの文章題（追いつき）",
+    "type": "multiple_choice",
+    "question": "兄が分速80m、弟が分速60mで同じ方向に進んでいて、弟が400m先にいる。兄が弟に追いつくのは何分後？",
+    "choices": ["10分後", "15分後", "20分後", "25分後"],
+    "answer": "20分後",
+    "acceptableAnswers": ["20"],
+    "explanation": "1分間に縮まる距離=80−60=20m。400÷20=20分後。"
+  },
+  {
+    "id": "lv17-q6",
+    "level": 17,
+    "category": "速さの単位",
+    "type": "numeric",
+    "question": "秒速15mで1分間に進む道のりは何m？",
+    "answer": "900",
+    "explanation": "15m/秒×60秒=900m。"
+  }
+]

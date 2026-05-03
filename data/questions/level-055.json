@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lv55-q1",
+    "level": 55,
+    "category": "平方根の計算（乗除）",
+    "type": "multiple_choice",
+    "question": "√3 × √7 = ?",
+    "choices": ["√10", "√21", "21", "10"],
+    "answer": "√21",
+    "explanation": "√a × √b = √(ab)。√3×√7=√21。"
+  },
+  {
+    "id": "lv55-q2",
+    "level": 55,
+    "category": "平方根の計算",
+    "type": "multiple_choice",
+    "question": "√18 ÷ √2 = ?",
+    "choices": ["3", "√16", "9", "√9"],
+    "answer": "3",
+    "explanation": "√18/√2 = √9 = 3。"
+  },
+  {
+    "id": "lv55-q3",
+    "level": 55,
+    "category": "平方根の加減",
+    "type": "multiple_choice",
+    "question": "2√3 + 5√3 = ?",
+    "choices": ["7√3", "10√3", "7√6", "√21"],
+    "answer": "7√3",
+    "explanation": "同じ√3でまとめる。2+5=7、係数の和。"
+  },
+  {
+    "id": "lv55-q4",
+    "level": 55,
+    "category": "平方根の加減",
+    "type": "multiple_choice",
+    "question": "√12 + √27 を簡単にすると？",
+    "choices": ["√39", "5√3", "2√3 + 3√3", "12√3"],
+    "answer": "5√3",
+    "explanation": "√12=2√3、√27=3√3。和は5√3。"
+  },
+  {
+    "id": "lv55-q5",
+    "level": 55,
+    "category": "分母の有理化",
+    "type": "multiple_choice",
+    "question": "1/√2 を有理化すると？",
+    "choices": ["√2", "√2/2", "1/2", "2/√2"],
+    "answer": "√2/2",
+    "explanation": "分母分子に√2をかける：√2/(√2×√2)=√2/2。"
+  },
+  {
+    "id": "lv55-q6",
+    "level": 55,
+    "category": "平方根の計算",
+    "type": "multiple_choice",
+    "question": "√48 − √27 + √12 を簡単にすると？",
+    "choices": ["3√3", "√33", "5√3", "√3"],
+    "answer": "3√3",
+    "explanation": "√48=4√3、√27=3√3、√12=2√3。4√3−3√3+2√3=3√3。"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lv87-q1",
+    "level": 87,
+    "category": "入試（複合計算）",
+    "type": "multiple_choice",
+    "question": "(√2+1)² + (√2−1)² を計算すると？",
+    "choices": ["4", "6", "2√2", "10"],
+    "answer": "6",
+    "explanation": "(a+b)²+(a−b)²=2(a²+b²)=2(2+1)=6。"
+  },
+  {
+    "id": "lv87-q2",
+    "level": 87,
+    "category": "入試（因数分解応用）",
+    "type": "multiple_choice",
+    "question": "x² − y² + 4y − 4 を因数分解すると？",
+    "choices": ["(x+y−2)(x−y+2)", "(x−y−2)(x+y−2)", "(x+y+2)(x−y−2)", "(x−2)(x+2)"],
+    "answer": "(x+y−2)(x−y+2)",
+    "explanation": "x²−(y²−4y+4)=x²−(y−2)² =(x+(y−2))(x−(y−2))=(x+y−2)(x−y+2)。"
+  },
+  {
+    "id": "lv87-q3",
+    "level": 87,
+    "category": "入試（二次方程式の利用）",
+    "type": "multiple_choice",
+    "question": "縦横の和が15cmで面積が54cm²の長方形。縦と横は？",
+    "choices": ["3cm と 12cm", "5cm と 10cm", "6cm と 9cm", "7cm と 8cm"],
+    "answer": "6cm と 9cm",
+    "explanation": "縦x、横15−x。x(15−x)=54 → x²−15x+54=0 → (x−6)(x−9)=0。"
+  },
+  {
+    "id": "lv87-q4",
+    "level": 87,
+    "category": "入試（平方根の応用）",
+    "type": "multiple_choice",
+    "question": "x=√3+1, y=√3−1 のとき、x²+y² は？",
+    "choices": ["4", "6", "8", "10"],
+    "answer": "8",
+    "explanation": "x²+y²=(x+y)²−2xy。x+y=2√3、xy=3−1=2。x²+y²=12−4=8。"
+  },
+  {
+    "id": "lv87-q5",
+    "level": 87,
+    "category": "入試（連立方程式）",
+    "type": "multiple_choice",
+    "question": "0.2x + 0.3y = 1.4, 3x + 2y = 11 を解くと？",
+    "choices": ["x=1, y=4", "x=2, y=4/2", "x=3, y=1", "x=4, y=−1/2"],
+    "answer": "x=1, y=4",
+    "explanation": "上式×10: 2x+3y=14。下式 3x+2y=11。連立解：x=1, y=4。"
+  },
+  {
+    "id": "lv87-q6",
+    "level": 87,
+    "category": "入試（応用）",
+    "type": "multiple_choice",
+    "question": "100以下の自然数のうち、3の倍数でも5の倍数でもないものは何個？",
+    "choices": ["33", "47", "53", "67"],
+    "answer": "53",
+    "explanation": "全100−（3の倍数33+5の倍数20−15の倍数6）=100−47=53。"
+  }
+]

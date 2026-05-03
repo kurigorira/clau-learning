@@ -1,0 +1,64 @@
+[
+  {
+    "id": "lv96-q1",
+    "level": 96,
+    "category": "入試総合（関数の利用）",
+    "type": "multiple_choice",
+    "question": "y=x² と y=x+6 で囲まれた図形の頂点となる交点の座標は？",
+    "choices": ["(−2, 4) と (3, 9)", "(−3, 9) と (2, 4)", "(2, 4) と (3, 9)", "(−2, 4) と (3, 6)"],
+    "answer": "(−2, 4) と (3, 9)",
+    "explanation": "x²=x+6 → x²−x−6=0 → (x−3)(x+2)=0 → x=3, −2。y=9, 4。"
+  },
+  {
+    "id": "lv96-q2",
+    "level": 96,
+    "category": "入試総合（円すい）",
+    "type": "multiple_choice",
+    "question": "底面の半径6cm、高さ8cmの円すいの母線は？",
+    "choices": ["10 cm", "12 cm", "14 cm", "√100 cm"],
+    "answer": "10 cm",
+    "acceptableAnswers": ["10", "10cm"],
+    "explanation": "母線=√(6²+8²)=√100=10cm。"
+  },
+  {
+    "id": "lv96-q3",
+    "level": 96,
+    "category": "入試総合（球と円柱）",
+    "type": "multiple_choice",
+    "question": "半径3cmの球を、底面の半径3cm・高さ6cmの円柱にちょうど内接させたとき、球の体積と円柱の体積の比は？",
+    "choices": ["1:2", "2:3", "1:3", "3:4"],
+    "answer": "2:3",
+    "explanation": "球=(4/3)π×27=36π。円柱=π×9×6=54π。36:54=2:3。"
+  },
+  {
+    "id": "lv96-q4",
+    "level": 96,
+    "category": "入試総合（規則性）",
+    "type": "multiple_choice",
+    "question": "連続する5つの整数の和が105。最も小さい整数は？",
+    "choices": ["18", "19", "20", "21"],
+    "answer": "19",
+    "explanation": "中央n、5n=105 → n=21、最小=21−2=19。"
+  },
+  {
+    "id": "lv96-q5",
+    "level": 96,
+    "category": "入試総合（場合の数）",
+    "type": "multiple_choice",
+    "question": "1, 2, 3, 4, 5 の5枚のカードから3枚並べてできる3桁の整数は何通り？",
+    "choices": ["10通り", "20通り", "60通り", "125通り"],
+    "answer": "60通り",
+    "acceptableAnswers": ["60"],
+    "explanation": "5×4×3=60通り。"
+  },
+  {
+    "id": "lv96-q6",
+    "level": 96,
+    "category": "入試総合（図形）",
+    "type": "multiple_choice",
+    "question": "正三角形の3辺の中点を結ぶ三角形の面積は、もとの三角形の何倍？",
+    "choices": ["1/2", "1/3", "1/4", "1/6"],
+    "answer": "1/4",
+    "explanation": "中点を結ぶ三角形は相似比1:2、面積比1:4。よって1/4倍。"
+  }
+]

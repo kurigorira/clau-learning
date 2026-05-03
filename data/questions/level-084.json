@@ -1,0 +1,63 @@
+[
+  {
+    "id": "lv84-q1",
+    "level": 84,
+    "category": "入試（関数の応用）",
+    "type": "multiple_choice",
+    "question": "y=ax² 上に点A(2, 2) がある。同じグラフ上の点Bのx座標が−4のとき、Bのy座標は？",
+    "choices": ["8", "−8", "16", "4"],
+    "answer": "8",
+    "explanation": "2=4a → a=1/2。y=(1/2)×16=8。"
+  },
+  {
+    "id": "lv84-q2",
+    "level": 84,
+    "category": "入試（関数）",
+    "type": "multiple_choice",
+    "question": "y=−x²+4 のグラフがx軸と交わる点のx座標は？",
+    "choices": ["±1", "±2", "±4", "±8"],
+    "answer": "±2",
+    "explanation": "−x²+4=0 → x²=4 → x=±2。"
+  },
+  {
+    "id": "lv84-q3",
+    "level": 84,
+    "category": "入試（一次関数の利用）",
+    "type": "multiple_choice",
+    "question": "8時に家を出て、毎分80mで歩いて学校に向かう。x分後の家からの距離yは y=80x。8時25分のy座標は？",
+    "choices": ["1600m", "1800m", "2000m", "2400m"],
+    "answer": "2000m",
+    "acceptableAnswers": ["2000"],
+    "explanation": "y=80×25=2000m。"
+  },
+  {
+    "id": "lv84-q4",
+    "level": 84,
+    "category": "入試（関数）",
+    "type": "multiple_choice",
+    "question": "y=2x² と y=8 の交点のx座標は？",
+    "choices": ["±1", "±2", "±4", "±8"],
+    "answer": "±2",
+    "explanation": "2x²=8 → x²=4 → x=±2。"
+  },
+  {
+    "id": "lv84-q5",
+    "level": 84,
+    "category": "入試（変化の割合）",
+    "type": "multiple_choice",
+    "question": "y=−(1/2)x² で xが−2から4まで変化する変化の割合は？",
+    "choices": ["−1", "1", "−3", "3"],
+    "answer": "−1",
+    "explanation": "yの増加=−(1/2)×16−(−(1/2)×4)=−8+2=−6。xの増加=6。−6/6=−1。"
+  },
+  {
+    "id": "lv84-q6",
+    "level": 84,
+    "category": "入試（関数の利用・面積）",
+    "type": "multiple_choice",
+    "question": "y=x² 上の点A(−1, 1)、B(3, 9)、原点O。三角形OABの面積は？",
+    "choices": ["3", "4", "5", "6"],
+    "answer": "6",
+    "explanation": "AB上の直線 y=2x+3。x=0で y=3。底辺OC（C=(0,3)）×（|x_A|+|x_B|）÷2=3×4÷2=6。"
+  }
+]

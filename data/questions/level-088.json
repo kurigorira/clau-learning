@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lv88-q1",
+    "level": 88,
+    "category": "入試（関数と図形）",
+    "type": "multiple_choice",
+    "question": "y=(1/2)x² 上の点A(2, 2) と原点O。直線OAの式は？",
+    "choices": ["y=x", "y=2x", "y=(1/2)x", "y=−x"],
+    "answer": "y=x",
+    "explanation": "原点と(2,2)を通る → 傾き1。y=x。"
+  },
+  {
+    "id": "lv88-q2",
+    "level": 88,
+    "category": "入試（関数の利用）",
+    "type": "multiple_choice",
+    "question": "1辺xcmの立方体の表面積をS cm²とする。Sをxの式で表すと？",
+    "choices": ["S=x³", "S=6x²", "S=x²", "S=4x²"],
+    "answer": "S=6x²",
+    "explanation": "1面x²、6面で6x²。"
+  },
+  {
+    "id": "lv88-q3",
+    "level": 88,
+    "category": "入試（関数）",
+    "type": "multiple_choice",
+    "question": "y=2x² 上に点P(a, 8) がある。aの値は？",
+    "choices": ["2", "−2", "±2", "4"],
+    "answer": "±2",
+    "explanation": "8=2a² → a²=4 → a=±2。"
+  },
+  {
+    "id": "lv88-q4",
+    "level": 88,
+    "category": "入試（関数）",
+    "type": "multiple_choice",
+    "question": "y=ax² が点(−3, 18) を通る。a の値は？",
+    "choices": ["1", "2", "3", "6"],
+    "answer": "2",
+    "explanation": "18=9a → a=2。"
+  },
+  {
+    "id": "lv88-q5",
+    "level": 88,
+    "category": "入試（変化の割合）",
+    "type": "multiple_choice",
+    "question": "y=x² で、xが−4から2まで変化するときの変化の割合は？",
+    "choices": ["−2", "−1", "1", "2"],
+    "answer": "−2",
+    "explanation": "yの増加=4−16=−12。xの増加=6。−12/6=−2。"
+  },
+  {
+    "id": "lv88-q6",
+    "level": 88,
+    "category": "入試（関数）",
+    "type": "multiple_choice",
+    "question": "原点Oと、y=x²上の点A(2,4)、B(−1,1)からなる三角形OABの面積は？",
+    "choices": ["2", "3", "4", "6"],
+    "answer": "3",
+    "explanation": "直線AB: 傾き=(4−1)/(2−(−1))=1。y=x+2。x=0でy=2。底辺2、高さ|x_A|+|x_B|=3。面積=2×3÷2=3。"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv24-q1",
+    "level": 24,
+    "category": "場合の数（並べ方）",
+    "type": "numeric",
+    "question": "A, B, C の3人を1列に並べる並べ方は何通り？",
+    "answer": "6",
+    "explanation": "3×2×1=6通り。"
+  },
+  {
+    "id": "lv24-q2",
+    "level": 24,
+    "category": "場合の数（並べ方）",
+    "type": "multiple_choice",
+    "question": "1, 2, 3, 4 のカードから3枚並べてできる3けたの整数は何通り？",
+    "choices": ["12通り", "16通り", "24通り", "64通り"],
+    "answer": "24通り",
+    "acceptableAnswers": ["24"],
+    "explanation": "4×3×2=24通り。"
+  },
+  {
+    "id": "lv24-q3",
+    "level": 24,
+    "category": "場合の数（組み合わせ）",
+    "type": "multiple_choice",
+    "question": "5人から2人を選ぶ組み合わせは何通り？",
+    "choices": ["5通り", "10通り", "20通り", "25通り"],
+    "answer": "10通り",
+    "acceptableAnswers": ["10"],
+    "explanation": "5×4÷2=10通り。並べ方ではなく組み合わせなので÷2。"
+  },
+  {
+    "id": "lv24-q4",
+    "level": 24,
+    "category": "場合の数",
+    "type": "multiple_choice",
+    "question": "コインを2枚同時に投げるとき、表と裏の出方は何通り？",
+    "choices": ["2通り", "3通り", "4通り", "6通り"],
+    "answer": "4通り",
+    "acceptableAnswers": ["4"],
+    "explanation": "2×2=4通り。(表表)(表裏)(裏表)(裏裏)。"
+  },
+  {
+    "id": "lv24-q5",
+    "level": 24,
+    "category": "場合の数",
+    "type": "multiple_choice",
+    "question": "サイコロを2個ふるとき、出る目の合計が7になる場合は何通り？",
+    "choices": ["3通り", "4通り", "5通り", "6通り"],
+    "answer": "6通り",
+    "acceptableAnswers": ["6"],
+    "explanation": "(1,6)(2,5)(3,4)(4,3)(5,2)(6,1)の6通り。"
+  },
+  {
+    "id": "lv24-q6",
+    "level": 24,
+    "category": "場合の数",
+    "type": "multiple_choice",
+    "question": "赤・青・緑・黄の4色のえんぴつから2色を選ぶ組み合わせは何通り？",
+    "choices": ["4通り", "6通り", "8通り", "12通り"],
+    "answer": "6通り",
+    "acceptableAnswers": ["6"],
+    "explanation": "4×3÷2=6通り。"
+  }
+]

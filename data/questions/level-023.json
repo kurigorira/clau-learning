@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lv23-q1",
+    "level": 23,
+    "category": "円柱の体積",
+    "type": "multiple_choice",
+    "question": "底面の半径2cm、高さ5cmの円柱の体積は？（円周率3.14）",
+    "choices": ["31.4cm³", "62.8cm³", "20cm³", "10cm³"],
+    "answer": "62.8cm³",
+    "acceptableAnswers": ["62.8"],
+    "explanation": "底面積=2×2×3.14=12.56、体積=12.56×5=62.8cm³。"
+  },
+  {
+    "id": "lv23-q2",
+    "level": 23,
+    "category": "円柱の表面積",
+    "type": "multiple_choice",
+    "question": "半径3cm、高さ10cmの円柱の側面積は？（円周率3.14）",
+    "choices": ["94.2cm²", "188.4cm²", "30cm²", "60cm²"],
+    "answer": "188.4cm²",
+    "acceptableAnswers": ["188.4"],
+    "explanation": "側面の横の長さ=円周=2×3×3.14=18.84cm。側面積=18.84×10=188.4cm²。"
+  },
+  {
+    "id": "lv23-q3",
+    "level": 23,
+    "category": "円の応用",
+    "type": "multiple_choice",
+    "question": "半径6cmの円の半分（半円）の面積は？（円周率3.14）",
+    "choices": ["18.84cm²", "37.68cm²", "56.52cm²", "113.04cm²"],
+    "answer": "56.52cm²",
+    "acceptableAnswers": ["56.52"],
+    "explanation": "円全体=6×6×3.14=113.04。半分は113.04÷2=56.52cm²。"
+  },
+  {
+    "id": "lv23-q4",
+    "level": 23,
+    "category": "円の応用",
+    "type": "multiple_choice",
+    "question": "半径4cmの円から半径2cmの円をくりぬいた残り（ドーナツ型）の面積は？（円周率3.14）",
+    "choices": ["12.56cm²", "25.12cm²", "37.68cm²", "50.24cm²"],
+    "answer": "37.68cm²",
+    "acceptableAnswers": ["37.68"],
+    "explanation": "外側 16×3.14=50.24、内側 4×3.14=12.56、差=37.68cm²。"
+  },
+  {
+    "id": "lv23-q5",
+    "level": 23,
+    "category": "おうぎ形",
+    "type": "multiple_choice",
+    "question": "半径6cm、中心角90°のおうぎ形の面積は？（円周率3.14）",
+    "choices": ["9.42cm²", "18.84cm²", "28.26cm²", "113.04cm²"],
+    "answer": "28.26cm²",
+    "acceptableAnswers": ["28.26"],
+    "explanation": "円全体=6×6×3.14=113.04。90°=1/4なので 113.04÷4=28.26cm²。"
+  },
+  {
+    "id": "lv23-q6",
+    "level": 23,
+    "category": "円柱",
+    "type": "numeric",
+    "question": "底面の半径5cm、高さ6cmの円柱の体積は何cm³？（円周率3.14）",
+    "answer": "471",
+    "explanation": "5×5×3.14×6=78.5×6=471cm³。"
+  }
+]

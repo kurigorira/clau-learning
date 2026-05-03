@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lv38-q1",
+    "level": 38,
+    "category": "立体の体積（角すい）",
+    "type": "multiple_choice",
+    "question": "底面積15cm²、高さ8cmの三角すいの体積は？",
+    "choices": ["20cm³", "30cm³", "40cm³", "120cm³"],
+    "answer": "40cm³",
+    "acceptableAnswers": ["40"],
+    "explanation": "角すいの体積=底面積×高さ÷3=15×8÷3=40cm³。"
+  },
+  {
+    "id": "lv38-q2",
+    "level": 38,
+    "category": "立体の体積（円すい）",
+    "type": "multiple_choice",
+    "question": "底面の半径3cm、高さ8cmの円すいの体積は？（円周率π）",
+    "choices": ["8π cm³", "16π cm³", "24π cm³", "72π cm³"],
+    "answer": "24π cm³",
+    "explanation": "円すいの体積=πr²×h÷3 = π×9×8÷3 = 24π cm³。"
+  },
+  {
+    "id": "lv38-q3",
+    "level": 38,
+    "category": "球の体積",
+    "type": "multiple_choice",
+    "question": "半径3cmの球の体積は？（円周率π）",
+    "choices": ["12π cm³", "27π cm³", "36π cm³", "108π cm³"],
+    "answer": "36π cm³",
+    "explanation": "球の体積=4πr³/3 = 4π×27/3 = 36π cm³。"
+  },
+  {
+    "id": "lv38-q4",
+    "level": 38,
+    "category": "球の表面積",
+    "type": "multiple_choice",
+    "question": "半径5cmの球の表面積は？（円周率π）",
+    "choices": ["25π cm²", "50π cm²", "75π cm²", "100π cm²"],
+    "answer": "100π cm²",
+    "explanation": "球の表面積=4πr² = 4π×25 = 100π cm²。"
+  },
+  {
+    "id": "lv38-q5",
+    "level": 38,
+    "category": "立体（円すい）",
+    "type": "multiple_choice",
+    "question": "底面の半径4cm、母線（側面の斜辺）の長さ10cmの円すいの側面のおうぎ形の弧の長さは？（円周率π）",
+    "choices": ["4π cm", "8π cm", "10π cm", "20π cm"],
+    "answer": "8π cm",
+    "explanation": "おうぎ形の弧=底面の円周=2π×4=8π cm。"
+  },
+  {
+    "id": "lv38-q6",
+    "level": 38,
+    "category": "立体の体積",
+    "type": "numeric",
+    "question": "底面が1辺6cmの正方形、高さ10cmの直方体の体積は何cm³？",
+    "answer": "360",
+    "explanation": "6×6×10=360cm³。"
+  }
+]

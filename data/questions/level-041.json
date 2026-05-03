@@ -1,0 +1,64 @@
+[
+  {
+    "id": "lv41-q1",
+    "level": 41,
+    "category": "多項式の加減",
+    "type": "multiple_choice",
+    "question": "(3x + 2y) + (5x − 4y) を簡単にすると？",
+    "choices": ["8x + 2y", "8x − 2y", "8x + 6y", "−2x − 2y"],
+    "answer": "8x − 2y",
+    "acceptableAnswers": ["8x-2y"],
+    "explanation": "x項:3+5=8、y項:2−4=−2。よって 8x−2y。"
+  },
+  {
+    "id": "lv41-q2",
+    "level": 41,
+    "category": "多項式",
+    "type": "multiple_choice",
+    "question": "(4a − 3b) − (2a − 5b) を簡単にすると？",
+    "choices": ["2a − 8b", "2a + 2b", "2a + 8b", "6a + 2b"],
+    "answer": "2a + 2b",
+    "acceptableAnswers": ["2a+2b"],
+    "explanation": "4a−2a=2a、−3b−(−5b)=−3b+5b=2b。よって 2a+2b。"
+  },
+  {
+    "id": "lv41-q3",
+    "level": 41,
+    "category": "単項式の乗除",
+    "type": "multiple_choice",
+    "question": "2x × 3xy を計算すると？",
+    "choices": ["5x²y", "6xy", "6x²y", "6xy²"],
+    "answer": "6x²y",
+    "explanation": "係数 2×3=6、文字 x×x×y=x²y。"
+  },
+  {
+    "id": "lv41-q4",
+    "level": 41,
+    "category": "単項式の除法",
+    "type": "multiple_choice",
+    "question": "12a²b ÷ 4ab を計算すると？",
+    "choices": ["3a", "3ab", "3a²", "8a²"],
+    "answer": "3a",
+    "explanation": "12÷4=3、a²÷a=a、b÷b=1。よって 3a。"
+  },
+  {
+    "id": "lv41-q5",
+    "level": 41,
+    "category": "式の値",
+    "type": "numeric",
+    "question": "x=2, y=−3 のとき、3x − 2y の値はいくつ？",
+    "answer": "12",
+    "explanation": "3×2−2×(−3)=6+6=12。"
+  },
+  {
+    "id": "lv41-q6",
+    "level": 41,
+    "category": "分配・同類項",
+    "type": "multiple_choice",
+    "question": "3(2x − y) − 2(x + 3y) を簡単にすると？",
+    "choices": ["4x − 9y", "4x + 9y", "8x + 9y", "4x + 3y"],
+    "answer": "4x − 9y",
+    "acceptableAnswers": ["4x-9y"],
+    "explanation": "6x−3y−2x−6y=4x−9y。"
+  }
+]
