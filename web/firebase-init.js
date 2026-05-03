@@ -7,12 +7,13 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_MSG_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyBVjadeeTHVncMklc-g-cDDJYlPxDs9Rac",
+  authDomain: "math-saya.firebaseapp.com",
+  projectId: "math-saya",
+  storageBucket: "math-saya.firebasestorage.app",
+  messagingSenderId: "78118196039",
+  appId: "1:78118196039:web:71b1d03bc4c01dc653b262",
+  measurementId: "G-RD1VWS39B6"
 };
 
 export const app = initializeApp(firebaseConfig);

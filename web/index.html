@@ -5,30 +5,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>才弥の数学クエスト</title>
   <style>
-    body { font-family: sans-serif; max-width: 760px; margin: 24px auto; padding: 0 16px; }
-    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
-    button { margin: 6px 0; padding: 10px 12px; border-radius: 8px; border: 1px solid #aaa; cursor: pointer; width: 100%; text-align: left; }
-    .small { color: #666; font-size: 0.9rem; }
+    :root{
+      --bg1:#f6f9ff; --bg2:#eef3ff; --ink:#1f2a44; --sub:#60708f;
+      --brand:#5b7cfa; --ok:#0f9d58; --ng:#e53935; --card:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:"Segoe UI","Hiragino Kaku Gothic ProN",sans-serif; color:var(--ink);
+      background:linear-gradient(160deg,var(--bg1),var(--bg2));
+      min-height:100vh;
+    }
+    .wrap{max-width:900px;margin:0 auto;padding:20px}
+    .hero{
+      background:linear-gradient(135deg,#6a8bff,#8d7bff);
+      color:#fff;border-radius:18px;padding:20px;box-shadow:0 10px 30px rgba(65,78,170,.25);
+      position:relative;overflow:hidden;margin-bottom:16px;
+    }
+    .hero:after{
+      content:"";position:absolute;right:-40px;top:-40px;width:160px;height:160px;border-radius:50%;
+      background:rgba(255,255,255,.15);
+    }
+    .title{font-size:1.5rem;font-weight:800;margin:0 0 4px}
+    .sub{opacity:.95;margin:0}
+    .grid{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+    .card{
+      background:var(--card);border:1px solid #e5eaf7;border-radius:16px;padding:16px;
+      box-shadow:0 8px 24px rgba(35,49,88,.06);
+    }
+    .card h3{margin:0 0 12px}
+    .pill{
+      display:inline-block;background:#edf2ff;color:#3657d6;border:1px solid #dbe5ff;
+      padding:4px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;
+    }
+    .qbox{
+      background:#f8faff;border:1px dashed #d7e3ff;padding:12px;border-radius:12px;margin-bottom:10px;
+      font-size:1.05rem;font-weight:600;
+    }
+    .choices{display:grid;gap:8px}
+    button.choice{
+      width:100%;text-align:left;border:1px solid #cfd9f8;background:#fff;padding:11px 12px;border-radius:10px;
+      cursor:pointer;transition:.15s;
+    }
+    button.choice:hover{transform:translateY(-1px);border-color:#9db3ff;background:#f7f9ff}
+    .result{font-weight:700;margin-top:10px;min-height:24px}
+    .ok{color:var(--ok)} .ng{color:var(--ng)}
+    .ex{color:var(--sub);font-size:.92rem}
+    .progressWrap{margin-top:10px}
+    .progress{
+      height:10px;background:#e9efff;border-radius:999px;overflow:hidden;border:1px solid #d8e2ff;
+    }
+    .bar{height:100%;width:0%;background:linear-gradient(90deg,#5b7cfa,#8b6cff)}
+    .char{
+      font-size:3rem; line-height:1; text-align:center; margin-top:6px;
+    }
+    .footerActions{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{
+      border:none;background:#5b7cfa;color:#fff;padding:10px 14px;border-radius:10px;cursor:pointer;font-weight:700;
+    }
+    .btn.secondary{background:#6b7280}
+    .small{font-size:.88rem;color:var(--sub)}
   </style>
 </head>
 <body>
-  <h1>才弥の数学クエスト</h1>
+  <div class="wrap">
+    <section class="hero">
+      <h1 class="title">才弥の数学クエスト</h1>
+      <p class="sub">毎日コツコツ、レベルアップしよう！</p>
+    </section>
 
-  <div class="card">
-    <h3>学習ステータス</h3>
-    <div id="status"></div>
-  </div>
+    <div class="grid">
+      <section class="card">
+        <h3>学習ステータス</h3>
+        <div id="status"></div>
+        <div class="progressWrap">
+          <div class="progress"><div id="levelBar" class="bar"></div></div>
+        </div>
+        <div id="character" class="char">🥚</div>
+        <p class="small">レベルが上がるとキャラクターが進化します。</p>
+      </section>
 
-  <div class="card">
-    <h3 id="qTitle">問題</h3>
-    <div id="question"></div>
-    <div id="choices"></div>
-    <p id="result"></p>
-    <p id="explanation" class="small"></p>
-  </div>
+      <section class="card">
+        <h3 id="qTitle">問題</h3>
+        <div class="qbox" id="question"></div>
+        <div id="choices" class="choices"></div>
+        <p id="result" class="result"></p>
+        <p id="explanation" class="ex"></p>
+      </section>
+    </div>
 
-  <div class="card">
-    <button id="endBtn">今日の学習を終了して保存</button>
+    <section class="card" style="margin-top:16px;">
+      <h3>セッション</h3>
+      <div class="footerActions">
+        <button id="endBtn" class="btn">今日の学習を終了して保存</button>
+        <button id="reloadBtn" class="btn secondary">問題を更新</button>
+      </div>
+      <p class="small">記録はFirebaseに保存されます。</p>
+    </section>
   </div>
 
   <script src="./questions.js"></script>
