@@ -195,6 +195,7 @@ export default function LevelPage() {
             variant={theme.characterVariant}
             accent={theme.accent}
             size={120}
+            stage={theme.stage}
             emoting={phase === "feedback" && lastCorrect ? "celebrate" : "think"}
           />
           <div className="flex-1">

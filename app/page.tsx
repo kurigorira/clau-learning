@@ -8,14 +8,24 @@ import { WizardCharacter } from "@/components/WizardCharacter";
 import { themeForLevel, STUDENT_FIRST, TOTAL_LEVELS } from "@/lib/levels";
 import { loadProgress, resetProgress } from "@/lib/storage";
 import { AVAILABLE_LEVELS } from "@/lib/questions";
+import { isSoundEnabled, setSoundEnabled, playClick } from "@/lib/sound";
 import type { Progress } from "@/lib/types";
 
 export default function HomePage() {
   const [progress, setProgress] = useState<Progress | null>(null);
+  const [soundOn, setSoundOn] = useState(true);
 
   useEffect(() => {
     setProgress(loadProgress());
+    setSoundOn(isSoundEnabled());
   }, []);
+
+  function toggleSound() {
+    const next = !soundOn;
+    setSoundOn(next);
+    setSoundEnabled(next);
+    if (next) playClick();
+  }
 
   if (!progress) {
     return (
@@ -59,6 +69,7 @@ export default function HomePage() {
               variant={theme.characterVariant}
               accent={theme.accent}
               size={240}
+              stage={theme.stage}
             />
           </motion.div>
           <div className="text-center">
@@ -120,21 +131,30 @@ export default function HomePage() {
 
         <details className="mt-10 text-center text-xs text-sage-300/60">
           <summary className="cursor-pointer">設定</summary>
-          <button
-            type="button"
-            className="mt-3 underline"
-            onClick={() => {
-              if (
-                window.confirm(
-                  "本当に進捗をリセットしますか？レベルが1に戻ります。",
-                )
-              ) {
-                setProgress(resetProgress());
-              }
-            }}
-          >
-            進捗をリセット
-          </button>
+          <div className="mt-3 flex flex-col items-center gap-3">
+            <button
+              type="button"
+              onClick={toggleSound}
+              className="rounded-full border border-sage-400/40 bg-sage-800/40 px-4 py-1.5 text-sage-100"
+            >
+              効果音： {soundOn ? "オン 🔔" : "オフ 🔕"}
+            </button>
+            <button
+              type="button"
+              className="underline"
+              onClick={() => {
+                if (
+                  window.confirm(
+                    "本当に進捗をリセットしますか？レベルが1に戻ります。",
+                  )
+                ) {
+                  setProgress(resetProgress());
+                }
+              }}
+            >
+              進捗をリセット
+            </button>
+          </div>
         </details>
       </main>
     </>

@@ -1,6 +1,8 @@
 "use client";
 
+import { useEffect } from "react";
 import { motion } from "framer-motion";
+import { playCorrect, playWrong } from "@/lib/sound";
 import type { GradeResponse, Question } from "@/lib/types";
 
 interface Props {
@@ -11,6 +13,12 @@ interface Props {
 }
 
 export function FeedbackPanel({ question, correct, ai, onNext }: Props) {
+  useEffect(() => {
+    if (correct) playCorrect();
+    else playWrong();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 16 }}

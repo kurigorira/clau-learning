@@ -8,6 +8,7 @@ interface Props {
   accent: string;
   size?: number;
   emoting?: "idle" | "celebrate" | "think";
+  stage?: number;
 }
 
 export function WizardCharacter({
@@ -15,8 +16,11 @@ export function WizardCharacter({
   accent,
   size = 220,
   emoting = "idle",
+  stage = 1,
 }: Props) {
   const { robe, trim, hat, staff, aura, emblem } = variant;
+  const isAdvanced = stage >= 6;
+  const isMaster = stage >= 9;
 
   return (
     <motion.svg
@@ -30,28 +34,73 @@ export function WizardCharacter({
       role="img"
       aria-label="魔法使いキャラクター"
     >
+      <defs>
+        <radialGradient id={`aura-${stage}`} cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stopColor={accent} stopOpacity="0.5" />
+          <stop offset="60%" stopColor={accent} stopOpacity="0.18" />
+          <stop offset="100%" stopColor={accent} stopOpacity="0" />
+        </radialGradient>
+        <linearGradient id={`robe-${stage}`} x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stopColor={robe} />
+          <stop offset="100%" stopColor={trim} stopOpacity="0.9" />
+        </linearGradient>
+        <radialGradient id={`staff-glow-${stage}`} cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stopColor="#ffffff" stopOpacity="1" />
+          <stop offset="40%" stopColor={accent} stopOpacity="0.9" />
+          <stop offset="100%" stopColor={accent} stopOpacity="0" />
+        </radialGradient>
+      </defs>
+
+      {/* マスター後光 */}
+      {isMaster && (
+        <motion.circle
+          cx={100}
+          cy={92}
+          r={56}
+          fill="none"
+          stroke={accent}
+          strokeWidth={1.2}
+          strokeDasharray="2 6"
+          animate={{ rotate: 360 }}
+          transition={{ duration: 18, repeat: Infinity, ease: "linear" }}
+          style={{ transformOrigin: "100px 92px" }}
+          opacity={0.7}
+        />
+      )}
+
       {/* オーラ */}
       {aura && (
         <motion.circle
           cx={100}
           cy={120}
           r={92}
-          fill={accent}
-          opacity={0.18}
+          fill={`url(#aura-${stage})`}
           animate={{ scale: [1, 1.08, 1] }}
           transition={{ duration: 3, repeat: Infinity }}
         />
       )}
 
-      {/* ローブ（体） */}
+      {/* マントの裾（高位魔導士以降） */}
+      {isAdvanced && (
+        <path
+          d="M55 218 Q60 200 70 195 L130 195 Q140 200 145 218 Z"
+          fill={accent}
+          opacity={0.45}
+        />
+      )}
+
+      {/* ローブ */}
       <path
         d="M60 220 Q60 130 100 130 Q140 130 140 220 Z"
-        fill={robe}
+        fill={`url(#robe-${stage})`}
         stroke={trim}
         strokeWidth={3}
       />
 
-      {/* ローブの裾飾り */}
+      {/* ローブのVライン */}
+      <path d="M100 130 L92 160 L108 160 Z" fill={trim} opacity={0.5} />
+
+      {/* 裾飾り */}
       <path
         d="M60 220 Q80 210 100 220 Q120 210 140 220"
         fill="none"
@@ -59,35 +108,68 @@ export function WizardCharacter({
         strokeWidth={3}
       />
 
+      {/* 体の正面の紋章 */}
+      {emblem && hat !== "wizard" && (
+        <text
+          x={100}
+          y={172}
+          textAnchor="middle"
+          fontSize={20}
+          fill={accent}
+          fontWeight="bold"
+          style={{ filter: isAdvanced ? `drop-shadow(0 0 4px ${accent})` : "none" }}
+        >
+          {emblem}
+        </text>
+      )}
+
       {/* 顔 */}
       <circle cx={100} cy={92} r={26} fill="#fce7c8" stroke="#d6b58a" strokeWidth={1.5} />
 
-      {/* 髪（女の子っぽく前髪） */}
+      {/* 髪 */}
       <path
         d="M76 90 Q76 70 100 66 Q124 70 124 90 Q120 80 110 82 Q100 76 90 82 Q80 80 76 90 Z"
         fill="#3a2a1a"
       />
-
-      {/* サイドの髪 */}
       <path d="M75 92 Q70 110 78 118 L82 116 Q78 105 80 95 Z" fill="#3a2a1a" />
       <path d="M125 92 Q130 110 122 118 L118 116 Q122 105 120 95 Z" fill="#3a2a1a" />
 
       {/* 目 */}
       <circle cx={92} cy={94} r={2.4} fill="#1a1a1a" />
       <circle cx={108} cy={94} r={2.4} fill="#1a1a1a" />
+      <circle cx={93} cy={93} r={0.8} fill="#fff" />
+      <circle cx={109} cy={93} r={0.8} fill="#fff" />
 
       {/* 口 */}
       {emoting === "celebrate" ? (
-        <path d="M92 104 Q100 112 108 104" fill="none" stroke="#1a1a1a" strokeWidth={1.8} strokeLinecap="round" />
+        <path
+          d="M92 104 Q100 113 108 104"
+          fill="#c14a3d"
+          stroke="#1a1a1a"
+          strokeWidth={1.5}
+          strokeLinecap="round"
+        />
       ) : emoting === "think" ? (
-        <path d="M94 104 Q100 102 106 104" fill="none" stroke="#1a1a1a" strokeWidth={1.8} strokeLinecap="round" />
+        <path
+          d="M94 105 Q100 103 106 105"
+          fill="none"
+          stroke="#1a1a1a"
+          strokeWidth={1.8}
+          strokeLinecap="round"
+        />
       ) : (
-        <path d="M94 104 Q100 108 106 104" fill="none" stroke="#1a1a1a" strokeWidth={1.8} strokeLinecap="round" />
+        <path
+          d="M94 104 Q100 108 106 104"
+          fill="none"
+          stroke="#1a1a1a"
+          strokeWidth={1.8}
+          strokeLinecap="round"
+        />
       )}
 
       {/* ほっぺ */}
-      <circle cx={86} cy={100} r={2.5} fill="#ff9aa2" opacity={0.7} />
-      <circle cx={114} cy={100} r={2.5} fill="#ff9aa2" opacity={0.7} />
+      <circle cx={86} cy={100} r={2.6} fill="#ff9aa2" opacity={0.7} />
+      <circle cx={114} cy={100} r={2.6} fill="#ff9aa2" opacity={0.7} />
 
       {/* 帽子 */}
       {hat === "cap" && (
@@ -96,11 +178,35 @@ export function WizardCharacter({
       {hat === "wizard" && (
         <g>
           <path d="M70 80 L100 30 L130 80 Z" fill={trim} />
-          <path d="M68 80 Q100 90 132 80 L132 84 Q100 94 68 84 Z" fill={trim} stroke={accent} strokeWidth={1} />
+          <path
+            d="M68 80 Q100 90 132 80 L132 84 Q100 94 68 84 Z"
+            fill={trim}
+            stroke={accent}
+            strokeWidth={1}
+          />
           {emblem && (
-            <text x={100} y={68} textAnchor="middle" fontSize={14} fill={accent} fontWeight="bold">
+            <motion.text
+              x={100}
+              y={68}
+              textAnchor="middle"
+              fontSize={16}
+              fill={accent}
+              fontWeight="bold"
+              animate={isAdvanced ? { opacity: [0.7, 1, 0.7] } : undefined}
+              transition={{ duration: 2, repeat: Infinity }}
+            >
               {emblem}
-            </text>
+            </motion.text>
+          )}
+          {isMaster && (
+            <motion.circle
+              cx={100}
+              cy={30}
+              r={3}
+              fill="#fff"
+              animate={{ scale: [1, 1.6, 1], opacity: [0.6, 1, 0.6] }}
+              transition={{ duration: 1.6, repeat: Infinity }}
+            />
           )}
         </g>
       )}
@@ -112,7 +218,9 @@ export function WizardCharacter({
             stroke={trim}
             strokeWidth={1.5}
           />
-          <circle cx={100} cy={62} r={3} fill={trim} />
+          <circle cx={100} cy={62} r={3} fill="#c14a3d" />
+          <circle cx={84} cy={68} r={2} fill="#fff" />
+          <circle cx={116} cy={68} r={2} fill="#fff" />
         </g>
       )}
 
@@ -128,13 +236,21 @@ export function WizardCharacter({
             strokeWidth={4}
             strokeLinecap="round"
           />
-          {staff === "wood" && (
-            <circle cx={158} cy={118} r={6} fill="#7a5a3a" />
-          )}
+          {staff === "wood" && <circle cx={158} cy={118} r={6} fill="#7a5a3a" />}
           {staff === "ornate" && (
             <g>
-              <circle cx={158} cy={118} r={8} fill={accent} />
-              <circle cx={158} cy={118} r={4} fill="#fff" opacity={0.7} />
+              <circle cx={158} cy={118} r={9} fill={accent} />
+              <circle cx={158} cy={118} r={5} fill="#fff" opacity={0.85} />
+              <text
+                x={158}
+                y={122}
+                textAnchor="middle"
+                fontSize={9}
+                fill={trim}
+                fontWeight="bold"
+              >
+                {emblem ?? "✦"}
+              </text>
             </g>
           )}
           {staff === "glow" && (
@@ -142,32 +258,53 @@ export function WizardCharacter({
               <motion.circle
                 cx={158}
                 cy={118}
-                r={11}
-                fill={accent}
-                animate={{ opacity: [0.4, 1, 0.4] }}
+                r={14}
+                fill={`url(#staff-glow-${stage})`}
+                animate={{ scale: [1, 1.25, 1], opacity: [0.7, 1, 0.7] }}
                 transition={{ duration: 2, repeat: Infinity }}
               />
-              <circle cx={158} cy={118} r={5} fill="#fff" />
-              <text x={158} y={122} textAnchor="middle" fontSize={9} fill={trim} fontWeight="bold">
+              <circle cx={158} cy={118} r={6} fill="#fff" />
+              <text
+                x={158}
+                y={122}
+                textAnchor="middle"
+                fontSize={9}
+                fill={trim}
+                fontWeight="bold"
+              >
                 {emblem ?? "★"}
               </text>
+              {[0, 1, 2].map((i) => (
+                <motion.circle
+                  key={i}
+                  cx={158 + (i - 1) * 8}
+                  cy={108}
+                  r={1.5}
+                  fill="#fff"
+                  animate={{ opacity: [0, 1, 0], cy: [108, 100, 108] }}
+                  transition={{
+                    duration: 1.6,
+                    repeat: Infinity,
+                    delay: i * 0.4,
+                  }}
+                />
+              ))}
             </g>
           )}
         </g>
       )}
 
-      {/* 体の正面の紋章 */}
-      {emblem && hat !== "wizard" && (
-        <text
-          x={100}
-          y={172}
-          textAnchor="middle"
-          fontSize={18}
-          fill={accent}
-          fontWeight="bold"
+      {/* 使い魔（アークメイジ以上） */}
+      {stage >= 8 && (
+        <motion.g
+          animate={{ x: [0, 4, 0], y: [0, -3, 0] }}
+          transition={{ duration: 2.4, repeat: Infinity }}
         >
-          {emblem}
-        </text>
+          <ellipse cx={45} cy={100} rx={10} ry={6} fill="#5dd6a5" />
+          <circle cx={42} cy={97} r={2} fill="#1a1a1a" />
+          <path d="M48 96 L54 92 L52 100 Z" fill="#5dd6a5" />
+          <path d="M48 105 L54 109 L52 100 Z" fill="#5dd6a5" />
+        </motion.g>
       )}
     </motion.svg>
   );
