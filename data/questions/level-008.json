@@ -1,0 +1,106 @@
+[
+  {
+    "id": "lv8-q1",
+    "level": 8,
+    "category": "割合の基本",
+    "type": "multiple_choice",
+    "question": "200人のうち40人が女子。女子の割合は？",
+    "choices": ["0.1", "0.2", "0.4", "0.5"],
+    "answer": "0.2",
+    "explanation": "比べる量÷もとにする量=40÷200=0.2。"
+  },
+  {
+    "id": "lv8-q2",
+    "level": 8,
+    "category": "百分率",
+    "type": "multiple_choice",
+    "question": "0.35 を百分率で表すと？",
+    "choices": ["3.5%", "35%", "350%", "0.35%"],
+    "answer": "35%",
+    "explanation": "百分率は割合を100倍した値。0.35×100=35%。"
+  },
+  {
+    "id": "lv8-q3",
+    "level": 8,
+    "category": "百分率",
+    "type": "multiple_choice",
+    "question": "75% を小数で表すと？",
+    "choices": ["7.5", "0.75", "0.075", "0.0075"],
+    "answer": "0.75",
+    "explanation": "75÷100=0.75。"
+  },
+  {
+    "id": "lv8-q4",
+    "level": 8,
+    "category": "割合の文章題",
+    "type": "multiple_choice",
+    "question": "定価2000円の20%引きはいくら？",
+    "choices": ["400円", "1600円", "1800円", "2400円"],
+    "answer": "1600円",
+    "acceptableAnswers": ["1600"],
+    "explanation": "20%=0.2なので、2000×0.2=400円引き。2000−400=1600円。"
+  },
+  {
+    "id": "lv8-q5",
+    "level": 8,
+    "category": "割合の文章題",
+    "type": "multiple_choice",
+    "question": "あるクラスは40人で、そのうち15%がメガネをかけています。メガネをかけている人は何人？",
+    "choices": ["4人", "6人", "8人", "10人"],
+    "answer": "6人",
+    "acceptableAnswers": ["6"],
+    "explanation": "40×0.15=6人。"
+  },
+  {
+    "id": "lv8-q6",
+    "level": 8,
+    "category": "割合（もとにする量）",
+    "type": "multiple_choice",
+    "question": "ある数の30%が60です。ある数は？",
+    "choices": ["18", "180", "200", "2000"],
+    "answer": "200",
+    "explanation": "比べる量÷割合=もとにする量。60÷0.3=200。"
+  },
+  {
+    "id": "lv8-q7",
+    "level": 8,
+    "category": "百分率",
+    "type": "multiple_choice",
+    "question": "1.4 を百分率で表すと？",
+    "choices": ["14%", "140%", "1.4%", "0.14%"],
+    "answer": "140%",
+    "explanation": "1.4×100=140%。100%を超えることもあります。"
+  },
+  {
+    "id": "lv8-q8",
+    "level": 8,
+    "category": "歩合",
+    "type": "multiple_choice",
+    "question": "「3割5分」を百分率で表すと？",
+    "choices": ["3.5%", "35%", "350%", "0.35%"],
+    "answer": "35%",
+    "explanation": "1割=10%、1分=1%。3割5分=35%。"
+  },
+  {
+    "id": "lv8-q9",
+    "level": 8,
+    "category": "割合の文章題（増し）",
+    "type": "multiple_choice",
+    "question": "2500円の20%増しはいくら？",
+    "choices": ["500円", "2000円", "3000円", "3200円"],
+    "answer": "3000円",
+    "acceptableAnswers": ["3000"],
+    "explanation": "2500×1.2=3000円。または 2500+2500×0.2=3000円。"
+  },
+  {
+    "id": "lv8-q10",
+    "level": 8,
+    "category": "割合の文章題",
+    "type": "multiple_choice",
+    "question": "ある商品を25%引きで600円で買いました。定価は？",
+    "choices": ["750円", "800円", "900円", "1000円"],
+    "answer": "800円",
+    "acceptableAnswers": ["800"],
+    "explanation": "25%引き=定価の75%。定価×0.75=600 → 定価=600÷0.75=800円。"
+  }
+]

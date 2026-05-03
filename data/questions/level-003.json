@@ -1,0 +1,101 @@
+[
+  {
+    "id": "lv3-q1",
+    "level": 3,
+    "category": "小数のかけ算",
+    "type": "multiple_choice",
+    "question": "0.6 × 1.5 = ?",
+    "choices": ["0.6", "0.9", "1.0", "1.1"],
+    "answer": "0.9",
+    "explanation": "6×15=90、小数点以下の桁数は1+1=2なので0.90=0.9。"
+  },
+  {
+    "id": "lv3-q2",
+    "level": 3,
+    "category": "小数のかけ算",
+    "type": "numeric",
+    "question": "2.4 × 0.5 = ?",
+    "answer": "1.2",
+    "explanation": "24×5=120、小数点以下の桁数の合計は2なので1.20=1.2。"
+  },
+  {
+    "id": "lv3-q3",
+    "level": 3,
+    "category": "小数のわり算",
+    "type": "multiple_choice",
+    "question": "3.6 ÷ 0.4 = ?",
+    "choices": ["0.9", "9", "0.09", "90"],
+    "answer": "9",
+    "explanation": "両方を10倍して36÷4=9。わる数を整数にして計算します。"
+  },
+  {
+    "id": "lv3-q4",
+    "level": 3,
+    "category": "小数のわり算",
+    "type": "numeric",
+    "question": "12.6 ÷ 1.4 = ?",
+    "answer": "9",
+    "explanation": "10倍して126÷14=9。"
+  },
+  {
+    "id": "lv3-q5",
+    "level": 3,
+    "category": "小数のかけ算",
+    "type": "multiple_choice",
+    "question": "0.8 × 0.07 = ?",
+    "choices": ["0.56", "0.056", "0.0056", "5.6"],
+    "answer": "0.056",
+    "explanation": "8×7=56、小数点以下の桁数は1+2=3なので0.056。"
+  },
+  {
+    "id": "lv3-q6",
+    "level": 3,
+    "category": "小数のわり算",
+    "type": "multiple_choice",
+    "question": "5 ÷ 0.25 = ?",
+    "choices": ["1.25", "0.5", "20", "200"],
+    "answer": "20",
+    "explanation": "5を100倍して500、0.25を100倍して25。500÷25=20。"
+  },
+  {
+    "id": "lv3-q7",
+    "level": 3,
+    "category": "小数のかけ算",
+    "type": "multiple_choice",
+    "question": "1.2 × 1.2 = ?",
+    "choices": ["1.24", "1.44", "2.4", "1.4"],
+    "answer": "1.44",
+    "explanation": "12×12=144、小数点以下の桁数は2なので1.44。"
+  },
+  {
+    "id": "lv3-q8",
+    "level": 3,
+    "category": "小数のわり算",
+    "type": "multiple_choice",
+    "question": "1.8m のリボンを 0.3m ずつに切ると、何本できますか？",
+    "choices": ["3本", "5本", "6本", "9本"],
+    "answer": "6本",
+    "acceptableAnswers": ["6"],
+    "explanation": "1.8÷0.3=6。6本できます。"
+  },
+  {
+    "id": "lv3-q9",
+    "level": 3,
+    "category": "小数のかけ算",
+    "type": "numeric",
+    "question": "3.5 × 4 = ?",
+    "answer": "14",
+    "acceptableAnswers": ["14.0"],
+    "explanation": "35×4=140、小数点以下の桁数1なので14.0=14。"
+  },
+  {
+    "id": "lv3-q10",
+    "level": 3,
+    "category": "小数のわり算（あまり）",
+    "type": "multiple_choice",
+    "question": "7.4 ÷ 0.6 を商を整数で求め、あまりも答えなさい。",
+    "choices": ["商12 あまり0.2", "商12 あまり2", "商13 あまり0.6", "商11 あまり0.8"],
+    "answer": "商12 あまり0.2",
+    "explanation": "0.6×12=7.2、7.4−7.2=0.2。商は12であまりは0.2。あまりの小数点はもとの位置に戻します。"
+  }
+]

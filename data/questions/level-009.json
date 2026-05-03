@@ -1,0 +1,108 @@
+[
+  {
+    "id": "lv9-q1",
+    "level": 9,
+    "category": "三角形の面積",
+    "type": "multiple_choice",
+    "question": "底辺8cm、高さ5cmの三角形の面積は？",
+    "choices": ["13cm²", "20cm²", "40cm²", "80cm²"],
+    "answer": "20cm²",
+    "acceptableAnswers": ["20"],
+    "explanation": "底辺×高さ÷2=8×5÷2=20cm²。"
+  },
+  {
+    "id": "lv9-q2",
+    "level": 9,
+    "category": "平行四辺形の面積",
+    "type": "multiple_choice",
+    "question": "底辺6cm、高さ4cmの平行四辺形の面積は？",
+    "choices": ["10cm²", "12cm²", "20cm²", "24cm²"],
+    "answer": "24cm²",
+    "acceptableAnswers": ["24"],
+    "explanation": "底辺×高さ=6×4=24cm²。"
+  },
+  {
+    "id": "lv9-q3",
+    "level": 9,
+    "category": "台形の面積",
+    "type": "multiple_choice",
+    "question": "上底5cm、下底9cm、高さ4cmの台形の面積は？",
+    "choices": ["18cm²", "28cm²", "36cm²", "56cm²"],
+    "answer": "28cm²",
+    "acceptableAnswers": ["28"],
+    "explanation": "(上底+下底)×高さ÷2=(5+9)×4÷2=14×2=28cm²。"
+  },
+  {
+    "id": "lv9-q4",
+    "level": 9,
+    "category": "ひし形の面積",
+    "type": "multiple_choice",
+    "question": "対角線が6cmと8cmのひし形の面積は？",
+    "choices": ["14cm²", "24cm²", "28cm²", "48cm²"],
+    "answer": "24cm²",
+    "acceptableAnswers": ["24"],
+    "explanation": "対角線×対角線÷2=6×8÷2=24cm²。"
+  },
+  {
+    "id": "lv9-q5",
+    "level": 9,
+    "category": "三角形の面積",
+    "type": "numeric",
+    "question": "底辺12cm、高さ7cmの三角形の面積（cm²）を答えなさい。",
+    "answer": "42",
+    "explanation": "12×7÷2=42 cm²。"
+  },
+  {
+    "id": "lv9-q6",
+    "level": 9,
+    "category": "面積の応用",
+    "type": "multiple_choice",
+    "question": "面積30cm²の三角形があり、底辺は10cm。高さは何cm？",
+    "choices": ["3cm", "6cm", "5cm", "15cm"],
+    "answer": "6cm",
+    "acceptableAnswers": ["6"],
+    "explanation": "底辺×高さ÷2=面積。10×高さ÷2=30 → 高さ=6cm。"
+  },
+  {
+    "id": "lv9-q7",
+    "level": 9,
+    "category": "長方形の面積",
+    "type": "multiple_choice",
+    "question": "縦15cm、横8cmの長方形の面積は？",
+    "choices": ["23cm²", "46cm²", "120cm²", "240cm²"],
+    "answer": "120cm²",
+    "acceptableAnswers": ["120"],
+    "explanation": "縦×横=15×8=120cm²。"
+  },
+  {
+    "id": "lv9-q8",
+    "level": 9,
+    "category": "面積の単位",
+    "type": "multiple_choice",
+    "question": "1m² は何cm²？",
+    "choices": ["100cm²", "1000cm²", "10000cm²", "100000cm²"],
+    "answer": "10000cm²",
+    "acceptableAnswers": ["10000"],
+    "explanation": "1m=100cmなので 1m²=100×100=10000cm²。"
+  },
+  {
+    "id": "lv9-q9",
+    "level": 9,
+    "category": "複合図形",
+    "type": "multiple_choice",
+    "question": "縦10cm、横10cmの正方形から、底辺6cm・高さ4cmの三角形を切り取った残りの面積は？",
+    "choices": ["88cm²", "92cm²", "96cm²", "100cm²"],
+    "answer": "88cm²",
+    "acceptableAnswers": ["88"],
+    "explanation": "正方形 100cm² − 三角形 12cm² = 88cm²。"
+  },
+  {
+    "id": "lv9-q10",
+    "level": 9,
+    "category": "平行四辺形の面積",
+    "type": "numeric",
+    "question": "面積72cm²、高さ8cmの平行四辺形の底辺は何cm？",
+    "answer": "9",
+    "explanation": "底辺×高さ=面積、底辺×8=72 → 底辺=9cm。"
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "lv1-q1",
+    "level": 1,
+    "category": "整数のたし算・ひき算",
+    "type": "multiple_choice",
+    "question": "計算しましょう。\n328 + 475 = ?",
+    "choices": ["703", "793", "803", "813"],
+    "answer": "803",
+    "explanation": "一の位 8+5=13 で1繰り上がり、十の位 2+7+1=10 で1繰り上がり、百の位 3+4+1=8。よって803。"
+  },
+  {
+    "id": "lv1-q2",
+    "level": 1,
+    "category": "整数のひき算",
+    "type": "multiple_choice",
+    "question": "計算しましょう。\n1000 − 247 = ?",
+    "choices": ["743", "753", "763", "853"],
+    "answer": "753",
+    "explanation": "1000から247を引くと753。1000は999+1と考えるとミスを減らせます。"
+  },
+  {
+    "id": "lv1-q3",
+    "level": 1,
+    "category": "整数のかけ算",
+    "type": "multiple_choice",
+    "question": "24 × 36 = ?",
+    "choices": ["744", "824", "864", "884"],
+    "answer": "864",
+    "explanation": "24×30=720、24×6=144、合わせて720+144=864。"
+  },
+  {
+    "id": "lv1-q4",
+    "level": 1,
+    "category": "整数のわり算",
+    "type": "numeric",
+    "question": "144 ÷ 12 = ?\n（答えだけ半角数字で入力）",
+    "answer": "12",
+    "explanation": "12×12=144 なので、144÷12=12。"
+  },
+  {
+    "id": "lv1-q5",
+    "level": 1,
+    "category": "整数の四則混合",
+    "type": "multiple_choice",
+    "question": "計算の順序に気をつけて求めましょう。\n8 + 6 × 3 = ?",
+    "choices": ["26", "32", "42", "48"],
+    "answer": "26",
+    "explanation": "かけ算を先に計算します。6×3=18、それから8+18=26。"
+  },
+  {
+    "id": "lv1-q6",
+    "level": 1,
+    "category": "整数の四則混合",
+    "type": "multiple_choice",
+    "question": "(15 − 3) × 4 = ?",
+    "choices": ["48", "52", "56", "12"],
+    "answer": "48",
+    "explanation": "かっこの中を先に計算します。15−3=12、それから12×4=48。"
+  },
+  {
+    "id": "lv1-q7",
+    "level": 1,
+    "category": "あまりのあるわり算",
+    "type": "multiple_choice",
+    "question": "85 ÷ 7 のあまりは？",
+    "choices": ["1", "2", "3", "4"],
+    "answer": "1",
+    "explanation": "7×12=84、85−84=1。よってあまりは1。"
+  },
+  {
+    "id": "lv1-q8",
+    "level": 1,
+    "category": "整数のかけ算",
+    "type": "numeric",
+    "question": "47 × 8 = ?\n（半角数字で入力）",
+    "answer": "376",
+    "explanation": "40×8=320、7×8=56、合わせて320+56=376。"
+  },
+  {
+    "id": "lv1-q9",
+    "level": 1,
+    "category": "整数のたし算",
+    "type": "multiple_choice",
+    "question": "1234 + 5678 = ?",
+    "choices": ["6812", "6902", "6912", "7012"],
+    "answer": "6912",
+    "explanation": "位を揃えてたし算。一の位から順に繰り上がりに注意して6912。"
+  },
+  {
+    "id": "lv1-q10",
+    "level": 1,
+    "category": "整数のわり算",
+    "type": "numeric",
+    "question": "504 ÷ 9 = ?\n（半角数字で入力）",
+    "answer": "56",
+    "explanation": "9×56=504 なので答えは56。"
+  }
+]

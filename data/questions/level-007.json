@@ -1,0 +1,107 @@
+[
+  {
+    "id": "lv7-q1",
+    "level": 7,
+    "category": "平均",
+    "type": "multiple_choice",
+    "question": "5回の小テストの点数が 6, 8, 7, 9, 10 でした。平均点は？",
+    "choices": ["7点", "8点", "9点", "8.5点"],
+    "answer": "8点",
+    "acceptableAnswers": ["8"],
+    "explanation": "合計40÷5回=8点。"
+  },
+  {
+    "id": "lv7-q2",
+    "level": 7,
+    "category": "平均",
+    "type": "numeric",
+    "question": "3個のオレンジの重さが 120g, 130g, 140g でした。平均の重さは何gですか？",
+    "answer": "130",
+    "explanation": "(120+130+140)÷3=390÷3=130g。"
+  },
+  {
+    "id": "lv7-q3",
+    "level": 7,
+    "category": "単位量あたりの大きさ",
+    "type": "multiple_choice",
+    "question": "5mで200円のリボンがあります。1mあたりのねだんは？",
+    "choices": ["20円", "40円", "100円", "1000円"],
+    "answer": "40円",
+    "acceptableAnswers": ["40"],
+    "explanation": "200÷5=40円/m。"
+  },
+  {
+    "id": "lv7-q4",
+    "level": 7,
+    "category": "単位量あたりの大きさ",
+    "type": "multiple_choice",
+    "question": "ガソリン20Lで300km走る車。1Lあたり何km走る？",
+    "choices": ["10km", "12km", "15km", "20km"],
+    "answer": "15km",
+    "acceptableAnswers": ["15"],
+    "explanation": "300÷20=15km/L。"
+  },
+  {
+    "id": "lv7-q5",
+    "level": 7,
+    "category": "速さ",
+    "type": "multiple_choice",
+    "question": "3時間で180km進む車の時速は？",
+    "choices": ["時速30km", "時速60km", "時速90km", "時速540km"],
+    "answer": "時速60km",
+    "acceptableAnswers": ["60", "60km", "時速60", "60km/h"],
+    "explanation": "180÷3=60。時速60km。"
+  },
+  {
+    "id": "lv7-q6",
+    "level": 7,
+    "category": "速さ",
+    "type": "multiple_choice",
+    "question": "時速40kmで2.5時間走ると何km進む？",
+    "choices": ["80km", "100km", "120km", "16km"],
+    "answer": "100km",
+    "acceptableAnswers": ["100"],
+    "explanation": "速さ×時間=道のり。40×2.5=100km。"
+  },
+  {
+    "id": "lv7-q7",
+    "level": 7,
+    "category": "速さ",
+    "type": "multiple_choice",
+    "question": "120kmの道のりを時速60kmで進むと何時間かかる？",
+    "choices": ["1時間", "2時間", "0.5時間", "180時間"],
+    "answer": "2時間",
+    "acceptableAnswers": ["2"],
+    "explanation": "道のり÷速さ=時間。120÷60=2時間。"
+  },
+  {
+    "id": "lv7-q8",
+    "level": 7,
+    "category": "平均",
+    "type": "numeric",
+    "question": "ある週の月〜金の歩数の平均が8000歩でした。5日間の合計歩数は何歩？",
+    "answer": "40000",
+    "explanation": "平均×個数=合計。8000×5=40000歩。"
+  },
+  {
+    "id": "lv7-q9",
+    "level": 7,
+    "category": "単位量あたりの大きさ",
+    "type": "multiple_choice",
+    "question": "A町は面積15km²で人口9000人、B町は面積20km²で人口10000人。人口密度（1km²あたりの人数）が高いのは？",
+    "choices": ["A町", "B町", "同じ", "比べられない"],
+    "answer": "A町",
+    "explanation": "A:9000÷15=600人/km²、B:10000÷20=500人/km²。A町の方が高い。"
+  },
+  {
+    "id": "lv7-q10",
+    "level": 7,
+    "category": "速さの単位",
+    "type": "multiple_choice",
+    "question": "分速50mを時速に直すと？",
+    "choices": ["時速300m", "時速500m", "時速3000m", "時速60m"],
+    "answer": "時速3000m",
+    "acceptableAnswers": ["3000m", "時速3km", "3km", "3000"],
+    "explanation": "1時間=60分なので 50×60=3000m=3km。"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "lv4-q1",
+    "level": 4,
+    "category": "倍数",
+    "type": "multiple_choice",
+    "question": "次のうち、6の倍数はどれ？",
+    "choices": ["14", "20", "24", "32"],
+    "answer": "24",
+    "explanation": "6×4=24。他は6で割り切れません。"
+  },
+  {
+    "id": "lv4-q2",
+    "level": 4,
+    "category": "公倍数",
+    "type": "multiple_choice",
+    "question": "4と6の最小公倍数は？",
+    "choices": ["10", "12", "18", "24"],
+    "answer": "12",
+    "explanation": "4の倍数:4,8,12,16…、6の倍数:6,12,18…。共通で最も小さいのは12。"
+  },
+  {
+    "id": "lv4-q3",
+    "level": 4,
+    "category": "約数",
+    "type": "multiple_choice",
+    "question": "18の約数を全部かいたものは？",
+    "choices": ["1, 2, 3, 6, 9, 18", "1, 2, 9, 18", "1, 3, 6, 18", "2, 3, 6, 9"],
+    "answer": "1, 2, 3, 6, 9, 18",
+    "explanation": "18=1×18=2×9=3×6。よって約数は1,2,3,6,9,18の6個。"
+  },
+  {
+    "id": "lv4-q4",
+    "level": 4,
+    "category": "公約数",
+    "type": "multiple_choice",
+    "question": "12と18の最大公約数は？",
+    "choices": ["3", "4", "6", "9"],
+    "answer": "6",
+    "explanation": "12の約数:1,2,3,4,6,12、18の約数:1,2,3,6,9,18。共通で最大は6。"
+  },
+  {
+    "id": "lv4-q5",
+    "level": 4,
+    "category": "偶数と奇数",
+    "type": "multiple_choice",
+    "question": "次の数のうち、奇数はどれ？",
+    "choices": ["48", "100", "63", "204"],
+    "answer": "63",
+    "explanation": "一の位が1,3,5,7,9のいずれかなら奇数。63は一の位が3なので奇数。"
+  },
+  {
+    "id": "lv4-q6",
+    "level": 4,
+    "category": "公倍数",
+    "type": "numeric",
+    "question": "8と12の最小公倍数を答えなさい。",
+    "answer": "24",
+    "explanation": "8の倍数:8,16,24…、12の倍数:12,24…。最小公倍数は24。"
+  },
+  {
+    "id": "lv4-q7",
+    "level": 4,
+    "category": "公約数",
+    "type": "numeric",
+    "question": "24と36の最大公約数を答えなさい。",
+    "answer": "12",
+    "explanation": "24=2³×3、36=2²×3²。共通の最大は2²×3=12。"
+  },
+  {
+    "id": "lv4-q8",
+    "level": 4,
+    "category": "倍数の判定",
+    "type": "multiple_choice",
+    "question": "3の倍数の見分け方は？",
+    "choices": [
+      "一の位が3か6か9",
+      "各位の数の和が3の倍数",
+      "10で割り切れる",
+      "偶数である"
+    ],
+    "answer": "各位の数の和が3の倍数",
+    "explanation": "例:1+2+3=6で6は3の倍数なので123は3の倍数。"
+  },
+  {
+    "id": "lv4-q9",
+    "level": 4,
+    "category": "公倍数",
+    "type": "multiple_choice",
+    "question": "縦4cm、横6cmのタイルを並べて、できるだけ小さい正方形をつくるとき、一辺の長さは？",
+    "choices": ["10cm", "12cm", "18cm", "24cm"],
+    "answer": "12cm",
+    "acceptableAnswers": ["12"],
+    "explanation": "4と6の最小公倍数12cmが正方形の一辺の長さです。"
+  },
+  {
+    "id": "lv4-q10",
+    "level": 4,
+    "category": "公約数",
+    "type": "multiple_choice",
+    "question": "縦18cm、横24cmの長方形の紙をあまりが出ないように同じ大きさの正方形に切るとき、最大の正方形の一辺は？",
+    "choices": ["3cm", "6cm", "9cm", "12cm"],
+    "answer": "6cm",
+    "acceptableAnswers": ["6"],
+    "explanation": "18と24の最大公約数6cmが最大の一辺の長さ。"
+  }
+]

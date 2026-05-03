@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-sage-900 text-sage-50 antialiased;
+  background-image:
+    radial-gradient(ellipse at 20% 10%, rgba(155, 108, 255, 0.18), transparent 55%),
+    radial-gradient(ellipse at 80% 90%, rgba(245, 200, 66, 0.08), transparent 60%);
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-2xl bg-magic-gold px-6 py-3
+           font-display text-sage-900 font-bold shadow-lg shadow-magic-gold/30
+           transition hover:scale-[1.02] active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-2xl border border-sage-400/40
+           bg-sage-800/40 px-5 py-2 text-sage-100 transition hover:bg-sage-800/70;
+  }
+  .card {
+    @apply rounded-3xl border border-sage-400/20 bg-sage-800/50 p-6 shadow-xl shadow-black/30 backdrop-blur;
+  }
+  .choice-button {
+    @apply w-full rounded-2xl border-2 border-sage-400/30 bg-sage-800/60 px-5 py-4
+           text-left text-lg transition hover:border-magic-gold hover:bg-sage-800;
+  }
+  .choice-button-correct {
+    @apply border-magic-mint bg-magic-mint/15 text-magic-mint;
+  }
+  .choice-button-wrong {
+    @apply border-magic-ember bg-magic-ember/15 text-magic-ember;
+  }
+}

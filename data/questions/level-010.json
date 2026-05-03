@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lv10-q1",
+    "level": 10,
+    "category": "立方体の体積",
+    "type": "multiple_choice",
+    "question": "1辺6cmの立方体の体積は？",
+    "choices": ["18cm³", "36cm³", "108cm³", "216cm³"],
+    "answer": "216cm³",
+    "acceptableAnswers": ["216"],
+    "explanation": "1辺×1辺×1辺=6×6×6=216cm³。"
+  },
+  {
+    "id": "lv10-q2",
+    "level": 10,
+    "category": "直方体の体積",
+    "type": "multiple_choice",
+    "question": "縦4cm、横5cm、高さ3cmの直方体の体積は？",
+    "choices": ["12cm³", "20cm³", "47cm³", "60cm³"],
+    "answer": "60cm³",
+    "acceptableAnswers": ["60"],
+    "explanation": "縦×横×高さ=4×5×3=60cm³。"
+  },
+  {
+    "id": "lv10-q3",
+    "level": 10,
+    "category": "体積の単位",
+    "type": "multiple_choice",
+    "question": "1L は何cm³？",
+    "choices": ["10cm³", "100cm³", "1000cm³", "10000cm³"],
+    "answer": "1000cm³",
+    "acceptableAnswers": ["1000"],
+    "explanation": "1L=1000mL=1000cm³。"
+  },
+  {
+    "id": "lv10-q4",
+    "level": 10,
+    "category": "円周",
+    "type": "multiple_choice",
+    "question": "直径10cmの円の円周は？（円周率は3.14）",
+    "choices": ["15.7cm", "31.4cm", "62.8cm", "78.5cm"],
+    "answer": "31.4cm",
+    "acceptableAnswers": ["31.4"],
+    "explanation": "円周=直径×円周率=10×3.14=31.4cm。"
+  },
+  {
+    "id": "lv10-q5",
+    "level": 10,
+    "category": "円の面積",
+    "type": "multiple_choice",
+    "question": "半径5cmの円の面積は？（円周率は3.14）",
+    "choices": ["15.7cm²", "31.4cm²", "78.5cm²", "157cm²"],
+    "answer": "78.5cm²",
+    "acceptableAnswers": ["78.5"],
+    "explanation": "面積=半径×半径×円周率=5×5×3.14=78.5cm²。"
+  },
+  {
+    "id": "lv10-q6",
+    "level": 10,
+    "category": "円周",
+    "type": "multiple_choice",
+    "question": "半径4cmの円の円周は？（円周率は3.14）",
+    "choices": ["12.56cm", "25.12cm", "50.24cm", "8cm"],
+    "answer": "25.12cm",
+    "acceptableAnswers": ["25.12"],
+    "explanation": "円周=直径×円周率=8×3.14=25.12cm。"
+  },
+  {
+    "id": "lv10-q7",
+    "level": 10,
+    "category": "立方体の体積",
+    "type": "numeric",
+    "question": "体積125cm³の立方体の1辺の長さは何cm？",
+    "answer": "5",
+    "explanation": "5×5×5=125。よって5cm。"
+  },
+  {
+    "id": "lv10-q8",
+    "level": 10,
+    "category": "直方体の体積",
+    "type": "multiple_choice",
+    "question": "縦・横・高さがすべて10cmの立方体の容積は何L？",
+    "choices": ["0.1L", "1L", "10L", "100L"],
+    "answer": "1L",
+    "acceptableAnswers": ["1"],
+    "explanation": "10×10×10=1000cm³=1L。"
+  },
+  {
+    "id": "lv10-q9",
+    "level": 10,
+    "category": "円の面積",
+    "type": "multiple_choice",
+    "question": "半径10cmの円の面積は？（円周率は3.14）",
+    "choices": ["31.4cm²", "62.8cm²", "100cm²", "314cm²"],
+    "answer": "314cm²",
+    "acceptableAnswers": ["314"],
+    "explanation": "10×10×3.14=314cm²。"
+  },
+  {
+    "id": "lv10-q10",
+    "level": 10,
+    "category": "円の応用",
+    "type": "multiple_choice",
+    "question": "直径6cmの円の周りの長さ（円周）は？（円周率は3.14）",
+    "choices": ["9.42cm", "18.84cm", "28.26cm", "37.68cm"],
+    "answer": "18.84cm",
+    "acceptableAnswers": ["18.84"],
+    "explanation": "6×3.14=18.84cm。"
+  }
+]

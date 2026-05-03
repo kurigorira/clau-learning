@@ -1,0 +1,107 @@
+[
+  {
+    "id": "lv6-q1",
+    "level": 6,
+    "category": "分数のかけ算",
+    "type": "multiple_choice",
+    "question": "2/3 × 3/5 = ?",
+    "choices": ["5/8", "6/15", "2/5", "5/15"],
+    "answer": "2/5",
+    "explanation": "分子どうし、分母どうしをかけて 6/15。約分して 2/5。"
+  },
+  {
+    "id": "lv6-q2",
+    "level": 6,
+    "category": "分数のわり算",
+    "type": "multiple_choice",
+    "question": "3/4 ÷ 1/2 = ?",
+    "choices": ["3/8", "3/2", "2/3", "1と1/2"],
+    "answer": "3/2",
+    "acceptableAnswers": ["1と1/2", "1 1/2"],
+    "explanation": "わり算は逆数のかけ算。3/4×2/1=6/4=3/2=1と1/2。"
+  },
+  {
+    "id": "lv6-q3",
+    "level": 6,
+    "category": "分数のかけ算",
+    "type": "multiple_choice",
+    "question": "5 × 2/3 = ?",
+    "choices": ["7/3", "10/3", "5/3", "10/15"],
+    "answer": "10/3",
+    "acceptableAnswers": ["3と1/3"],
+    "explanation": "整数を分数にして 5/1×2/3=10/3=3と1/3。"
+  },
+  {
+    "id": "lv6-q4",
+    "level": 6,
+    "category": "分数のわり算",
+    "type": "multiple_choice",
+    "question": "6 ÷ 2/3 = ?",
+    "choices": ["4", "9", "3", "12"],
+    "answer": "9",
+    "explanation": "6×3/2=18/2=9。"
+  },
+  {
+    "id": "lv6-q5",
+    "level": 6,
+    "category": "分数のかけ算",
+    "type": "multiple_choice",
+    "question": "4/9 × 3/8 = ?",
+    "choices": ["12/72", "1/6", "7/17", "12/17"],
+    "answer": "1/6",
+    "explanation": "途中で約分。4と8で4、3と9で3を割って 1/3 × 1/2 = 1/6。"
+  },
+  {
+    "id": "lv6-q6",
+    "level": 6,
+    "category": "分数のわり算",
+    "type": "multiple_choice",
+    "question": "2/5 ÷ 4 = ?",
+    "choices": ["8/5", "2/20", "1/10", "5/8"],
+    "answer": "1/10",
+    "explanation": "2/5×1/4=2/20=1/10。"
+  },
+  {
+    "id": "lv6-q7",
+    "level": 6,
+    "category": "分数のかけ算",
+    "type": "multiple_choice",
+    "question": "1と1/2 × 2/3 = ?",
+    "choices": ["2/6", "1", "1と1/6", "3/2"],
+    "answer": "1",
+    "explanation": "1と1/2=3/2。3/2×2/3=6/6=1。"
+  },
+  {
+    "id": "lv6-q8",
+    "level": 6,
+    "category": "分数のわり算",
+    "type": "multiple_choice",
+    "question": "9/10 ÷ 3/5 = ?",
+    "choices": ["3/2", "27/50", "1/2", "3/10"],
+    "answer": "3/2",
+    "acceptableAnswers": ["1と1/2", "1 1/2"],
+    "explanation": "9/10×5/3=45/30=3/2=1と1/2。"
+  },
+  {
+    "id": "lv6-q9",
+    "level": 6,
+    "category": "分数の文章題",
+    "type": "multiple_choice",
+    "question": "1mの重さが3/4kgのぼうがあります。このぼう2/5mの重さは？",
+    "choices": ["3/10kg", "6/20kg", "15/8kg", "5/12kg"],
+    "answer": "3/10kg",
+    "acceptableAnswers": ["3/10"],
+    "explanation": "1mあたり3/4kg×2/5m=6/20=3/10 kg。"
+  },
+  {
+    "id": "lv6-q10",
+    "level": 6,
+    "category": "逆数",
+    "type": "multiple_choice",
+    "question": "2/7 の逆数は？",
+    "choices": ["7/2", "2/7", "−2/7", "1/7"],
+    "answer": "7/2",
+    "acceptableAnswers": ["3と1/2", "3 1/2"],
+    "explanation": "分子と分母を入れかえた数が逆数。2/7の逆数は7/2。"
+  }
+]
