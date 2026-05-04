@@ -24,7 +24,7 @@ const RESPONSE_SCHEMA = {
     feedback: {
       type: "string",
       description:
-        "才弥さん本人に向けたコメント。優しく具体的に、励ましをこめて。100字程度。",
+        "junior 本人に向けたコメント。優しく具体的に、励ましをこめて。100字程度。",
     },
     hint: {
       type: "string",
@@ -63,7 +63,7 @@ export async function POST(req: Request) {
       : null,
     `模範解説:\n${question.explanation}`,
     "",
-    `才弥さんの解答:\n${userAnswer.trim() || "(無回答)"}`,
+    `junior の解答:\n${userAnswer.trim() || "(無回答)"}`,
     "",
     "上記の解答を採点し、指定のJSON形式で返してください。",
   ]

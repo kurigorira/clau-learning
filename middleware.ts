@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-// 才弥さん専用ゲート。
+// junior 専用ゲート。
 // APP_PASSWORD が設定されている時だけ動作する（ローカル開発では未設定でバイパス）。
 // 認証済みクッキー (clau-auth) があれば通過、無ければ /gate へリダイレクト。
 

@@ -1,7 +1,7 @@
 import type { LevelTheme } from "./types";
 
-export const STUDENT_NAME = "栗原才弥";
-export const STUDENT_FIRST = "才弥";
+export const STUDENT_NAME = "junior";
+export const STUDENT_FIRST = "junior";
 
 export const TOTAL_LEVELS = 100;
 
